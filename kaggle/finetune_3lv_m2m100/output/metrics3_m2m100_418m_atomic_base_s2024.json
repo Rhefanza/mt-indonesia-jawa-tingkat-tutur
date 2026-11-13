@@ -1,0 +1,152 @@
+{
+ "variant": "atomic_base",
+ "seed": 2024,
+ "flags": {
+  "init": false,
+  "os": false,
+  "mt": false
+ },
+ "n_pairs": [
+  1395,
+  0
+ ],
+ "valid_chrF++_before": 17.38,
+ "best_epoch": 10,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 4.1379,
+   "valid_chrF++": 31.59
+  },
+  {
+   "epoch": 2,
+   "train_loss": 2.3215,
+   "valid_chrF++": 44.3
+  },
+  {
+   "epoch": 3,
+   "train_loss": 1.3677,
+   "valid_chrF++": 51.39
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.8796,
+   "valid_chrF++": 53.4
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.5675,
+   "valid_chrF++": 53.3
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.4243,
+   "valid_chrF++": 55.6
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.2919,
+   "valid_chrF++": 56.89
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.2201,
+   "valid_chrF++": 56.8
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.1797,
+   "valid_chrF++": 57.59
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.1606,
+   "valid_chrF++": 57.83
+  }
+ ],
+ "test": {
+  "ngoko": {
+   "n": 75,
+   "BLEU": 29.24,
+   "chrF++": 53.51,
+   "chrF++_CI95": [
+    49.92,
+    57.49
+   ]
+  },
+  "krama": {
+   "n": 74,
+   "BLEU": 30.3,
+   "chrF++": 58.07,
+   "chrF++_CI95": [
+    54.48,
+    61.57
+   ]
+  },
+  "krama_alus": {
+   "n": 27,
+   "BLEU": 21.75,
+   "chrF++": 45.13,
+   "chrF++_CI95": [
+    40.16,
+    50.89
+   ]
+  },
+  "all": {
+   "n": 176,
+   "BLEU": 28.61,
+   "chrF++": 54.15,
+   "chrF++_CI95": [
+    51.65,
+    56.56
+   ]
+  }
+ },
+ "control": {
+  "n": 225,
+  "level_accuracy": 0.6533,
+  "per_level_accuracy": {
+   "ngoko": 0.9867,
+   "krama": 0.8533,
+   "krama_alus": 0.12
+  },
+  "confusion_rows_requested_cols_predicted": [
+   [
+    74,
+    1,
+    0
+   ],
+   [
+    1,
+    64,
+    10
+   ],
+   [
+    1,
+    65,
+    9
+   ]
+  ],
+  "identical_rate": {
+   "krama=krama_alus": 0.7733,
+   "ngoko=krama": 0.0
+  },
+  "markers_by_requested_level": {
+   "ngoko": {
+    "ngoko": 10,
+    "krama": 0,
+    "alus": 0
+   },
+   "krama": {
+    "ngoko": 0,
+    "krama": 41,
+    "alus": 6
+   },
+   "krama_alus": {
+    "ngoko": 0,
+    "krama": 41,
+    "alus": 6
+   }
+  }
+ }
+}

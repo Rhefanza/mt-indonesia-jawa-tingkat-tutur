@@ -1,0 +1,136 @@
+{
+ "model": "m2m100_418m",
+ "levels": [
+  "ngoko",
+  "krama",
+  "krama_alus"
+ ],
+ "hparams": {
+  "bs": 16,
+  "lr": 5e-05,
+  "warmup": 0.1,
+  "seed": 42,
+  "maxlen": 64,
+  "ctrl_weight": 30.0
+ },
+ "classifier": {
+  "base": "w11wo/javanese-distilbert-small",
+  "acc_valid": 0.9543,
+  "per_class_acc_valid": {
+   "ngoko": 0.9865,
+   "krama": 0.973,
+   "krama_alus": 0.8148
+  },
+  "acc_test": 0.9489,
+  "per_class_acc_test": {
+   "ngoko": 0.96,
+   "krama": 0.9595,
+   "krama_alus": 0.8889
+  }
+ },
+ "runs": {
+  "os2_e15": {
+   "best_epoch": 14,
+   "valid_score": 91.47,
+   "valid_chrF++": 62.15,
+   "valid_ctrl": 0.9771,
+   "test": {
+    "ngoko": [
+     54.47,
+     29.89
+    ],
+    "krama": [
+     62.28,
+     33.81
+    ],
+    "krama_alus": [
+     61.83,
+     30.35
+    ],
+    "all": [
+     59.26,
+     31.65
+    ]
+   },
+   "control_acc": 0.8889,
+   "control_per_level": {
+    "ngoko": 0.9467,
+    "krama": 0.9467,
+    "krama_alus": 0.7733
+   },
+   "identical_rate": {
+    "krama=krama_alus": 0.0533,
+    "ngoko=krama": 0.0
+   }
+  },
+  "os3_e15": {
+   "best_epoch": 11,
+   "valid_score": 91.01,
+   "valid_chrF++": 61.7,
+   "valid_ctrl": 0.9771,
+   "test": {
+    "ngoko": [
+     53.82,
+     30.73
+    ],
+    "krama": [
+     61.51,
+     35.05
+    ],
+    "krama_alus": [
+     60.88,
+     34.9
+    ],
+    "all": [
+     58.5,
+     33.27
+    ]
+   },
+   "control_acc": 0.8933,
+   "control_per_level": {
+    "ngoko": 0.9867,
+    "krama": 0.9333,
+    "krama_alus": 0.76
+   },
+   "identical_rate": {
+    "krama=krama_alus": 0.0533,
+    "ngoko=krama": 0.0
+   }
+  },
+  "os3_mt_e15": {
+   "best_epoch": 15,
+   "valid_score": 91.62,
+   "valid_chrF++": 61.96,
+   "valid_ctrl": 0.9886,
+   "test": {
+    "ngoko": [
+     54.06,
+     29.74
+    ],
+    "krama": [
+     61.03,
+     34.0
+    ],
+    "krama_alus": [
+     61.57,
+     34.37
+    ],
+    "all": [
+     58.49,
+     32.31
+    ]
+   },
+   "control_acc": 0.8844,
+   "control_per_level": {
+    "ngoko": 0.9733,
+    "krama": 0.9467,
+    "krama_alus": 0.7333
+   },
+   "identical_rate": {
+    "krama=krama_alus": 0.0133,
+    "ngoko=krama": 0.0
+   }
+  }
+ },
+ "winner": "os3_mt_e15"
+}

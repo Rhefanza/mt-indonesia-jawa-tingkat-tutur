@@ -1,0 +1,5 @@
+kaggle/demo/ntfy_topic.txt
+__pycache__/
+*.pyc
+.env
+kaggle.json

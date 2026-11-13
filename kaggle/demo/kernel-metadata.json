@@ -1,0 +1,16 @@
+{
+  "id": "mdevian/unggah-ungguh-demo-gradio",
+  "title": "Unggah-Ungguh Demo Gradio",
+  "code_file": "demo_kaggle.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": ["mdevian/unggah-ungguh-final-3lv-v2"],
+  "competition_sources": [],
+  "model_sources": []
+}

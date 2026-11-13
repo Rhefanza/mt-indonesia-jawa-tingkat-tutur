@@ -1,0 +1,17 @@
+{
+  "id": "mdevian/unggah-ungguh-final-3lv-m2m100",
+  "title": "Unggah-Ungguh Final 3lv M2M100",
+  "code_file": "final_3lv_m2m100.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": ["mdevian/unggah-ungguh-id-jv-split"],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}

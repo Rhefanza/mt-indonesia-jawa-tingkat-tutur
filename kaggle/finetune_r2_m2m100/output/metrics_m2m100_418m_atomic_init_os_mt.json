@@ -1,0 +1,176 @@
+{
+ "variant": "atomic_init_os_mt",
+ "flags": {
+  "init": true,
+  "os": true,
+  "mt": true
+ },
+ "n_pairs": [
+  2025,
+  826
+ ],
+ "valid_chrF++_before": 16.25,
+ "best_epoch": 10,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 3.3277,
+   "valid_chrF++": 33.18
+  },
+  {
+   "epoch": 2,
+   "train_loss": 1.5718,
+   "valid_chrF++": 49.16
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.8367,
+   "valid_chrF++": 53.58
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.4805,
+   "valid_chrF++": 56.88
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.2918,
+   "valid_chrF++": 57.7
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.1908,
+   "valid_chrF++": 58.98
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.1275,
+   "valid_chrF++": 58.86
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.0837,
+   "valid_chrF++": 60.11
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.0576,
+   "valid_chrF++": 60.91
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.042,
+   "valid_chrF++": 61.09
+  }
+ ],
+ "test": {
+  "ngoko": {
+   "n": 75,
+   "BLEU": 28.66,
+   "chrF++": 52.53,
+   "chrF++_CI95": [
+    48.46,
+    56.66
+   ]
+  },
+  "ngoko_alus": {
+   "n": 26,
+   "BLEU": 30.08,
+   "chrF++": 59.48,
+   "chrF++_CI95": [
+    52.75,
+    66.5
+   ]
+  },
+  "krama": {
+   "n": 74,
+   "BLEU": 30.15,
+   "chrF++": 58.16,
+   "chrF++_CI95": [
+    54.69,
+    61.69
+   ]
+  },
+  "krama_alus": {
+   "n": 27,
+   "BLEU": 32.92,
+   "chrF++": 61.72,
+   "chrF++_CI95": [
+    55.89,
+    68.04
+   ]
+  },
+  "all": {
+   "n": 202,
+   "BLEU": 29.99,
+   "chrF++": 57.01,
+   "chrF++_CI95": [
+    54.82,
+    59.35
+   ]
+  }
+ },
+ "control": {
+  "n": 300,
+  "level_accuracy": 0.75,
+  "per_level_accuracy": {
+   "ngoko": 0.9467,
+   "ngoko_alus": 0.56,
+   "krama": 0.9867,
+   "krama_alus": 0.5067
+  },
+  "confusion_rows_requested_cols_predicted": [
+   [
+    71,
+    2,
+    2,
+    0
+   ],
+   [
+    22,
+    42,
+    6,
+    5
+   ],
+   [
+    0,
+    0,
+    74,
+    1
+   ],
+   [
+    0,
+    2,
+    35,
+    38
+   ]
+  ],
+  "identical_rate": {
+   "ngoko=ngoko_alus": 0.0267,
+   "krama=krama_alus": 0.0667,
+   "ngoko=krama": 0.0
+  },
+  "markers_by_requested_level": {
+   "ngoko": {
+    "ngoko": 11,
+    "krama": 0,
+    "alus": 2
+   },
+   "ngoko_alus": {
+    "ngoko": 0,
+    "krama": 0,
+    "alus": 35
+   },
+   "krama": {
+    "ngoko": 0,
+    "krama": 44,
+    "alus": 1
+   },
+   "krama_alus": {
+    "ngoko": 0,
+    "krama": 24,
+    "alus": 35
+   }
+  }
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "model": "m2m100_418m",
+ "hparams": {
+  "epochs": 10,
+  "bs": 16,
+  "lr": 5e-05,
+  "warmup": 0.1,
+  "seed": 42,
+  "maxlen": 64
+ },
+ "classifier": {
+  "base": "w11wo/javanese-distilbert-small",
+  "acc_valid": 0.9406,
+  "per_class_acc_valid": {
+   "ngoko": 0.9865,
+   "ngoko_alus": 0.8519,
+   "krama": 1.0,
+   "krama_alus": 0.7407
+  },
+  "acc_test": 0.901,
+  "per_class_acc_test": {
+   "ngoko": 0.9467,
+   "ngoko_alus": 0.7308,
+   "krama": 0.9865,
+   "krama_alus": 0.7037
+  }
+ },
+ "runs": {
+  "atomic_base": {
+   "best_epoch": 9,
+   "test": {
+    "ngoko": [
+     54.93,
+     30.49
+    ],
+    "ngoko_alus": [
+     49.89,
+     22.31
+    ],
+    "krama": [
+     59.22,
+     32.87
+    ],
+    "krama_alus": [
+     56.55,
+     29.71
+    ],
+    "all": [
+     56.22,
+     30.27
+    ]
+   },
+   "control_acc": 0.66,
+   "control_per_level": {
+    "ngoko": 0.96,
+    "ngoko_alus": 0.4,
+    "krama": 0.9733,
+    "krama_alus": 0.3067
+   },
+   "identical_rate": {
+    "ngoko=ngoko_alus": 0.0267,
+    "krama=krama_alus": 0.1733,
+    "ngoko=krama": 0.0
+   }
+  },
+  "atomic_init": {
+   "best_epoch": 9,
+   "test": {
+    "ngoko": [
+     53.8,
+     29.78
+    ],
+    "ngoko_alus": [
+     55.67,
+     30.57
+    ],
+    "krama": [
+     60.77,
+     34.9
+    ],
+    "krama_alus": [
+     55.81,
+     29.74
+    ],
+    "all": [
+     57.08,
+     31.76
+    ]
+   },
+   "control_acc": 0.72,
+   "control_per_level": {
+    "ngoko": 0.9467,
+    "ngoko_alus": 0.52,
+    "krama": 0.9867,
+    "krama_alus": 0.4267
+   },
+   "identical_rate": {
+    "ngoko=ngoko_alus": 0.0533,
+    "krama=krama_alus": 0.04,
+    "ngoko=krama": 0.0
+   }
+  },
+  "atomic_init_os": {
+   "best_epoch": 10,
+   "test": {
+    "ngoko": [
+     53.92,
+     29.49
+    ],
+    "ngoko_alus": [
+     59.59,
+     33.7
+    ],
+    "krama": [
+     59.99,
+     32.97
+    ],
+    "krama_alus": [
+     61.21,
+     32.92
+    ],
+    "all": [
+     58.12,
+     31.8
+    ]
+   },
+   "control_acc": 0.75,
+   "control_per_level": {
+    "ngoko": 0.9867,
+    "ngoko_alus": 0.6,
+    "krama": 0.9733,
+    "krama_alus": 0.44
+   },
+   "identical_rate": {
+    "ngoko=ngoko_alus": 0.04,
+    "krama=krama_alus": 0.0533,
+    "ngoko=krama": 0.0
+   }
+  },
+  "atomic_init_os_mt": {
+   "best_epoch": 10,
+   "test": {
+    "ngoko": [
+     52.53,
+     28.66
+    ],
+    "ngoko_alus": [
+     59.48,
+     30.08
+    ],
+    "krama": [
+     58.16,
+     30.15
+    ],
+    "krama_alus": [
+     61.72,
+     32.92
+    ],
+    "all": [
+     57.01,
+     29.99
+    ]
+   },
+   "control_acc": 0.75,
+   "control_per_level": {
+    "ngoko": 0.9467,
+    "ngoko_alus": 0.56,
+    "krama": 0.9867,
+    "krama_alus": 0.5067
+   },
+   "identical_rate": {
+    "ngoko=ngoko_alus": 0.0267,
+    "krama=krama_alus": 0.0667,
+    "ngoko=krama": 0.0
+   }
+  }
+ }
+}

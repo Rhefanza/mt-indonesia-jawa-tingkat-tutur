@@ -1,0 +1,20 @@
+{
+ "levels": [
+  "ngoko",
+  "krama",
+  "krama_alus"
+ ],
+ "tags": {
+  "ngoko": "<ngoko>",
+  "krama": "<krama>",
+  "krama_alus": "<krama_alus>"
+ },
+ "src_lang": "id",
+ "tgt_lang": "jv",
+ "seed": 42,
+ "variant": "os3_mt_e15",
+ "valid_chrF++": 61.96,
+ "valid_ctrl": 0.9886,
+ "test_chrF++": 58.49,
+ "test_control": 0.8844
+}
