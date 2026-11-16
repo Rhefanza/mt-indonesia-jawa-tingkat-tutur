@@ -1,9 +1,9 @@
 {
   "id": "mdevian/unggah-ungguh-final-m2m100",
   "title": "Unggah-Ungguh Final M2M100",
-  "code_file": "final_m2m100.py",
+  "code_file": "final_m2m100.ipynb",
   "language": "python",
-  "kernel_type": "script",
+  "kernel_type": "notebook",
   "is_private": true,
   "enable_gpu": true,
   "enable_tpu": false,

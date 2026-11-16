@@ -1,9 +1,9 @@
 {
   "id": "mdevian/unggah-ungguh-demo-gradio",
   "title": "Unggah-Ungguh Demo Gradio",
-  "code_file": "demo_kaggle.py",
+  "code_file": "demo_kaggle.ipynb",
   "language": "python",
-  "kernel_type": "script",
+  "kernel_type": "notebook",
   "is_private": true,
   "enable_gpu": false,
   "enable_tpu": false,

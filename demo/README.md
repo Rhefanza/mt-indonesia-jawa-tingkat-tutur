@@ -86,7 +86,7 @@ curl -s "https://ntfy.sh/$(cat kaggle/demo/ntfy_topic.txt)/json?poll=1"
 ## File
 - `app.py`: aplikasi Gradio (lokasi model diambil dari variabel lingkungan `MODEL_DIR`, default `./model`).
 - `requirements.txt`: dependensi untuk Space.
-- `../kaggle/demo/demo_kaggle.py`: versi kernel Kaggle (isi `app.py` + launcher `share=True` + kirim link ke ntfy).
+- `../kaggle/demo/demo_kaggle.ipynb`: versi kernel Kaggle (isi `app.py` + launcher `share=True` + kirim link ke ntfy).
 
 ## Contoh output
 Model 3 tingkat v2 + rerank (diambil dari demo yang berjalan di Kaggle):

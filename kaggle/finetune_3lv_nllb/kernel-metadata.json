@@ -1,9 +1,9 @@
 {
   "id": "mdevian/unggah-ungguh-finetune-3lv-nllb",
   "title": "Unggah-Ungguh Finetune 3lv nllb",
-  "code_file": "finetune_3lv_nllb.py",
+  "code_file": "finetune_3lv_nllb.ipynb",
   "language": "python",
-  "kernel_type": "script",
+  "kernel_type": "notebook",
   "is_private": true,
   "enable_gpu": true,
   "enable_tpu": false,

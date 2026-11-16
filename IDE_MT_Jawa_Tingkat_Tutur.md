@@ -91,7 +91,7 @@ JAIC hanya memakai Ngoko, Krama, Krama Alus (Ngoko Alus tidak dievaluasi). Datas
 Pembanding JAIC (M2M100 fine-tuned, 3 tingkat, test 1.500 kalimat, kemungkinan leakage): BLEU 32,30, chrF++ 56,39. Test set berbeda, jadi hanya pembanding kasar.
 
 ### Model yang dilatih khusus 3 tingkat
-Baris Ngoko Alus dibuang dari train/valid/test (1.395 / 175 / 176), 3 tag, classifier 3 kelas, multi-task hanya Krama↔Krama Alus (412 pasangan), oversampling hanya Krama Alus. Script `kaggle/finetune_3lv/finetune_3lv.py`; output `kaggle/finetune_3lv_*/output/`. Test 176 baris sama persis dengan subset di tabel atas, jadi chrF++/BLEU bisa dibandingkan langsung (control accuracy tidak, karena classifier berbeda).
+Baris Ngoko Alus dibuang dari train/valid/test (1.395 / 175 / 176), 3 tag, classifier 3 kelas, multi-task hanya Krama↔Krama Alus (412 pasangan), oversampling hanya Krama Alus. Script `kaggle/finetune_3lv/finetune_3lv.ipynb`; output `kaggle/finetune_3lv_*/output/`. Test 176 baris sama persis dengan subset di tabel atas, jadi chrF++/BLEU bisa dibandingkan langsung (control accuracy tidak, karena classifier berbeda).
 
 | Model | Dilatih pada | Konfigurasi | chrF++ | BLEU | Control acc | Krama Alus | Identik krama=krama_alus |
 |---|---|---|---|---|---|---|---|
@@ -123,7 +123,7 @@ Temuan:
 - Contoh output nyata: "Bapak sudah pulang dari kantor." → Ngoko *Bapak wis mulih saka kantor.* / Ngoko Alus *Bapak wis kondur saka kantor.* / Krama *Bapak sampun mantuk saking kantor.* / Krama Alus *Bapak sampun kondur saking kantor.*
 
 ## Ronde 3: konfirmasi 3 seed (hasil utama)
-Seed 42, 13, 2024; setup sama dengan ronde 2. Script `kaggle/finetune_r3/finetune_r3.py`; output `kaggle/finetune_r3_*/output/` (`summary_*.json` berisi bagian `aggregate`). Nilai = mean ± std (3 seed).
+Seed 42, 13, 2024; setup sama dengan ronde 2. Script `kaggle/finetune_r3/finetune_r3.ipynb`; output `kaggle/finetune_r3_*/output/` (`summary_*.json` berisi bagian `aggregate`). Nilai = mean ± std (3 seed).
 
 | Model | Konfigurasi | chrF++ all | BLEU all | Control acc | Ngoko Alus | Krama Alus | Identik krama=krama_alus |
 |---|---|---|---|---|---|---|---|
@@ -144,7 +144,7 @@ Temuan:
 Keterbatasan: classifier evaluator (akurasi per kelas alus 0,70-0,81 pada referensi) membatasi control accuracy alus; belum ada manual check penutur Jawa; test 202 baris.
 
 ## Fine-tuning ronde 2 (sudah dijalankan)
-Tujuan: memperbaiki sumbu hormat. Semua varian 4 atomic tag, 10 epoch, lr 5e-5, seed 42. Varian kumulatif: `base` → `+init` (embedding tag dari rata-rata embedding kata penanda) → `+os` (oversampling contoh alus x2, 1.605 → 2.025 pasangan) → `+mt` (multi-task 826 pasangan JV→JV sumbu hormat dari train split). Script: `kaggle/finetune_r2/finetune_r2.py`; output `kaggle/finetune_r2_*/output/`.
+Tujuan: memperbaiki sumbu hormat. Semua varian 4 atomic tag, 10 epoch, lr 5e-5, seed 42. Varian kumulatif: `base` → `+init` (embedding tag dari rata-rata embedding kata penanda) → `+os` (oversampling contoh alus x2, 1.605 → 2.025 pasangan) → `+mt` (multi-task 826 pasangan JV→JV sumbu hormat dari train split). Script: `kaggle/finetune_r2/finetune_r2.ipynb`; output `kaggle/finetune_r2_*/output/`.
 
 | Model | Varian | Test chrF++ all (CI95) | BLEU | Control acc | Ngoko Alus | Krama Alus | Identik krama=krama_alus |
 |---|---|---|---|---|---|---|---|
@@ -167,7 +167,7 @@ Temuan:
 5. Konfigurasi terbaik: NLLB +init+os+mt (chrF++ 58,55, BLEU 32,50) dan M2M100 +init+os (chrF++ 58,12, control 0,75); CI keduanya overlap.
 
 ## Fine-tuning ronde 1 (sudah dijalankan)
-Kaggle T4, kernel private `mdevian/unggah-ungguh-finetune-nllb` dan `mdevian/unggah-ungguh-finetune-m2m100`. Script: `kaggle/finetune/finetune.py`; output di `kaggle/finetune_*/output/`. Full fine-tuning, 8 epoch, batch 16, lr 5e-5, warmup 10%, seed 42 (satu seed), epoch terbaik dipilih dari valid chrF++. Classifier evaluator dilatih ulang di train split (`w11wo/javanese-distilbert-small`, akurasi pada referensi test 91-92%).
+Kaggle T4, kernel private `mdevian/unggah-ungguh-finetune-nllb` dan `mdevian/unggah-ungguh-finetune-m2m100`. Script: `kaggle/finetune/finetune.ipynb`; output di `kaggle/finetune_*/output/`. Full fine-tuning, 8 epoch, batch 16, lr 5e-5, warmup 10%, seed 42 (satu seed), epoch terbaik dipilih dari valid chrF++. Classifier evaluator dilatih ulang di train split (`w11wo/javanese-distilbert-small`, akurasi pada referensi test 91-92%).
 
 Test chrF++ (BLEU) dan control accuracy (tiap kalimat Indonesia test diminta ke 4 tingkat, 300 output, dinilai classifier):
 

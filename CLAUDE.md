@@ -16,7 +16,7 @@ Repo publik: https://github.com/Rhefanza/mt-indonesia-jawa-tingkat-tutur
 
 ## Model final (demo)
 - **M2M100-418M** full fine-tuning, 3 tingkat (v2), dilatih di Kaggle kernel
-  `mdevian/unggah-ungguh-final-3lv-v2` (seed 42, fp16). Skrip: `kaggle/final_3lv_v2/final_3lv_v2.py`.
+  `mdevian/unggah-ungguh-final-3lv-v2` (seed 42, fp16). Skrip: `kaggle/final_3lv_v2/final_3lv_v2.ipynb`.
 - Teknik: init embedding tag dari kata penanda, oversampling Krama Alus ×3, multi-task JV Krama → Krama Alus,
   15 epoch, pilih checkpoint dengan skor valid = chrF++ + 30 × ketepatan tingkat.
 - Rerank saat decoding: 8 kandidat beam, skor = log-prob model + 2 × log P(tingkat diminta) dari
@@ -34,10 +34,10 @@ Repo publik: https://github.com/Rhefanza/mt-indonesia-jawa-tingkat-tutur
 - Lisensi non-komersial: demo dan model hanya untuk riset/kuliah.
 
 ## Struktur folder
-- `kaggle/<nama>/`: satu folder per eksperimen (skrip `.py`, `kernel-metadata.json`, `output/` berisi
+- `kaggle/<nama>/`: satu folder per eksperimen (notebook `.ipynb`, `kernel-metadata.json`, `output/` berisi
   log, metrics, prediksi). `baseline_zeroshot` → `finetune*` → `finetune_r2*` → `finetune_r3*` →
   `finetune_3lv*` → `final_*` adalah urutan kronologis eksperimen. `*_nllb` dan `*_m2m100` = dua model dibanding.
-- `kaggle/demo/`: kernel demo Kaggle (`demo_kaggle.py` = isi `demo/app.py` + launcher `share=True` + notifikasi ntfy).
+- `kaggle/demo/`: kernel demo Kaggle (`demo_kaggle.ipynb` = isi `demo/app.py` + launcher `share=True` + notifikasi ntfy).
 - `demo/`: `app.py` (Gradio), `requirements.txt`, `README.md` (juga Space card HF, berisi hasil lengkap).
 - `analisis/`: EDA dataset. `scripts/`: utilitas data.
 
