@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .env
 kaggle.json
+# NusaX berlisensi CC BY-SA (bukan CC BY-NC); file gabungan berisi baris NusaX.
+# Buat ulang dengan scripts/build_lexicon_augment.ipynb.
+data/external/
+data/merged/

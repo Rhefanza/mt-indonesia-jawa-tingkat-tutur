@@ -1,0 +1,52 @@
+{
+ "prompt": "Terjemahkan dari bahasa Indonesia ke bahasa Jawa: ",
+ "levels": [
+  "ngoko",
+  "krama",
+  "krama_alus"
+ ],
+ "tags": {
+  "ngoko": "<ngoko>",
+  "krama": "<krama>",
+  "krama_alus": "<krama_alus>"
+ },
+ "src_lang": null,
+ "tgt_lang": null,
+ "seed": 42,
+ "variant": "cendol_lr3e-4",
+ "base_model": "indonlp/cendol-mt5-base-inst",
+ "decode": "rerank",
+ "test": {
+  "chrF++/BLEU": {
+   "ngoko": [
+    12.38,
+    0.16
+   ],
+   "krama": [
+    17.72,
+    0.38
+   ],
+   "krama_alus": [
+    16.21,
+    0.65
+   ],
+   "all": [
+    15.44,
+    0.21
+   ]
+  },
+  "control_acc": 0.4978,
+  "control_per_level": {
+   "ngoko": 0.2,
+   "krama": 0.2933,
+   "krama_alus": 1.0
+  },
+  "identical_rate": {
+   "krama=krama_alus": 0.0,
+   "ngoko=krama": 0.0
+  }
+ },
+ "rerank_lambda": 1.0,
+ "nbest": 8,
+ "reranker_dir": "reranker"
+}

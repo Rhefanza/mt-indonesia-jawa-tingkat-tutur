@@ -59,6 +59,47 @@ berbagi kosakata hormat dengan Krama Alus.
 Ketepatan tingkat diukur dengan classifier DistilBERT yang dilatih ulang di train split
 (akurasi pada referensi alus 0,70-0,81, sehingga angka alus cenderung under-estimate).
 
+## Eksperimen lanjutan setelah model demo (3 tingkat, 1 seed)
+Dua arah yang dicoba sesudah model demo v2. Model demo **belum diganti**: hasil di bawah hanya 1 seed dan
+selisih chrF++-nya masih di dalam CI95 (sekitar ±2,5).
+
+**Data latih tambahan untuk M2M100** (`kaggle/final_3lv_merge/`). Resep sama dengan model demo; antar varian
+hanya data latih yang berbeda. Angka test dengan decoding pemenang valid tiap varian.
+
+| Varian | Data train | chrF++ | BLEU | Ketepatan tingkat | Krama Alus |
+|---|---|---|---|---|---|
+| `base` (= model demo) | 1.815 | 58,62 | 33,17 | **0,94** | **0,85** |
+| `aug` (+213 Krama Alus sintetis dari leksikon) | 2.028 | 58,82 | 32,90 | 0,91 | 0,79 |
+| `nusax` (+NusaX-MT, tag `<ngoko>`) | 2.235 | 59,74 | 33,42 | 0,93 | 0,84 |
+| `aug_nusax` | 2.448 | **60,44** | **34,42** | 0,92 | 0,81 |
+
+- NusaX menaikkan chrF++ terutama di Ngoko (54 → 56), sesuai isi NusaX yang berbentuk Ngoko.
+- Krama Alus sintetis menurunkan ketepatan Krama Alus: substitusi kata hormat tanpa mengubah struktur kalimat
+  membuat model lebih sering menghasilkan Krama biasa.
+- Leksikon dan data gabungan dibuat dengan `scripts/build_lexicon_augment.ipynb`. NusaX (CC BY-SA) dan file
+  gabungan `data/merged/` tidak disimpan di repo.
+
+**Cendol mT5-base** (`indonlp/cendol-mt5-base-inst`, 580M, Apache-2.0) sebagai pengganti M2M100.
+Tag tingkat ditambah instruksi teks: `<tag> Terjemahkan dari bahasa Indonesia ke bahasa Jawa: ...`; fp32.
+
+| Kernel | Varian | chrF++ | BLEU | Ketepatan tingkat | Krama Alus |
+|---|---|---|---|---|---|
+| `final_3lv_cendol` | lr 5e-5 (resep v2) | 56,75 | 30,19 | 0,80 | 0,49 |
+| | lr 3e-4 | 61,64 | 35,91 | 0,85 | 0,60 |
+| `final_3lv_cendol_tune` | `ref` (lr 3e-4, rerank 16 kandidat) | 61,38 | 35,63 | 0,90 | 0,77 |
+| | `A_lvprompt` (nama tingkat disebut di instruksi) | **62,78** | **37,67** | 0,86 | 0,65 |
+| | `B_os5_ls` (A + oversampling ×5 + label smoothing 0,1; pemenang valid) | 61,96 | 35,94 | 0,90 | 0,76 |
+| | `C_merge` (B + data tambahan) | gagal: CUDA out of memory | | | |
+
+- Cendol menerjemahkan lebih baik (chrF++ sekitar +3 dibanding M2M100), tetapi lebih jarang menuruti tag Krama Alus.
+- `output_run1_bug/` adalah run pertama yang rusak (train loss > 200, chrF++ sekitar 15); hasilnya diganti oleh `output/`.
+- Weights Cendol tidak tersimpan; angka diambil dari summary di log kernel.
+
+**Catatan perbandingan:** classifier penilai dilatih ulang di setiap kernel. Prediksi `base` di kernel merge
+identik 100% dengan model demo, tetapi ketepatannya 0,94 di sana dan 0,92 di kernel v2 (13 dari 225 output diberi
+label berbeda). Ketepatan tingkat hanya adil dibandingkan di dalam satu kernel; selisih antar kernel di bawah
+sekitar 0,02 tidak bermakna.
+
 ## Menjalankan demo di cloud (Kaggle + link Gradio)
 Hosting Gradio di Hugging Face Spaces (cpu-basic) sekarang butuh langganan PRO, jadi demo dijalankan
 di kernel CPU Kaggle `mdevian/unggah-ungguh-demo-gradio` (folder `kaggle/demo/`) dengan `share=True`.

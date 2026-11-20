@@ -26,6 +26,15 @@ Repo publik: https://github.com/Rhefanza/mt-indonesia-jawa-tingkat-tutur
   (Ngoko 1,00 · Krama 0,97 · Krama Alus 0,77). Tanpa rerank: ketepatan 0,86.
 - Hasil multi-seed (3 seed), tabel 4 tingkat dan 3 tingkat: lihat `demo/README.md`.
 
+## Eksperimen sesudah model demo (1 seed, model demo belum diganti)
+- `kaggle/final_3lv_merge/`: M2M100 + data tambahan. Terbaik `aug_nusax` (chrF++ 60,44, ketepatan 0,92);
+  NusaX membantu Ngoko, Krama Alus sintetis dari leksikon justru menurunkan ketepatan Krama Alus.
+- `kaggle/final_3lv_cendol*/`: Cendol mT5-base. chrF++ ~62 (lebih tinggi dari M2M100) tetapi Krama Alus lebih lemah;
+  pemenang valid `B_os5_ls` (61,96, ketepatan 0,90). Varian `C_merge` gagal karena CUDA OOM. Weights tidak tersimpan.
+- Juri dilatih ulang tiap kernel, jadi ketepatan tingkat **tidak bisa dibandingkan antar kernel** (noise ~0,02).
+- `data/external/` (NusaX, CC BY-SA) dan `data/merged/` di-gitignore karena lisensi; buat ulang dengan
+  `scripts/build_lexicon_augment.ipynb`. Tabel lengkap di `demo/README.md`.
+
 ## Dataset
 - **Unggah-Ungguh** (HF: `JavaneseHonorifics/Unggah-Ungguh`, CC BY-NC 4.0) di `data/unggah_ungguh/`
   (`translation.csv`, `conversation.csv`, `split/`). Untuk 3 tingkat: train 1.395 / valid 175 / test 176.

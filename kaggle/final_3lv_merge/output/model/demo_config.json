@@ -1,0 +1,51 @@
+{
+ "levels": [
+  "ngoko",
+  "krama",
+  "krama_alus"
+ ],
+ "tags": {
+  "ngoko": "<ngoko>",
+  "krama": "<krama>",
+  "krama_alus": "<krama_alus>"
+ },
+ "src_lang": "id",
+ "tgt_lang": "jv",
+ "seed": 42,
+ "variant": "aug_nusax",
+ "base_model": "facebook/m2m100_418M",
+ "decode": "rerank",
+ "test": {
+  "chrF++/BLEU": {
+   "ngoko": [
+    56.37,
+    31.5
+   ],
+   "krama": [
+    62.29,
+    36.07
+   ],
+   "krama_alus": [
+    64.57,
+    37.48
+   ],
+   "all": [
+    60.44,
+    34.42
+   ]
+  },
+  "control_acc": 0.92,
+  "control_per_level": {
+   "ngoko": 1.0,
+   "krama": 0.9467,
+   "krama_alus": 0.8133
+  },
+  "identical_rate": {
+   "krama=krama_alus": 0.0133,
+   "ngoko=krama": 0.0
+  }
+ },
+ "rerank_lambda": 0.5,
+ "nbest": 8,
+ "reranker_dir": "reranker"
+}
