@@ -10,6 +10,9 @@ Repo publik: https://github.com/Rhefanza/mt-indonesia-jawa-tingkat-tutur
 - Implementasi dan evaluasi **sudah selesai**; demo Gradio sudah jalan di Kaggle.
 - `IDE_MT_Jawa_Tingkat_Tutur.md` adalah dokumen ide awal. Baris "Status: belum implementasi" di dalamnya
   **sudah usang**. Bagian urgensi dan riset terdahulu di sana masih berguna untuk paper/PPT.
+- `referensi/`: related work yang sudah diverifikasi (`README.md` berisi metode dan angka sebelum/sesudah per paper,
+  `referensi.bib` untuk sitasi). Pakai ini, bukan daftar riset di dokumen ide (ada angka Wibawa yang keliru di sana).
+  Entri bertanda ⚠️ atau `note = {CEK: ...}` belum diverifikasi dari full text.
 - Topik lama (MT Jerman → Inggris, EMEA) ditolak. File `Proposal_MT_De-En_*.pptx` dan `data/emea_*.csv`
   adalah sisa topik itu, bukan bagian proyek aktif.
 - `Proposal_MT_Jawa_Tingkat_Tutur.pptx` adalah proposal topik Jawa.
