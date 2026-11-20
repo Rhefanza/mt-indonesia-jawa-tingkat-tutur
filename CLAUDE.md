@@ -34,7 +34,18 @@ Repo publik: https://github.com/Rhefanza/mt-indonesia-jawa-tingkat-tutur
   NusaX membantu Ngoko, Krama Alus sintetis dari leksikon justru menurunkan ketepatan Krama Alus.
 - `kaggle/final_3lv_cendol*/`: Cendol mT5-base. chrF++ ~62 (lebih tinggi dari M2M100) tetapi Krama Alus lebih lemah;
   pemenang valid `B_os5_ls` (61,96, ketepatan 0,90). Varian `C_merge` gagal karena CUDA OOM. Weights tidak tersimpan.
-- Juri dilatih ulang tiap kernel, jadi ketepatan tingkat **tidak bisa dibandingkan antar kernel** (noise ~0,02).
+- `kaggle/final_3lv_postedit/` (lokal, CPU): post-editing leksikon Krama → Krama Alus pada prediksi tersimpan v2.
+  **Hasil negatif**: hampir tidak aktif di test (0–3 output diubah), karena output Krama Alus yang meleset tidak memuat
+  kata sumber leksikon dan sebagian besar sudah berkosakata alus. Jangan dicoba ulang dalam bentuk yang sama.
+- `kaggle/final_3lv_selftrain/`: self-training dengan rerank (pseudo Krama Alus dari teacher, filter P reranker ≥ 0,9).
+  **Teacher tetap menang di valid**; student hanya beda 1–4 dari 75 kalimat di test. Pseudo-data lolos filter tingkat
+  tetapi banyak yang maknanya rusak (reranker tidak menilai makna). Perlu filter makna jika dicoba lagi.
+- **Juri tetap** (`scripts/juri_tetap.py`): juri DistilBERT 3 seed + ensemble, weights di `models/juri_tetap/`
+  (di-gitignore; skrip melatih ulang jika tidak ada). Hasil di `analisis/juri_tetap/`. **Pakai ini untuk melaporkan
+  ketepatan tingkat lintas eksperimen.** Model demo dengan juri tetap: ketepatan **0,947**, Krama Alus **0,867**
+  (juri kernel v2: 0,92 / 0,77). Juri kernel tiap run berbeda 0,02–0,07 untuk output identik.
+- Pemilihan varian tetap di valid dengan juri kernel; juri tetap hanya untuk pelaporan (jangan memilih ulang di test).
+- Simpan prediksi valid di setiap kernel baru (sudah dilakukan di `final_3lv_selftrain`).
 - `data/external/` (NusaX, CC BY-SA) dan `data/merged/` di-gitignore karena lisensi; buat ulang dengan
   `scripts/build_lexicon_augment.ipynb`. Tabel lengkap di `demo/README.md`.
 

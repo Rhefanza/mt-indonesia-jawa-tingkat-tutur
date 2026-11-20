@@ -7,3 +7,6 @@ kaggle.json
 # Buat ulang dengan scripts/build_lexicon_augment.ipynb.
 data/external/
 data/merged/
+kaggle/*/output/pseudo_nusax.csv
+# weights model (juri tetap, dsb.) tidak di-commit; buat ulang dengan skripnya
+models/

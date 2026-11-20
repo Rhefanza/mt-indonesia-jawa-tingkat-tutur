@@ -95,10 +95,68 @@ Tag tingkat ditambah instruksi teks: `<tag> Terjemahkan dari bahasa Indonesia ke
 - `output_run1_bug/` adalah run pertama yang rusak (train loss > 200, chrF++ sekitar 15); hasilnya diganti oleh `output/`.
 - Weights Cendol tidak tersimpan; angka diambil dari summary di log kernel.
 
+**Post-editing leksikon Krama → Krama Alus** (`kaggle/final_3lv_postedit/`, dijalankan lokal di CPU, tanpa training MT).
+Output model demo yang diminta Krama Alus diedit dengan leksikon dari train; pemicu memakai reranker, bukan juri.
+Mode dipilih di valid lewat simulasi (referensi Krama sebagai output meleset, referensi Krama Alus sebagai output benar):
+di sana `trig_gain` menaikkan ketepatan Krama Alus output meleset dari 0,00 ke 0,65 dan chrF++ dari 55,24 ke 70,66.
+
+| Input (prediksi tersimpan v2) | Mode | chrF++ | BLEU | Ketepatan tingkat | Krama Alus | Output diubah |
+|---|---|---|---|---|---|---|
+| `rerank2.0` (demo) | tanpa post-editing | 58,62 | 33,17 | 0,85 | 0,57 | - |
+| | `trig_gain` (pilihan valid) | 58,62 | 33,17 | 0,85 | 0,57 | 0 dari 75 |
+| `beam4` | tanpa post-editing | 58,13 | 33,13 | 0,81 | 0,48 | - |
+| | `trig_gain` | 58,26 | 33,29 | 0,81 | 0,48 | 2 dari 75 |
+
+- **Hasil negatif.** Post-editing hampir tidak pernah aktif di test: output Krama Alus yang meleset tidak mengandung
+  satu pun dari 57 kata sumber leksikon (model tidak menulis *sampeyan*/*kula* saat diminta Krama Alus), dan 19 dari 32
+  output yang dinilai Krama sudah memakai kosakata alus (*adalem*, *panjenenganipun*, *dhahar*, *tindak*). Kesalahannya
+  ada di struktur kalimat, makna, atau penilaian juri, bukan kata Krama yang tertinggal.
+- Simulasi valid dari referensi manusia tidak mewakili jenis kesalahan model, jadi hasil valid yang bagus tidak terbawa ke test.
+- **Noise juri lebih besar dari perkiraan.** Prediksi yang sama persis dengan model demo dinilai 0,85 oleh juri run ini
+  (dilatih di CPU) dan 0,92 oleh juri kernel v2 (GPU). Ketepatan Krama Alus 0,57 vs 0,77.
+
+**Self-training dengan rerank** (`kaggle/final_3lv_selftrain/`, kernel `mdevian/unggah-ungguh-final-3lv-selftrain`).
+Teacher = resep demo (output beam4 identik 100% dengan model demo). Teacher menerjemahkan kalimat Indonesia yang belum
+punya referensi Krama Alus (16 kandidat, rerank λ=2); kandidat disimpan jika P(Krama Alus) reranker ≥ 0,9.
+Student = resep demo + pseudo-data. Ketepatan di tabel memakai **juri tetap** (lihat di bawah).
+
+| Varian | Pseudo-data | Skor valid | chrF++ | BLEU | Ketepatan tingkat | Krama Alus |
+|---|---|---|---|---|---|---|
+| teacher (rerank 4.0) | - | **92,08** | 58,59 | 33,10 | 0,947 | 0,867 |
+| `st_train` (rerank 0.5) | 185 dari 385 kalimat train | 90,91 | **59,46** | 33,09 | 0,951 | 0,880 |
+| `st_train_nusax` (rerank 0.5) | + 159 dari 333 kalimat NusaX | 89,96 | 58,02 | 32,26 | **0,960** | **0,920** |
+
+- **Teacher tetap menang di valid**; tidak ada student yang dipilih. Selisih ketepatan di test hanya 1–4 dari 75
+  kalimat, di bawah noise satu juri (0,02–0,05).
+- Penyebab utama: reranker hanya menilai *seberapa alus*, bukan *apakah benar*. Banyak pseudo-data lolos filter
+  (P rata-rata 0,96) tetapi maknanya rusak, misalnya "tenaga kerja" → *garwa* (istri), "uangnya" → *panjenengan
+  dhahar* (makan). Perbaikan berikutnya perlu filter makna (mis. ambang log-prob model atau kesamaan dengan
+  terjemahan Krama), bukan hanya filter tingkat.
+- `pseudo_nusax.csv` (turunan NusaX, CC BY-SA) tidak disimpan di repo.
+
+**Juri tetap** (`scripts/juri_tetap.py`, hasil lengkap di `analisis/juri_tetap/README.md`). Juri DistilBERT dilatih
+sekali dengan 3 seed (42, 13, 2024) memakai resep v2; juri tetap = ensemble (rata-rata probabilitas). Semua output
+kontrol 3 tingkat dinilai ulang. Akurasi ensemble pada referensi test: 0,949 (Krama Alus 0,889).
+
+| Output | Juri kernel (lama) | **Juri tetap** | Krama Alus (lama → tetap) |
+|---|---|---|---|
+| Model demo (v2 `m2m_base` rerank 2.0) | 0,916 | **0,947** | 0,773 → **0,867** |
+| Model demo tanpa rerank (beam4) | 0,858 | 0,898 | 0,613 → 0,747 |
+| v2 `m2m_na_ls` rerank 1.0 | 0,911 | 0,964 | 0,787 → 0,920 |
+| merge `aug_nusax` rerank 0.5 | 0,920 | 0,938 | 0,813 → 0,853 |
+| NLLB `nllb_na` rerank 2.0 | 0,844 | 0,916 | 0,600 → 0,787 |
+
+- Output identik (model demo di kernel v2, merge `base`, post-editing, teacher self-training) sekarang mendapat angka
+  yang sama persis (0,947); sebelumnya 0,85–0,94 tergantung kernel.
+- Satu juri seed tunggal berbeda 0,02–0,06 dari juri seed lain untuk output yang sama. Angka ketepatan lama di README
+  ini (juri kernel) sebaiknya dibaca sebagai perkiraan kasar.
+- Pemilihan varian di setiap kernel tetap memakai juri kernel di valid; juri tetap hanya dipakai untuk pelaporan, jadi
+  tidak boleh dipakai untuk memilih ulang varian berdasarkan test.
+
 **Catatan perbandingan:** classifier penilai dilatih ulang di setiap kernel. Prediksi `base` di kernel merge
 identik 100% dengan model demo, tetapi ketepatannya 0,94 di sana dan 0,92 di kernel v2 (13 dari 225 output diberi
-label berbeda). Ketepatan tingkat hanya adil dibandingkan di dalam satu kernel; selisih antar kernel di bawah
-sekitar 0,02 tidak bermakna.
+label berbeda). Ketepatan tingkat hanya adil dibandingkan di dalam satu kernel. Antar run, selisih ketepatan bisa mencapai
+0,07 (Krama Alus 0,20) untuk output yang identik (lihat post-editing di atas), jadi selisih antar run tidak bermakna.
 
 ## Menjalankan demo di cloud (Kaggle + link Gradio)
 Hosting Gradio di Hugging Face Spaces (cpu-basic) sekarang butuh langganan PRO, jadi demo dijalankan

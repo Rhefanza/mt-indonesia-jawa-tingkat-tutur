@@ -1,0 +1,834 @@
+{
+ "pertanyaan": "post-editing leksikon Krama -> Krama Alus pada output model demo v2",
+ "leksikon_andal": 57,
+ "judge": {
+  "base": "w11wo/javanese-distilbert-small",
+  "acc_valid": 0.9543,
+  "per_class_acc_valid": {
+   "ngoko": 0.9865,
+   "krama": 1.0,
+   "krama_alus": 0.7407
+  },
+  "acc_test": 0.9375,
+  "per_class_acc_test": {
+   "ngoko": 0.9733,
+   "krama": 0.9865,
+   "krama_alus": 0.7037
+  }
+ },
+ "reranker": {
+  "base": "w11wo/javanese-roberta-small",
+  "acc_valid": 0.9714,
+  "per_class_acc_valid": {
+   "ngoko": 0.9865,
+   "krama": 0.9865,
+   "krama_alus": 0.8889
+  },
+  "acc_test": 0.9602,
+  "per_class_acc_test": {
+   "ngoko": 1.0,
+   "krama": 0.9865,
+   "krama_alus": 0.7778
+  }
+ },
+ "device": "cpu",
+ "valid_simulasi": {
+  "none": {
+   "score": 89.68,
+   "chrF++": 78.36,
+   "ketepatan_krama_alus": 0.3774,
+   "per_jenis": {
+    "benar (ref Krama Alus)": {
+     "chrF++": 100.0,
+     "ketepatan_krama_alus": 0.7407
+    },
+    "meleset (ref Krama)": {
+     "chrF++": 55.24,
+     "ketepatan_krama_alus": 0.0
+    }
+   },
+   "diminta_krama_alus": 53,
+   "bisa_diubah": 0,
+   "diubah": 0
+  },
+  "trig_gain": {
+   "score": 106.7,
+   "chrF++": 85.76,
+   "ketepatan_krama_alus": 0.6981,
+   "per_jenis": {
+    "benar (ref Krama Alus)": {
+     "chrF++": 100.0,
+     "ketepatan_krama_alus": 0.7407
+    },
+    "meleset (ref Krama)": {
+     "chrF++": 70.66,
+     "ketepatan_krama_alus": 0.6538
+    }
+   },
+   "diminta_krama_alus": 53,
+   "bisa_diubah": 25,
+   "diubah": 22
+  },
+  "trig": {
+   "score": 106.7,
+   "chrF++": 85.76,
+   "ketepatan_krama_alus": 0.6981,
+   "per_jenis": {
+    "benar (ref Krama Alus)": {
+     "chrF++": 100.0,
+     "ketepatan_krama_alus": 0.7407
+    },
+    "meleset (ref Krama)": {
+     "chrF++": 70.66,
+     "ketepatan_krama_alus": 0.6538
+    }
+   },
+   "diminta_krama_alus": 53,
+   "bisa_diubah": 25,
+   "diubah": 22
+  },
+  "gain": {
+   "score": 106.45,
+   "chrF++": 85.51,
+   "ketepatan_krama_alus": 0.6981,
+   "per_jenis": {
+    "benar (ref Krama Alus)": {
+     "chrF++": 99.52,
+     "ketepatan_krama_alus": 0.7407
+    },
+    "meleset (ref Krama)": {
+     "chrF++": 70.66,
+     "ketepatan_krama_alus": 0.6538
+    }
+   },
+   "diminta_krama_alus": 53,
+   "bisa_diubah": 25,
+   "diubah": 23
+  },
+  "all": {
+   "score": 105.85,
+   "chrF++": 84.91,
+   "ketepatan_krama_alus": 0.6981,
+   "per_jenis": {
+    "benar (ref Krama Alus)": {
+     "chrF++": 98.34,
+     "ketepatan_krama_alus": 0.7407
+    },
+    "meleset (ref Krama)": {
+     "chrF++": 70.66,
+     "ketepatan_krama_alus": 0.6538
+    }
+   },
+   "diminta_krama_alus": 53,
+   "bisa_diubah": 25,
+   "diubah": 25
+  }
+ },
+ "mode_terpilih_valid": "trig_gain",
+ "test": {
+  "rerank2.0": {
+   "none": {
+    "test": {
+     "ngoko": {
+      "n": 75,
+      "BLEU": 30.27,
+      "chrF++": 54.05
+     },
+     "krama": {
+      "n": 74,
+      "BLEU": 35.36,
+      "chrF++": 61.39
+     },
+     "krama_alus": {
+      "n": 27,
+      "BLEU": 34.93,
+      "chrF++": 61.45,
+      "chrF++_CI95": [
+       54.9,
+       68.68
+      ]
+     },
+     "all": {
+      "n": 176,
+      "BLEU": 33.17,
+      "chrF++": 58.62,
+      "chrF++_CI95": [
+       56.18,
+       61.27
+      ]
+     }
+    },
+    "control": {
+     "level_accuracy": 0.8489,
+     "per_level_accuracy": {
+      "ngoko": 0.9867,
+      "krama": 0.9867,
+      "krama_alus": 0.5733
+     },
+     "confusion_rows_requested_cols_predicted": [
+      [
+       74,
+       1,
+       0
+      ],
+      [
+       0,
+       74,
+       1
+      ],
+      [
+       0,
+       32,
+       43
+      ]
+     ],
+     "identical_rate_krama=krama_alus": 0.0,
+     "krama_alus_diperbaiki": 0,
+     "krama_alus_dirusak": 0
+    },
+    "edit_pred": {
+     "diminta_krama_alus": 27,
+     "bisa_diubah": 0,
+     "diubah": 0
+    },
+    "edit_control": {
+     "diminta_krama_alus": 75,
+     "bisa_diubah": 0,
+     "diubah": 0
+    }
+   },
+   "trig_gain": {
+    "test": {
+     "ngoko": {
+      "n": 75,
+      "BLEU": 30.27,
+      "chrF++": 54.05
+     },
+     "krama": {
+      "n": 74,
+      "BLEU": 35.36,
+      "chrF++": 61.39
+     },
+     "krama_alus": {
+      "n": 27,
+      "BLEU": 34.93,
+      "chrF++": 61.45,
+      "chrF++_CI95": [
+       54.9,
+       68.68
+      ]
+     },
+     "all": {
+      "n": 176,
+      "BLEU": 33.17,
+      "chrF++": 58.62,
+      "chrF++_CI95": [
+       56.18,
+       61.27
+      ]
+     }
+    },
+    "control": {
+     "level_accuracy": 0.8489,
+     "per_level_accuracy": {
+      "ngoko": 0.9867,
+      "krama": 0.9867,
+      "krama_alus": 0.5733
+     },
+     "confusion_rows_requested_cols_predicted": [
+      [
+       74,
+       1,
+       0
+      ],
+      [
+       0,
+       74,
+       1
+      ],
+      [
+       0,
+       32,
+       43
+      ]
+     ],
+     "identical_rate_krama=krama_alus": 0.0,
+     "krama_alus_diperbaiki": 0,
+     "krama_alus_dirusak": 0
+    },
+    "edit_pred": {
+     "diminta_krama_alus": 27,
+     "bisa_diubah": 2,
+     "diubah": 0
+    },
+    "edit_control": {
+     "diminta_krama_alus": 75,
+     "bisa_diubah": 2,
+     "diubah": 0
+    }
+   },
+   "trig": {
+    "test": {
+     "ngoko": {
+      "n": 75,
+      "BLEU": 30.27,
+      "chrF++": 54.05
+     },
+     "krama": {
+      "n": 74,
+      "BLEU": 35.36,
+      "chrF++": 61.39
+     },
+     "krama_alus": {
+      "n": 27,
+      "BLEU": 34.93,
+      "chrF++": 61.45,
+      "chrF++_CI95": [
+       54.9,
+       68.68
+      ]
+     },
+     "all": {
+      "n": 176,
+      "BLEU": 33.17,
+      "chrF++": 58.62,
+      "chrF++_CI95": [
+       56.18,
+       61.27
+      ]
+     }
+    },
+    "control": {
+     "level_accuracy": 0.8489,
+     "per_level_accuracy": {
+      "ngoko": 0.9867,
+      "krama": 0.9867,
+      "krama_alus": 0.5733
+     },
+     "confusion_rows_requested_cols_predicted": [
+      [
+       74,
+       1,
+       0
+      ],
+      [
+       0,
+       74,
+       1
+      ],
+      [
+       0,
+       32,
+       43
+      ]
+     ],
+     "identical_rate_krama=krama_alus": 0.0,
+     "krama_alus_diperbaiki": 0,
+     "krama_alus_dirusak": 0
+    },
+    "edit_pred": {
+     "diminta_krama_alus": 27,
+     "bisa_diubah": 2,
+     "diubah": 0
+    },
+    "edit_control": {
+     "diminta_krama_alus": 75,
+     "bisa_diubah": 2,
+     "diubah": 0
+    }
+   },
+   "gain": {
+    "test": {
+     "ngoko": {
+      "n": 75,
+      "BLEU": 30.27,
+      "chrF++": 54.05
+     },
+     "krama": {
+      "n": 74,
+      "BLEU": 35.36,
+      "chrF++": 61.39
+     },
+     "krama_alus": {
+      "n": 27,
+      "BLEU": 35.53,
+      "chrF++": 61.58,
+      "chrF++_CI95": [
+       54.85,
+       68.92
+      ]
+     },
+     "all": {
+      "n": 176,
+      "BLEU": 33.27,
+      "chrF++": 58.64,
+      "chrF++_CI95": [
+       56.23,
+       61.29
+      ]
+     }
+    },
+    "control": {
+     "level_accuracy": 0.8489,
+     "per_level_accuracy": {
+      "ngoko": 0.9867,
+      "krama": 0.9867,
+      "krama_alus": 0.5733
+     },
+     "confusion_rows_requested_cols_predicted": [
+      [
+       74,
+       1,
+       0
+      ],
+      [
+       0,
+       74,
+       1
+      ],
+      [
+       0,
+       32,
+       43
+      ]
+     ],
+     "identical_rate_krama=krama_alus": 0.0,
+     "krama_alus_diperbaiki": 0,
+     "krama_alus_dirusak": 0
+    },
+    "edit_pred": {
+     "diminta_krama_alus": 27,
+     "bisa_diubah": 2,
+     "diubah": 2
+    },
+    "edit_control": {
+     "diminta_krama_alus": 75,
+     "bisa_diubah": 2,
+     "diubah": 2
+    }
+   },
+   "all": {
+    "test": {
+     "ngoko": {
+      "n": 75,
+      "BLEU": 30.27,
+      "chrF++": 54.05
+     },
+     "krama": {
+      "n": 74,
+      "BLEU": 35.36,
+      "chrF++": 61.39
+     },
+     "krama_alus": {
+      "n": 27,
+      "BLEU": 35.53,
+      "chrF++": 61.58,
+      "chrF++_CI95": [
+       54.85,
+       68.92
+      ]
+     },
+     "all": {
+      "n": 176,
+      "BLEU": 33.27,
+      "chrF++": 58.64,
+      "chrF++_CI95": [
+       56.23,
+       61.29
+      ]
+     }
+    },
+    "control": {
+     "level_accuracy": 0.8489,
+     "per_level_accuracy": {
+      "ngoko": 0.9867,
+      "krama": 0.9867,
+      "krama_alus": 0.5733
+     },
+     "confusion_rows_requested_cols_predicted": [
+      [
+       74,
+       1,
+       0
+      ],
+      [
+       0,
+       74,
+       1
+      ],
+      [
+       0,
+       32,
+       43
+      ]
+     ],
+     "identical_rate_krama=krama_alus": 0.0,
+     "krama_alus_diperbaiki": 0,
+     "krama_alus_dirusak": 0
+    },
+    "edit_pred": {
+     "diminta_krama_alus": 27,
+     "bisa_diubah": 2,
+     "diubah": 2
+    },
+    "edit_control": {
+     "diminta_krama_alus": 75,
+     "bisa_diubah": 2,
+     "diubah": 2
+    }
+   }
+  },
+  "beam4": {
+   "none": {
+    "test": {
+     "ngoko": {
+      "n": 75,
+      "BLEU": 30.21,
+      "chrF++": 54.07
+     },
+     "krama": {
+      "n": 74,
+      "BLEU": 35.31,
+      "chrF++": 61.23
+     },
+     "krama_alus": {
+      "n": 27,
+      "BLEU": 33.63,
+      "chrF++": 58.89,
+      "chrF++_CI95": [
+       51.97,
+       66.42
+      ]
+     },
+     "all": {
+      "n": 176,
+      "BLEU": 33.13,
+      "chrF++": 58.13,
+      "chrF++_CI95": [
+       55.73,
+       60.74
+      ]
+     }
+    },
+    "control": {
+     "level_accuracy": 0.8133,
+     "per_level_accuracy": {
+      "ngoko": 0.9733,
+      "krama": 0.9867,
+      "krama_alus": 0.48
+     },
+     "confusion_rows_requested_cols_predicted": [
+      [
+       73,
+       2,
+       0
+      ],
+      [
+       0,
+       74,
+       1
+      ],
+      [
+       0,
+       39,
+       36
+      ]
+     ],
+     "identical_rate_krama=krama_alus": 0.0267,
+     "krama_alus_diperbaiki": 0,
+     "krama_alus_dirusak": 0
+    },
+    "edit_pred": {
+     "diminta_krama_alus": 27,
+     "bisa_diubah": 0,
+     "diubah": 0
+    },
+    "edit_control": {
+     "diminta_krama_alus": 75,
+     "bisa_diubah": 0,
+     "diubah": 0
+    }
+   },
+   "trig_gain": {
+    "test": {
+     "ngoko": {
+      "n": 75,
+      "BLEU": 30.21,
+      "chrF++": 54.07
+     },
+     "krama": {
+      "n": 74,
+      "BLEU": 35.31,
+      "chrF++": 61.23
+     },
+     "krama_alus": {
+      "n": 27,
+      "BLEU": 34.68,
+      "chrF++": 59.67,
+      "chrF++_CI95": [
+       53.01,
+       67.2
+      ]
+     },
+     "all": {
+      "n": 176,
+      "BLEU": 33.29,
+      "chrF++": 58.26,
+      "chrF++_CI95": [
+       55.82,
+       60.91
+      ]
+     }
+    },
+    "control": {
+     "level_accuracy": 0.8133,
+     "per_level_accuracy": {
+      "ngoko": 0.9733,
+      "krama": 0.9867,
+      "krama_alus": 0.48
+     },
+     "confusion_rows_requested_cols_predicted": [
+      [
+       73,
+       2,
+       0
+      ],
+      [
+       0,
+       74,
+       1
+      ],
+      [
+       0,
+       39,
+       36
+      ]
+     ],
+     "identical_rate_krama=krama_alus": 0.0267,
+     "krama_alus_diperbaiki": 0,
+     "krama_alus_dirusak": 0
+    },
+    "edit_pred": {
+     "diminta_krama_alus": 27,
+     "bisa_diubah": 3,
+     "diubah": 2
+    },
+    "edit_control": {
+     "diminta_krama_alus": 75,
+     "bisa_diubah": 3,
+     "diubah": 2
+    }
+   },
+   "trig": {
+    "test": {
+     "ngoko": {
+      "n": 75,
+      "BLEU": 30.21,
+      "chrF++": 54.07
+     },
+     "krama": {
+      "n": 74,
+      "BLEU": 35.31,
+      "chrF++": 61.23
+     },
+     "krama_alus": {
+      "n": 27,
+      "BLEU": 34.68,
+      "chrF++": 59.67,
+      "chrF++_CI95": [
+       53.01,
+       67.2
+      ]
+     },
+     "all": {
+      "n": 176,
+      "BLEU": 33.29,
+      "chrF++": 58.26,
+      "chrF++_CI95": [
+       55.82,
+       60.91
+      ]
+     }
+    },
+    "control": {
+     "level_accuracy": 0.8133,
+     "per_level_accuracy": {
+      "ngoko": 0.9733,
+      "krama": 0.9867,
+      "krama_alus": 0.48
+     },
+     "confusion_rows_requested_cols_predicted": [
+      [
+       73,
+       2,
+       0
+      ],
+      [
+       0,
+       74,
+       1
+      ],
+      [
+       0,
+       39,
+       36
+      ]
+     ],
+     "identical_rate_krama=krama_alus": 0.0267,
+     "krama_alus_diperbaiki": 0,
+     "krama_alus_dirusak": 0
+    },
+    "edit_pred": {
+     "diminta_krama_alus": 27,
+     "bisa_diubah": 3,
+     "diubah": 2
+    },
+    "edit_control": {
+     "diminta_krama_alus": 75,
+     "bisa_diubah": 3,
+     "diubah": 2
+    }
+   },
+   "gain": {
+    "test": {
+     "ngoko": {
+      "n": 75,
+      "BLEU": 30.21,
+      "chrF++": 54.07
+     },
+     "krama": {
+      "n": 74,
+      "BLEU": 35.31,
+      "chrF++": 61.23
+     },
+     "krama_alus": {
+      "n": 27,
+      "BLEU": 34.68,
+      "chrF++": 59.6,
+      "chrF++_CI95": [
+       52.85,
+       67.2
+      ]
+     },
+     "all": {
+      "n": 176,
+      "BLEU": 33.29,
+      "chrF++": 58.24,
+      "chrF++_CI95": [
+       55.8,
+       60.91
+      ]
+     }
+    },
+    "control": {
+     "level_accuracy": 0.8133,
+     "per_level_accuracy": {
+      "ngoko": 0.9733,
+      "krama": 0.9867,
+      "krama_alus": 0.48
+     },
+     "confusion_rows_requested_cols_predicted": [
+      [
+       73,
+       2,
+       0
+      ],
+      [
+       0,
+       74,
+       1
+      ],
+      [
+       0,
+       39,
+       36
+      ]
+     ],
+     "identical_rate_krama=krama_alus": 0.0267,
+     "krama_alus_diperbaiki": 0,
+     "krama_alus_dirusak": 0
+    },
+    "edit_pred": {
+     "diminta_krama_alus": 27,
+     "bisa_diubah": 3,
+     "diubah": 3
+    },
+    "edit_control": {
+     "diminta_krama_alus": 75,
+     "bisa_diubah": 3,
+     "diubah": 3
+    }
+   },
+   "all": {
+    "test": {
+     "ngoko": {
+      "n": 75,
+      "BLEU": 30.21,
+      "chrF++": 54.07
+     },
+     "krama": {
+      "n": 74,
+      "BLEU": 35.31,
+      "chrF++": 61.23
+     },
+     "krama_alus": {
+      "n": 27,
+      "BLEU": 34.68,
+      "chrF++": 59.6,
+      "chrF++_CI95": [
+       52.85,
+       67.2
+      ]
+     },
+     "all": {
+      "n": 176,
+      "BLEU": 33.29,
+      "chrF++": 58.24,
+      "chrF++_CI95": [
+       55.8,
+       60.91
+      ]
+     }
+    },
+    "control": {
+     "level_accuracy": 0.8133,
+     "per_level_accuracy": {
+      "ngoko": 0.9733,
+      "krama": 0.9867,
+      "krama_alus": 0.48
+     },
+     "confusion_rows_requested_cols_predicted": [
+      [
+       73,
+       2,
+       0
+      ],
+      [
+       0,
+       74,
+       1
+      ],
+      [
+       0,
+       39,
+       36
+      ]
+     ],
+     "identical_rate_krama=krama_alus": 0.0267,
+     "krama_alus_diperbaiki": 0,
+     "krama_alus_dirusak": 0
+    },
+    "edit_pred": {
+     "diminta_krama_alus": 27,
+     "bisa_diubah": 3,
+     "diubah": 3
+    },
+    "edit_control": {
+     "diminta_krama_alus": 75,
+     "bisa_diubah": 3,
+     "diubah": 3
+    }
+   }
+  }
+ }
+}

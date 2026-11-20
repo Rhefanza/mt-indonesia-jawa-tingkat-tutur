@@ -1,0 +1,79 @@
+{
+ "base": "w11wo/javanese-distilbert-small",
+ "seeds": [
+  42,
+  13,
+  2024
+ ],
+ "device": "cpu",
+ "akurasi_pada_referensi": {
+  "valid": {
+   "seed42": {
+    "all": 0.9543,
+    "per_level": {
+     "ngoko": 0.9865,
+     "krama": 0.9324,
+     "krama_alus": 0.9259
+    }
+   },
+   "seed13": {
+    "all": 0.9486,
+    "per_level": {
+     "ngoko": 0.9865,
+     "krama": 0.973,
+     "krama_alus": 0.7778
+    }
+   },
+   "seed2024": {
+    "all": 0.96,
+    "per_level": {
+     "ngoko": 0.9865,
+     "krama": 0.9459,
+     "krama_alus": 0.9259
+    }
+   },
+   "ensemble": {
+    "all": 0.96,
+    "per_level": {
+     "ngoko": 0.9865,
+     "krama": 0.9595,
+     "krama_alus": 0.8889
+    }
+   }
+  },
+  "test": {
+   "seed42": {
+    "all": 0.9432,
+    "per_level": {
+     "ngoko": 0.9733,
+     "krama": 0.9324,
+     "krama_alus": 0.8889
+    }
+   },
+   "seed13": {
+    "all": 0.9489,
+    "per_level": {
+     "ngoko": 0.9733,
+     "krama": 0.973,
+     "krama_alus": 0.8148
+    }
+   },
+   "seed2024": {
+    "all": 0.9489,
+    "per_level": {
+     "ngoko": 0.9733,
+     "krama": 0.9459,
+     "krama_alus": 0.8889
+    }
+   },
+   "ensemble": {
+    "all": 0.9489,
+    "per_level": {
+     "ngoko": 0.9733,
+     "krama": 0.9459,
+     "krama_alus": 0.8889
+    }
+   }
+  }
+ }
+}
