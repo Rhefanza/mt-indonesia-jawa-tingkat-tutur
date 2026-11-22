@@ -1,0 +1,42 @@
+{
+ "mode": "valid",
+ "seed": 42,
+ "maxlen": 64,
+ "lambda": 2.0,
+ "beams": [
+  8,
+  16
+ ],
+ "reverse": {
+  "epochs": 5,
+  "bs": 16,
+  "lr": 5e-05
+ },
+ "versions": {
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2",
+  "sacrebleu": "2.6.0"
+ },
+ "gpu": "Tesla T4",
+ "gates": {
+  "baseline_valid_chrF++": 62.66,
+  "baseline_v2_tercatat": 62.66,
+  "uji_fakta_benar": 19,
+  "uji_fakta_lolos": true
+ },
+ "inputs": {
+  "v2_dir": "/kaggle/input/notebooks/mdevian/unggah-ungguh-final-3lv-v2",
+  "demo_config_sha256": "d94c47fc536d6ba0b3792420130cf549c29871a0c37bcce2016609c6b2d76160",
+  "train_csv_sha256": "b708f2e521bff48ba0b23d60c923ec6427def3bdc42ea7f33db86f132389c09d",
+  "valid_csv_sha256": "521164cbd1e447f310a4f5d86d79d2bf1b23d3471ae4edaa384b1d5f074546fb",
+  "test_csv_sha256": "379151d40f2a82cc272f9c7b824568521ea726e1adc751d0d16cd45a9ee4e6be",
+  "fakta_valid_sha256": "f948ec8611c57f515e46e5a0160d8dc3b40dbcb9cbc0a3d85de2ae28746c3f83"
+ },
+ "valid_judge_acc_on_refs": 0.96,
+ "outputs": {
+  "kandidat_valid_sha256": "30950c260747eced4d51bc5dc0f6c43eb1c9a4a5ff1da53f7df2f5c4cbdfd805",
+  "n_baris": 4200
+ },
+ "elapsed_s": 443
+}

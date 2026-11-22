@@ -1,0 +1,4 @@
+# file yang di-hash (manifest/pilihan/lembar fakta) harus disimpan byte-per-byte, tanpa konversi CRLF
+kaggle/pool_makna_v1/** -text
+kaggle/training_makna_tingkat_v1/** -text
+kaggle/training_makna_tingkat_v1_test/** -text

@@ -46,6 +46,16 @@ Repo publik: https://github.com/Rhefanza/mt-indonesia-jawa-tingkat-tutur
   (juri kernel v2: 0,92 / 0,77). Juri kernel tiap run berbeda 0,02–0,07 untuk output identik.
 - Pemilihan varian tetap di valid dengan juri kernel; juri tetap hanya untuk pelaporan (jangan memilih ulang di test).
 - Simpan prediksi valid di setiap kernel baru (sudah dilakukan di `final_3lv_selftrain`).
+- **Diagnosis makna (2026-11-22, diskusi Claude ↔ Codex):** masalah dominan model demo adalah **makna**, bukan tingkat.
+  Dari 27 output Krama Alus test: 18 salah makna, 5 makna + arah hormat, 1 tingkat saja, 3 lolos. Rerank tidak punya sinyal makna.
+  Grid λ v2 datar di valid (chrF++ 62,42–62,66), jadi **jangan kalibrasi λ lagi**.
+- `kaggle/pool_makna_v1/`: pool beam8/beam16 + skor reverse jv→id. **Hasil negatif, dikunci baseline** (`pilihan.json`).
+  Reverse lolos uji fakta 19/20 tetapi menurunkan chrF++ Krama Alus valid di semua μ. Audit cakupan (draf Claude):
+  top-1 kehilangan fakta di 15/22 baris, hanya 1 yang punya kandidat pulih. **Rerank (λ maupun skor makna) sudah buntu;**
+  perbaikan harus dari training/generator. Detail di `kaggle/pool_makna_v1/README.md`. Weights reverse di-gitignore.
+- `kaggle/training_makna_tingkat_v1/` (**belum dijalankan**): NLLB-600M vs NLLB-1.3B (digerbang zero-shot + preflight memori)
+  dengan paket data demo, plus konverter Krama→Krama Alus input-bersih. Hasil diskusi kedua dengan Codex.
+  Seleksi + audit buta + kunci: `scripts/pilih_training_makna.py`. `fakta_ka_valid.csv` sudah diisi (draf Claude); jangan diubah.
 - `data/external/` (NusaX, CC BY-SA) dan `data/merged/` di-gitignore karena lisensi; buat ulang dengan
   `scripts/build_lexicon_augment.ipynb`. Tabel lengkap di `demo/README.md`.
 

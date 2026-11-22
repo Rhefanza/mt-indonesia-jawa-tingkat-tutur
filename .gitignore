@@ -10,3 +10,7 @@ data/merged/
 kaggle/*/output/pseudo_nusax.csv
 # weights model (juri tetap, dsb.) tidak di-commit; buat ulang dengan skripnya
 models/
+# weights model reverse dari kernel pool-makna-v1 (output kernel Kaggle)
+kaggle/pool_makna_v1/output/reverse/
+*.safetensors
+kaggle/training_makna_tingkat_v1/output/model_*/

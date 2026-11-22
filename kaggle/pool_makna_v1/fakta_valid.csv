@@ -1,0 +1,21 @@
+group,indonesian,setia,rusak,jenis_rusak,fakta_diubah
+21,"Ketika berjalan-jalan nenek jatuh, dibantu berdiri oleh kakek.","Eyang putri tindak-tindak dhawah, dipunjumenengaken dening eyang kakung.","Eyang putri tindak-tindak dhahar, dipunjumenengaken dening eyang kakung.",predikat,jatuh -> makan
+90,"Seandainya dinaiki mesti enak, sebab mobil saya itu baru.","Dipuntitihana mesti sakeca, amargi mobil adalem menika enggal.","Dipuntitihana mesti sakeca, amargi griya adalem menika enggal.",objek,mobil -> rumah
+121,"Saya mempunyai mangga, apa kamu mau?","Kula gadhah pelem, menapa panjenengan kersa?","Kula gadhah sekar, menapa panjenengan kersa?",objek,mangga -> bunga
+126,"Dia itu mau makan, maka badannya gemuk.","Panjenenganipun menika kersa dhahar, mila saliranipun sugeng.","Panjenenganipun menika boten kersa dhahar, mila saliranipun sugeng.",negasi,mau makan -> tidak mau makan
+130,"Saya hanya dapat memberi jam ini, silakan pakai!","Adalem namung saged nyaosi jam menika, panjenengan agem!","Adalem namung saged nyaosi sabuk menika, panjenengan agem!",objek,jam -> ikat pinggang
+133,Rumah Pak Purba yang tepi jalan sudah boleh saya beli.,Dalemipun Pak Purba ingkang pinggir margi sampun kepareng adalem tumbas.,Dalemipun Pak Purba ingkang pinggir margi sampun kepareng adalem sade.,predikat,beli -> jual
+173,Bicaralah sendiri kepada ayah saya!,Panjenengan ngandika piyambak dhateng bapak adalem!,Panjenengan ngandika piyambak dhateng ibu adalem!,objek,ayah saya -> ibu saya
+174,Ayahmu tadi berjalan-jalan dengan ayah saya.,Rama panjenengan (ingkang rama) wau tindak-tindak kaliyan bapak adalem.,Rama panjenengan (ingkang rama) wau dhahar kaliyan bapak adalem.,predikat,berjalan-jalan -> makan
+192,Ibumu itu akan pergi ke mana?,Ibu panjenengan (ingkang ibu) menika badhe tindak dhateng pundi?,Ibu panjenengan (ingkang ibu) menika sampun tindak dhateng pundi?,waktu,akan pergi -> sudah pergi
+207,"Temanmu sudah selesai buang air besar, sekarang sedang bercebok.","Kanca panjenengan sampun rampung bobotan, samenika saweg cawik.","Kanca panjenengan dereng rampung bobotan, samenika saweg cawik.",negasi,sudah selesai -> belum selesai
+284,Itu anakmu akan dimandikan tidak mau.,Menika ingkang putra badhe dipun sirami boten kersa.,Menika ingkang rayi badhe dipun sirami boten kersa.,subjek,anakmu -> adikmu
+351,Banyaklah yang melihat penobatan Raja di Majapahit.,Kathah ingkang sami mriksani jumenengan Ratu ing Majapait,Kathah ingkang sami mriksani jumenengan Ratu ing Mataram,objek,Majapahit -> Mataram
+358,"Sudah Jeng Tanti jangan menangis, saya usap air matanya ya?!","Sampan Jeng Tanti sampun muwun, adalem lap waspanipun inggih?!","Sampan Jeng Tanti sampun muwun, adalem lap astanipun inggih?!",objek,air mata -> tangan
+359,Pendaman ari-ari itu kalau malam kauberi lampu!,Pendheman tuntunan menika manawi dalu panjenengan paringi dilah!,Pendheman tuntunan menika manawi enjing panjenengan paringi dilah!,waktu,malam -> pagi
+396,"Bawalah jaket ini, dapat untuk tutup dada!","Jaket menika panjenengan ampil, kenging kagem tutup jaja!","Jaket menika panjenengan ampil, kenging kagem tutup mustaka!",objek,dada -> kepala
+464,Adikmu juga senang kalau bermain dengan nenek saya.,Ingkang rayi ugi seneng yen ameng-ameng kaliyan embah adalem.,Ingkang putra ugi seneng yen ameng-ameng kaliyan embah adalem.,subjek,adikmu -> anakmu
+586,"Wah, kamu menerima kejutan, undian Simpedes menadapatkan sepeda motor.","Wah, panjenengan tampi kejotan, undian Simpedes angsal pit-montor.","Wah, panjenengan tampi kejotan, undian Simpedes angsal griya.",objek,sepeda motor -> rumah
+682,Pak Hasan dan istrinya pergi ke Singapura.,Pak Hasan kaliyan garwanipun tindak dhateng Singapur.,Pak Hasan kaliyan putranipun tindak dhateng Singapur.,subjek,istrinya -> anaknya
+693,Matamu kok merah apa kurang tidur?,Tingal panjenengan kok abrit menapa kirang sare?,Tingal panjenengan kok abrit menapa kirang dhahar?,predikat,kurang tidur -> kurang makan
+1371,"Tegakkan imanmu, Tuhan Yang Mahakasih pasti akan memberi pertolongan!","Ingkang jejeg kapitadosan panjenengan, Gusti Inkgang Mahaasih mesthi badhe paring pitulungan!","Ingkang jejeg kapitadosan panjenengan, Gusti Inkgang Mahaasih mesthi boten badhe paring pitulungan!",negasi,pasti memberi -> pasti tidak memberi

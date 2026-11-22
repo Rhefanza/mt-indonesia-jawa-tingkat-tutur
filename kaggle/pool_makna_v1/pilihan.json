@@ -1,0 +1,54 @@
+{
+ "varian": "baseline",
+ "mu": 0.0,
+ "widths": [
+  8
+ ],
+ "lambda": 2.0,
+ "kandidat_valid_sha256": "30950c260747eced4d51bc5dc0f6c43eb1c9a4a5ff1da53f7df2f5c4cbdfd805",
+ "audit_cakupan_sha256": "766eec2fbb5073da70a50b61444e1de93b055a16a778696e75bf713a3c0d1434",
+ "gerbang_cakupan": 1,
+ "uji_fakta_benar": 19,
+ "celah_oracle": {
+  "beam8": {
+   "rerata": 3.36,
+   "median": 1.18,
+   "n_ge3": 8,
+   "n": 27
+  },
+  "beam16": {
+   "rerata": 4.05,
+   "median": 1.59,
+   "n_ge3": 10,
+   "n": 27
+  },
+  "gabung": {
+   "rerata": 4.05,
+   "median": 1.59,
+   "n_ge3": 10,
+   "n": 27
+  }
+ },
+ "tabel_valid": {
+  "baseline": {
+   "krama": 64.54,
+   "krama_alus": 68.83,
+   "ngoko": 57.28,
+   "KA_juri_benar": 25,
+   "KA_n": 27,
+   "lb90": null,
+   "lolos": true
+  },
+  "gabung_mu0": {
+   "krama": 64.45,
+   "krama_alus": 68.19,
+   "ngoko": 57.28,
+   "KA_juri_benar": 26,
+   "KA_n": 27,
+   "lb90": -1.708,
+   "selisih_rerata": -0.625,
+   "lolos": false
+  }
+ },
+ "dikunci": "2026-11-22 18:41:21"
+}
