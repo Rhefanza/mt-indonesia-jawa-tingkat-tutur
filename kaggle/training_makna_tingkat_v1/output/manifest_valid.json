@@ -1,0 +1,204 @@
+{
+ "mode": "valid",
+ "seed": 42,
+ "hparams": {
+  "epochs": 15,
+  "os": 3,
+  "block": 16,
+  "lr": 5e-05,
+  "warmup": 0.1,
+  "ctrl_w": 30.0,
+  "lambda": 2.0,
+  "nbest": 8,
+  "maxlen": 64,
+  "gpu_cap_h": 6.0,
+  "optimizer": "Adafactor(relative_step=False, scale_parameter=False, warmup_init=False, clip_threshold=1.0, weight_decay=0.01)",
+  "id_pairs": 1815,
+  "jv_pairs": 206,
+  "blocks_per_epoch": 127,
+  "updates": 1905,
+  "mb": 2
+ },
+ "versions": {
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2",
+  "sacrebleu": "2.6.0"
+ },
+ "gpu": "Tesla T4",
+ "inputs": {
+  "demo_config_sha256": "d94c47fc536d6ba0b3792420130cf549c29871a0c37bcce2016609c6b2d76160",
+  "train_csv_sha256": "b708f2e521bff48ba0b23d60c923ec6427def3bdc42ea7f33db86f132389c09d",
+  "valid_csv_sha256": "521164cbd1e447f310a4f5d86d79d2bf1b23d3471ae4edaa384b1d5f074546fb"
+ },
+ "gates": {
+  "reproduksi_demo": {
+   "chrF_all": 62.66,
+   "target_all": 62.66,
+   "chrF_KA": 68.83,
+   "target_KA": 68.83,
+   "ok": true
+  },
+  "zeroshot_ngoko_nllb600_base": 41.67,
+  "zeroshot_ngoko_nllb13_base": 42.9,
+  "zeroshot_p5_13_minus_600": -0.596,
+  "zeroshot_mean_13_minus_600": 1.235,
+  "zeroshot_lolos": false,
+  "alasan_lewati_13": "pagar zero-shot tidak lolos",
+  "jalankan_13": false
+ },
+ "arms": {
+  "demo": {
+   "ngoko": 57.28,
+   "krama": 64.54,
+   "krama_alus": 68.83,
+   "all": 62.66,
+   "KA_juri_benar": 25,
+   "sha256": "b9f9ba55f61de5556e2897fe9fb7bdb19970ccf12a2e27d68ff0d708d20280be"
+  },
+  "nllb600_base": {
+   "ngoko": 60.07,
+   "krama": 62.33,
+   "krama_alus": 64.82,
+   "all": 61.98,
+   "KA_juri_benar": 22,
+   "sha256": "092c8348c135e113c3b9856ce7d7334e942922d569bea867badd28ed1007d81f",
+   "history": [
+    {
+     "epoch": 1,
+     "loss": 2.8606,
+     "valid_chrF++": 39.54,
+     "valid_ctrl": 0.4,
+     "score": 51.54,
+     "detik": 241
+    },
+    {
+     "epoch": 2,
+     "loss": 1.7739,
+     "valid_chrF++": 50.26,
+     "valid_ctrl": 0.6686,
+     "score": 70.32,
+     "detik": 241
+    },
+    {
+     "epoch": 3,
+     "loss": 1.2031,
+     "valid_chrF++": 54.89,
+     "valid_ctrl": 0.7543,
+     "score": 77.52,
+     "detik": 241
+    },
+    {
+     "epoch": 4,
+     "loss": 0.9002,
+     "valid_chrF++": 56.72,
+     "valid_ctrl": 0.7714,
+     "score": 79.86,
+     "detik": 240
+    },
+    {
+     "epoch": 5,
+     "loss": 0.6961,
+     "valid_chrF++": 57.74,
+     "valid_ctrl": 0.8171,
+     "score": 82.25,
+     "detik": 240
+    },
+    {
+     "epoch": 6,
+     "loss": 0.544,
+     "valid_chrF++": 58.75,
+     "valid_ctrl": 0.8743,
+     "score": 84.98,
+     "detik": 240
+    },
+    {
+     "epoch": 7,
+     "loss": 0.4496,
+     "valid_chrF++": 59.68,
+     "valid_ctrl": 0.8971,
+     "score": 86.59,
+     "detik": 240
+    },
+    {
+     "epoch": 8,
+     "loss": 0.3766,
+     "valid_chrF++": 61.34,
+     "valid_ctrl": 0.92,
+     "score": 88.94,
+     "detik": 240
+    },
+    {
+     "epoch": 9,
+     "loss": 0.315,
+     "valid_chrF++": 60.83,
+     "valid_ctrl": 0.9314,
+     "score": 88.77,
+     "detik": 241
+    },
+    {
+     "epoch": 10,
+     "loss": 0.2721,
+     "valid_chrF++": 61.37,
+     "valid_ctrl": 0.92,
+     "score": 88.97,
+     "detik": 240
+    },
+    {
+     "epoch": 11,
+     "loss": 0.2393,
+     "valid_chrF++": 60.75,
+     "valid_ctrl": 0.9429,
+     "score": 89.03,
+     "detik": 241
+    },
+    {
+     "epoch": 12,
+     "loss": 0.2147,
+     "valid_chrF++": 61.06,
+     "valid_ctrl": 0.9429,
+     "score": 89.35,
+     "detik": 240
+    },
+    {
+     "epoch": 13,
+     "loss": 0.1998,
+     "valid_chrF++": 61.22,
+     "valid_ctrl": 0.9314,
+     "score": 89.16,
+     "detik": 240
+    },
+    {
+     "epoch": 14,
+     "loss": 0.1801,
+     "valid_chrF++": 61.68,
+     "valid_ctrl": 0.9314,
+     "score": 89.63,
+     "detik": 240
+    },
+    {
+     "epoch": 15,
+     "loss": 0.1732,
+     "valid_chrF++": 61.39,
+     "valid_ctrl": 0.9314,
+     "score": 89.33,
+     "detik": 241
+    }
+   ],
+   "best_epoch": 14,
+   "mb": 2,
+   "model_sha256": {
+    "model.safetensors": "2a9a30b0564d1780926d583374b6c7eb438ec5fd9c2d14e51db7d37a16e1087e"
+   }
+  }
+ },
+ "valid_judge_acc_on_refs": 0.96,
+ "elapsed_s": 4436,
+ "konverter": {
+  "n": 26,
+  "chrF_salinan": 55.24,
+  "chrF_konverter": 72.84,
+  "juri_KA_salinan": 1,
+  "juri_KA_konverter": 22
+ }
+}

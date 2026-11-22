@@ -43,3 +43,24 @@ sudah pernah terlihat di audit pool-makna, jadi lembar ini tidak sepenuhnya buta
 
 Test sudah dibaca untuk diagnosis, jadi hasil test berikutnya adalah evaluasi retrospektif. Satu seed = satu run.
 Audit oleh Claude/Codex adalah draf non-penutur; makna, keluwesan, dan arah hormat yang ambigu tetap perlu penutur Jawa.
+
+## Hasil run valid (2026-11-22, 1 seed, T4, 74 menit) — hasil negatif, demo dipertahankan
+
+- Reproduksi demo lolos persis (chrF++ 62,66; Krama Alus 68,83; juri valid benar 25/27, akurasi juri pada referensi 0,96).
+- **Pagar zero-shot 1.3B tidak lolos.** Ngoko valid zero-shot: 600M 41,67 vs 1.3B 42,90 (rerata selisih +1,24, tetapi p5 bootstrap −0,60).
+  Arm `nllb13_base` tidak dilatih, sesuai aturan.
+- `nllb600_base` (checkpoint terbaik epoch 14): all 61,98 · Ngoko **60,07** (demo 57,28) · Krama 62,33 (64,54) ·
+  Krama Alus **64,82** (68,83) · juri KA 22/27 (25/27). Selisih KA −4,04, batas bawah CI 90% −7,97 → gagal gerbang angka.
+  Audit buta tidak diperlukan. `pilihan.json` dikunci: **demo**. Run test tidak dijalankan.
+- **Konverter Krama→Krama Alus (input bersih = Krama referensi, 26 pasangan valid):** chrF++ vs referensi KA 72,84
+  (salinan Krama 55,24), juri KA 22/26 (salinan 1/26). Tetapi audit draf `audit_konverter_draf.csv` (Claude, non-penutur):
+  arah hormat dikoreksi 19/26, **fakta inti rusak 13/26** walaupun inputnya sudah Krama yang benar; hanya 9/26 yang
+  memperbaiki arah hormat tanpa merusak fakta. Pola khas: kata yang tidak dikenal diganti kata alus yang sering muncul
+  di train (`pundhut`, `titihan`, `dipunpundhut`), dan arah memberi tertukar (`maringi` untuk penutur → atasan).
+  Gerbang "tanpa kesalahan fakta inti baru" gagal, jadi jalur penuh tidak diuji.
+
+**Bacaan.** NLLB-600M unggul di Ngoko (sejalan dengan zero-shot), tetapi kalah di Krama Alus, persis pola yang terlihat
+sebelumnya. Model yang lebih besar tidak terbukti lebih baik bahkan sebelum fine-tuning. Konverter menunjukkan sinyal
+tingkat yang kuat (juri dan chrF++ naik tajam) tetapi itu menyesatkan: 206 pasangan cukup untuk mempelajari *pola*
+substitusi alus, tidak cukup untuk mempelajari *kosakata*, sehingga model mengalus-kan dengan menebak. Ini contoh
+konkret bahwa metrik tingkat + chrF++ bisa naik sambil makna turun.

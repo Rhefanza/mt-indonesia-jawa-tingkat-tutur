@@ -1,0 +1,27 @@
+{
+ "arm": "demo",
+ "tabel_valid": {
+  "demo": {
+   "krama": 64.54,
+   "krama_alus": 68.83,
+   "ngoko": 57.28,
+   "KA_juri_benar": 25,
+   "KA_n": 27,
+   "lolos_angka": true
+  },
+  "nllb600_base": {
+   "krama": 62.33,
+   "krama_alus": 64.82,
+   "ngoko": 60.07,
+   "KA_juri_benar": 22,
+   "KA_n": 27,
+   "lb90": -7.965,
+   "selisih_rerata": -4.04,
+   "lolos_angka": false
+  }
+ },
+ "manifest_valid_sha256": "aebf4d9eb41eafb9f8ada7805996737a2cbcfc4bf73963b916c6cea31cc02043",
+ "fakta_sha256": "ef451588b578a838992a5223442012d7335a9932338c2ca481ebf0ece245dc58",
+ "dikunci": "2026-11-22 21:05:01",
+ "catatan_audit": "audit dikerjakan non-penutur Jawa (draf) kecuali dinyatakan lain di lembar audit"
+}

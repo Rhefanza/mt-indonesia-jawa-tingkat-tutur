@@ -53,9 +53,11 @@ Repo publik: https://github.com/Rhefanza/mt-indonesia-jawa-tingkat-tutur
   Reverse lolos uji fakta 19/20 tetapi menurunkan chrF++ Krama Alus valid di semua μ. Audit cakupan (draf Claude):
   top-1 kehilangan fakta di 15/22 baris, hanya 1 yang punya kandidat pulih. **Rerank (λ maupun skor makna) sudah buntu;**
   perbaikan harus dari training/generator. Detail di `kaggle/pool_makna_v1/README.md`. Weights reverse di-gitignore.
-- `kaggle/training_makna_tingkat_v1/` (**belum dijalankan**): NLLB-600M vs NLLB-1.3B (digerbang zero-shot + preflight memori)
-  dengan paket data demo, plus konverter Krama→Krama Alus input-bersih. Hasil diskusi kedua dengan Codex.
-  Seleksi + audit buta + kunci: `scripts/pilih_training_makna.py`. `fakta_ka_valid.csv` sudah diisi (draf Claude); jangan diubah.
+- `kaggle/training_makna_tingkat_v1/`: **hasil negatif, dikunci demo** (`pilihan.json`). Pagar zero-shot 1.3B gagal
+  (Ngoko 42,90 vs 600M 41,67, p5 −0,60) jadi 1.3B tidak dilatih. NLLB-600M paket demo: Ngoko 60,07 (demo 57,28) tetapi
+  Krama Alus 64,82 (demo 68,83), CI90 −7,97. Konverter Krama→KA input-bersih: chrF++ 72,84 dan juri 22/26 tetapi audit draf
+  merusak fakta inti 13/26 (menebak kata alus seperti `pundhut`). Detail di README folder itu. Test tidak dijalankan.
+  Metrik tingkat + chrF++ bisa naik sambil makna turun: **selalu audit makna sebelum klaim perbaikan KA.**
 - `data/external/` (NusaX, CC BY-SA) dan `data/merged/` di-gitignore karena lisensi; buat ulang dengan
   `scripts/build_lexicon_augment.ipynb`. Tabel lengkap di `demo/README.md`.
 
