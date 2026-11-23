@@ -1,0 +1,21 @@
+{
+  "id": "mdevian/unggah-ungguh-learning-curve-v2",
+  "title": "Unggah-Ungguh Learning Curve v2",
+  "code_file": "learning_curve_v2.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "mdevian/unggah-ungguh-id-jv-split"
+  ],
+  "kernel_sources": [
+    "mdevian/unggah-ungguh-final-3lv-v2"
+  ],
+  "competition_sources": [],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}
