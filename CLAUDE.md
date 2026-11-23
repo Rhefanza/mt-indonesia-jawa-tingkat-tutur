@@ -73,7 +73,11 @@ Repo publik: https://github.com/Rhefanza/mt-indonesia-jawa-tingkat-tutur
   deskriptif di Ringkasan Akhir diskusi. Kandidat: NgokoKrama (1.000 pasang "Krama (Alus)", repo **tanpa lisensi** → butuh izin
   tertulis + audit label), NusaX (Ngoko saja), KA sintetis (negatif). Dataset publik Unggah-Ungguh hanya 2.009 baris (HF = lokal).
   Diputuskan satu kontrol valid-saja `lc_kontrol_langkah_v1`: f050_s0/s1 vs f100 ulang, 1.905 langkah terjadwal, warmup 190,
-  rerank di titik akhir, catat update optimizer aktual; aturan baca gap ≥3,5 / ±1,0 [asumsi]. **Belum dijalankan.**
+  rerank di titik akhir, catat update optimizer aktual; aturan baca gap ≥3,5 / ±1,0 [asumsi].
+  **Hasil (`kaggle/lc_kontrol_langkah_v1/`):** cek f100 lolos; pada 1.905 langkah f100 62,50 vs f050 54,92 / 57,62 →
+  gap 7,58 / 4,88 (bootstrap grup CI90 5,70–9,51 / 2,97–6,87) → **"keunggulan f100 bertahan pada anggaran langkah yang sama"**.
+  Gandakan langkah f050 hanya +0,7. Klaim "data membatasi kualitas (bukan kontrol tingkat)" kini boleh, dengan batasan 1 seed,
+  token tidak disamakan, valid saja, tanpa ekstrapolasi.
 - `data/external/` (NusaX, CC BY-SA) dan `data/merged/` di-gitignore karena lisensi; buat ulang dengan
   `scripts/build_lexicon_augment.ipynb`. Tabel lengkap di `demo/README.md`.
 

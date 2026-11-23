@@ -1,0 +1,36 @@
+{
+ "f100": {
+  "juri_tetap_all": 0.9829,
+  "juri_tetap_lv": {
+   "krama": 0.973,
+   "krama_alus": 0.963,
+   "ngoko": 1.0
+  }
+ },
+ "f050_s0": {
+  "juri_tetap_all": 0.9771,
+  "juri_tetap_lv": {
+   "krama": 0.973,
+   "krama_alus": 0.963,
+   "ngoko": 0.9865
+  },
+  "gap_boot_CI90": [
+   5.7,
+   9.51
+  ],
+  "p_gap_le_0": 0.0
+ },
+ "f050_s1": {
+  "juri_tetap_all": 0.9771,
+  "juri_tetap_lv": {
+   "krama": 0.9865,
+   "krama_alus": 0.8889,
+   "ngoko": 1.0
+  },
+  "gap_boot_CI90": [
+   2.97,
+   6.87
+  ],
+  "p_gap_le_0": 0.0
+ }
+}
