@@ -1,0 +1,21 @@
+{
+  "id": "mdevian/unggah-ungguh-lc-kontrol-langkah-v1",
+  "title": "Unggah-Ungguh LC Kontrol Langkah v1",
+  "code_file": "lc_kontrol_langkah_v1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "mdevian/unggah-ungguh-id-jv-split"
+  ],
+  "kernel_sources": [
+    "mdevian/unggah-ungguh-final-3lv-v2"
+  ],
+  "competition_sources": [],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}
