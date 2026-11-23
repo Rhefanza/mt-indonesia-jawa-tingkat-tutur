@@ -58,6 +58,11 @@ Repo publik: https://github.com/Rhefanza/mt-indonesia-jawa-tingkat-tutur
   Krama Alus 64,82 (demo 68,83), CI90 −7,97. Konverter Krama→KA input-bersih: chrF++ 72,84 dan juri 22/26 tetapi audit draf
   merusak fakta inti 13/26 (menebak kata alus seperti `pundhut`). Detail di README folder itu. Test tidak dijalankan.
   Metrik tingkat + chrF++ bisa naik sambil makna turun: **selalu audit makna sebelum klaim perbaikan KA.**
+- `kaggle/multiseed_demo_v2/` (protokol C dari diskusi `2026-11-22-langkah-sesudah-hasil-negatif`): **gerbang reproduksi gagal,
+  test tidak dijalankan.** Training seed 42 terulang persis (chrF++ greedy per epoch identik), tetapi juri kernel baru memilih
+  epoch 12, bukan 14, sehingga valid 62,17 / KA 67,81 (demo 62,66 / 68,83). Seed 43/44: 62,65 / 62,40, KA 67,82 / 67,50.
+  Demo asli ada di ujung atas sebaran valid; variasi terbesar berasal dari juri pemilih checkpoint. Juri tetap valid 0,98–0,99 untuk semua run.
+  Demo **dibekukan**; tidak ada eksperimen model lagi yang direncanakan. Sisa tenaga untuk laporan/PPT.
 - `data/external/` (NusaX, CC BY-SA) dan `data/merged/` di-gitignore karena lisensi; buat ulang dengan
   `scripts/build_lexicon_augment.ipynb`. Tabel lengkap di `demo/README.md`.
 
@@ -102,5 +107,5 @@ Detail di `demo/README.md` (bagian "Menjalankan demo di cloud"). Ringkas: push k
 
 ## Belum dikerjakan / ide lanjutan
 - Belum ada file `LICENSE` di repo (dataset CC BY-NC 4.0).
-- Evaluasi oleh penutur Jawa; multi-seed untuk model demo v2; paper/laporan dan PPT final (belum ada di repo).
+- Evaluasi oleh penutur Jawa; paper/laporan dan PPT final (belum ada di repo).
 - Tambahkan di sini setiap keputusan penting baru supaya sesi berikutnya tidak mengulang pekerjaan.
