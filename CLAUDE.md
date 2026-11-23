@@ -67,6 +67,13 @@ Repo publik: https://github.com/Rhefanza/mt-indonesia-jawa-tingkat-tutur
   chrF++ valid 48,1 → 55,6 → 59,7 → 62,7 (+7,3 per penggandaan; KA 50,0 → 68,8, +9,2). Juri tetap KA datar 0,93–0,96 sejak 25 %,
   OOV token referensi 38 → 23 %. Jadi data membatasi **kosakata/makna**, bukan kontrol tingkat. Run 100 % = demo persis (cek lolos).
   Batasan: epoch tetap (subset kecil = langkah lebih sedikit), 1 seed; ekstrapolasi hanya ilustrasi.
+- **Diskusi 2026-11-23 `menambah-data-sesudah-learning-curve` (SELESAI):** menambah data = **ya bersyarat** (paralel ID–KA
+  ditulis/diperiksa penutur, berizin). Kurva v2 **belum mengisolasi efek data**: langkah update & jadwal LR ikut berubah
+  (kritik Codex; Sennrich & Zhang 2019). Jangan tulis "kualitas dibatasi data" di PPT sebelum kontrol selesai; pakai redaksi
+  deskriptif di Ringkasan Akhir diskusi. Kandidat: NgokoKrama (1.000 pasang "Krama (Alus)", repo **tanpa lisensi** → butuh izin
+  tertulis + audit label), NusaX (Ngoko saja), KA sintetis (negatif). Dataset publik Unggah-Ungguh hanya 2.009 baris (HF = lokal).
+  Diputuskan satu kontrol valid-saja `lc_kontrol_langkah_v1`: f050_s0/s1 vs f100 ulang, 1.905 langkah terjadwal, warmup 190,
+  rerank di titik akhir, catat update optimizer aktual; aturan baca gap ≥3,5 / ±1,0 [asumsi]. **Belum dijalankan.**
 - `data/external/` (NusaX, CC BY-SA) dan `data/merged/` di-gitignore karena lisensi; buat ulang dengan
   `scripts/build_lexicon_augment.ipynb`. Tabel lengkap di `demo/README.md`.
 
