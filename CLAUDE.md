@@ -63,6 +63,10 @@ Repo publik: https://github.com/Rhefanza/mt-indonesia-jawa-tingkat-tutur
   epoch 12, bukan 14, sehingga valid 62,17 / KA 67,81 (demo 62,66 / 68,83). Seed 43/44: 62,65 / 62,40, KA 67,82 / 67,50.
   Demo asli ada di ujung atas sebaran valid; variasi terbesar berasal dari juri pemilih checkpoint. Juri tetap valid 0,98–0,99 untuk semua run.
   Demo **dibekukan**; tidak ada eksperimen model lagi yang direncanakan. Sisa tenaga untuk laporan/PPT.
+- `kaggle/learning_curve_v2/` (valid saja, 7 run, subset per grup stratified 25/50/75/100 %): **kurva belum jenuh**.
+  chrF++ valid 48,1 → 55,6 → 59,7 → 62,7 (+7,3 per penggandaan; KA 50,0 → 68,8, +9,2). Juri tetap KA datar 0,93–0,96 sejak 25 %,
+  OOV token referensi 38 → 23 %. Jadi data membatasi **kosakata/makna**, bukan kontrol tingkat. Run 100 % = demo persis (cek lolos).
+  Batasan: epoch tetap (subset kecil = langkah lebih sedikit), 1 seed; ekstrapolasi hanya ilustrasi.
 - `data/external/` (NusaX, CC BY-SA) dan `data/merged/` di-gitignore karena lisensi; buat ulang dengan
   `scripts/build_lexicon_augment.ipynb`. Tabel lengkap di `demo/README.md`.
 

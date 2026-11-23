@@ -1,0 +1,196 @@
+{
+ "f100": {
+  "frac": 1.0,
+  "sub_seed": null,
+  "n_kalimat": 1395,
+  "sha_ok": true,
+  "juri_tetap_all": 0.9829,
+  "juri_tetap_lv": {
+   "krama": 0.973,
+   "krama_alus": 0.963,
+   "ngoko": 1.0
+  },
+  "chrF++": {
+   "ngoko": 57.28,
+   "krama": 64.54,
+   "krama_alus": 68.83,
+   "all": 62.66
+  },
+  "oov_ref_token": {
+   "ngoko": 0.2491,
+   "krama": 0.2275,
+   "krama_alus": 0.2643,
+   "all": 0.2294
+  }
+ },
+ "f025_s0": {
+  "frac": 0.25,
+  "sub_seed": 0,
+  "n_kalimat": 347,
+  "sha_ok": true,
+  "juri_tetap_all": 0.9486,
+  "juri_tetap_lv": {
+   "krama": 0.8919,
+   "krama_alus": 0.963,
+   "ngoko": 1.0
+  },
+  "chrF++": {
+   "ngoko": 45.7,
+   "krama": 48.7,
+   "krama_alus": 48.47,
+   "all": 47.6
+  },
+  "oov_ref_token": {
+   "ngoko": 0.3993,
+   "krama": 0.3582,
+   "krama_alus": 0.4361,
+   "all": 0.3726
+  }
+ },
+ "f050_s0": {
+  "frac": 0.5,
+  "sub_seed": 0,
+  "n_kalimat": 700,
+  "sha_ok": true,
+  "juri_tetap_all": 0.9771,
+  "juri_tetap_lv": {
+   "krama": 0.973,
+   "krama_alus": 0.9259,
+   "ngoko": 1.0
+  },
+  "chrF++": {
+   "ngoko": 50.96,
+   "krama": 56.4,
+   "krama_alus": 60.45,
+   "all": 55.18
+  },
+  "oov_ref_token": {
+   "ngoko": 0.3251,
+   "krama": 0.2869,
+   "krama_alus": 0.3392,
+   "all": 0.2967
+  }
+ },
+ "f075_s0": {
+  "frac": 0.75,
+  "sub_seed": 0,
+  "n_kalimat": 1051,
+  "sha_ok": true,
+  "juri_tetap_all": 0.9829,
+  "juri_tetap_lv": {
+   "krama": 0.9865,
+   "krama_alus": 0.9259,
+   "ngoko": 1.0
+  },
+  "chrF++": {
+   "ngoko": 55.24,
+   "krama": 59.14,
+   "krama_alus": 64.77,
+   "all": 58.75
+  },
+  "oov_ref_token": {
+   "ngoko": 0.2845,
+   "krama": 0.2547,
+   "krama_alus": 0.2731,
+   "all": 0.2576
+  }
+ },
+ "f025_s1": {
+  "frac": 0.25,
+  "sub_seed": 1,
+  "n_kalimat": 348,
+  "sha_ok": true,
+  "juri_tetap_all": 0.9429,
+  "juri_tetap_lv": {
+   "krama": 0.9054,
+   "krama_alus": 0.9259,
+   "ngoko": 0.9865
+  },
+  "chrF++": {
+   "ngoko": 45.43,
+   "krama": 49.88,
+   "krama_alus": 51.58,
+   "all": 48.58
+  },
+  "oov_ref_token": {
+   "ngoko": 0.4134,
+   "krama": 0.3854,
+   "krama_alus": 0.4714,
+   "all": 0.3936
+  }
+ },
+ "f050_s1": {
+  "frac": 0.5,
+  "sub_seed": 1,
+  "n_kalimat": 697,
+  "sha_ok": true,
+  "juri_tetap_all": 0.9829,
+  "juri_tetap_lv": {
+   "krama": 0.973,
+   "krama_alus": 0.963,
+   "ngoko": 1.0
+  },
+  "chrF++": {
+   "ngoko": 51.38,
+   "krama": 58.18,
+   "krama_alus": 59.68,
+   "all": 55.96
+  },
+  "oov_ref_token": {
+   "ngoko": 0.3269,
+   "krama": 0.3056,
+   "krama_alus": 0.3524,
+   "all": 0.3068
+  }
+ },
+ "f075_s1": {
+  "frac": 0.75,
+  "sub_seed": 1,
+  "n_kalimat": 1048,
+  "sha_ok": true,
+  "juri_tetap_all": 0.9886,
+  "juri_tetap_lv": {
+   "krama": 0.9865,
+   "krama_alus": 0.963,
+   "ngoko": 1.0
+  },
+  "chrF++": {
+   "ngoko": 55.81,
+   "krama": 62.9,
+   "krama_alus": 64.14,
+   "all": 60.54
+  },
+  "oov_ref_token": {
+   "ngoko": 0.2809,
+   "krama": 0.253,
+   "krama_alus": 0.2819,
+   "all": 0.2569
+  }
+ },
+ "_fit_log2": {
+  "all": {
+   "per_doubling": 7.25,
+   "rmse": 0.6,
+   "ekstrapolasi_2x_2790": 69.94,
+   "ekstrapolasi_4x_5580": 77.19
+  },
+  "ngoko": {
+   "per_doubling": 6.04,
+   "rmse": 0.39,
+   "ekstrapolasi_2x_2790": 63.62,
+   "ekstrapolasi_4x_5580": 69.66
+  },
+  "krama": {
+   "per_doubling": 7.48,
+   "rmse": 1.2,
+   "ekstrapolasi_2x_2790": 71.88,
+   "ekstrapolasi_4x_5580": 79.35
+  },
+  "krama_alus": {
+   "per_doubling": 9.21,
+   "rmse": 0.95,
+   "ekstrapolasi_2x_2790": 77.9,
+   "ekstrapolasi_4x_5580": 87.12
+  }
+ }
+}
