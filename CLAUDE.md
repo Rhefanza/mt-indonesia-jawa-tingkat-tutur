@@ -101,6 +101,10 @@ Detail di `demo/README.md` (bagian "Menjalankan demo di cloud"). Ringkas: push k
 `cd kaggle/demo && kaggle kernels push -p .`, lalu ambil link `*.gradio.live` dari topik ntfy.
 - **`kaggle/demo/ntfy_topic.txt` TIDAK ada di repo** (di-gitignore karena sifatnya seperti secret).
   Di mesin lain, buat sendiri file itu berisi satu topik ntfy acak.
+- **Demo dua arah (2026-11-27):** `kaggle/demo_gradio_live/` (kernel private `mdevian/unggah-ungguh-demo-gradio-live`), notebook
+  interaktif bertahap. Tab Indonesia → Jawa (model demo v2 + rerank) dan Jawa → Indonesia (`model_semua` dari
+  `reverse-jv-id-v1`, beam 5, tanpa tag; pilihan user meski memuat NgokoKrama, hanya output yang terekspos). `NTFY_TOPIC` di repo
+  kosong; saat push, isi di salinan scratchpad dari `kaggle/demo/ntfy_topic.txt`. Push versi baru **tidak** menghentikan versi lama.
 - **Weights model tidak ada di repo** (hanya config/tokenizer). Weights ada di output kernel Kaggle
   `mdevian/unggah-ungguh-final-3lv-v2`; `app.py` memuat dari `MODEL_DIR` (default `./model`).
 - Hugging Face Spaces cpu-basic butuh PRO, makanya demo di Kaggle (CPU, maksimal ~11,5 jam per run).
@@ -124,3 +128,42 @@ Detail di `demo/README.md` (bagian "Menjalankan demo di cloud"). Ringkas: push k
 - Belum ada file `LICENSE` di repo (dataset CC BY-NC 4.0).
 - Evaluasi oleh penutur Jawa; paper/laporan dan PPT final (belum ada di repo).
 - Tambahkan di sini setiap keputusan penting baru supaya sesi berikutnya tidak mengulang pekerjaan.
+- **Data gabungan eksternal (2026-11-25, belum dilatih):** `scripts/gabung_data_eksternal.py` → `data/merged/train_eksternal_3lv.csv`
+  (di-gitignore). Unggah-Ungguh train + NgokoKrama (3 tingkat) + NusaX + NusaTranslation (Ngoko). Label tingkat eksternal dari classifier
+  TF-IDF terpisah (bukan juri/reranker); Krama Alus eksternal masih berisik dan belum diaudit penutur. NgokoKrama **tanpa lisensi**:
+  lokal saja, jangan disebarkan (pengguna meminta diambil; opsi `--tanpa-ngokokrama`). Lisensi NusaTranslation tidak konsisten (Apache-2.0/CC BY-SA).
+- `kaggle/data_eksternal_v1/` (di-push 2026-11-25 atas permintaan pengguna, **tanpa uji lokal**, private, SELESAI 2026-11-25): 4 lengan
+  `base`/`ngokokrama`/`tanpa_ngokokrama`/`semua`, valid saja, 1 seed. Menang = skor valid tertinggi DAN KA chrF++ tidak turun > 1,0 dari base.
+  Data diunduh saat run, tidak disimpan di output. Weights pemenang mungkin dilatih NgokoKrama (tanpa lisensi): jangan dibagikan.
+  **Hasil: `semua` menang (aturan terkunci), cek base identik lolos.** chrF++ valid base 62,17 → ngokokrama 63,25 / tanpa_ngokokrama 63,41 / semua 64,95
+  (+2,78, bootstrap grup CI90 1,14–4,59; nilai demo asli di valid 62,66). Kenaikan jelas hanya **Ngoko** (+5,13; 2,87–7,28); Krama +1,42 dan KA +1,31 CI memuat 0.
+  Juri tetap base 0,994 → semua 0,977 (Krama 0,987 → 0,960; KA 1,00 → 0,963). Makna KA: baca sekilas draf Claude (bukan audit, bukan penutur) masih banyak rusak
+  (mis. dimandikan → dipunagem). Jangan klaim perbaikan KA. Batasan: 1 seed, langkah ikut naik (1.905 → 3.960), pilih 1 dari 4 di valid, test belum dijalankan,
+  demo **belum diganti**. Weights `model_semua` hanya di output kernel private (NgokoKrama tanpa lisensi). Analisis: `kaggle/data_eksternal_v1/analisis_valid.py`.
+- `kaggle/reverse_jv_id/` (2026-11-25, valid saja, CPU): model reverse jv→id dari `pool_makna_v1` diukur sebagai penerjemah.
+  chrF++ 50,41 / BLEU 30,57 (Ngoko 51,66 · Krama 48,02 · KA 53,61, n=27); zero-shot M2M100 24,42 / 6,13; salin input 23,65 / 6,01.
+  Belajar, tetapi **belum layak demo**: banyak kata isi diganti kata lain. Hanya 5 epoch, 1 seed, tanpa data eksternal; `ukur_valid.py` untuk mengulang.
+  Training ulang 15 epoch (`mdevian/unggah-ungguh-reverse-jv-id-v1`, private, 2026-11-25, SELESAI): lengan `base` vs `semua`, valid saja.
+  `semua` menang jika chrF++ beam 5 > base DAN tidak ada tingkat turun > 1,0. Weights `semua` memuat NgokoKrama: jangan dibagikan.
+  **Hasil 15 epoch: `semua` menang (aturan terkunci).** chrF++ / BLEU valid beam 5: base 51,85 / 32,91, semua 55,72 / 35,07 (Ngoko 55,58 · Krama 54,58 · KA 59,24).
+  Epoch terbaik base 10, semua 7. Interval kepercayaan belum dihitung; langkah ikut naik (1.320 → 3.375); makna masih sering salah (baca 25 sampel), belum layak demo.
+  Varian 10 epoch (permintaan pengguna): `kaggle/reverse_jv_id_ep10/`, kernel `mdevian/unggah-ungguh-reverse-jv-id-ep10`, SELESAI. chrF++ / BLEU: base 52,44 / 32,66,
+  semua 55,31 / 33,34 (KA 57,72 / 33,90). Tidak lebih baik dari 15 epoch `semua` (55,72 / 35,07); selisih kecil, 1 seed, valid saja.
+- **20 epoch lengan `semua` (2026-11-26, permintaan pengguna, tanpa uji lokal, SELESAI):** `kaggle/data_eksternal_ep20/`
+  (Indonesia → Jawa, pembanding semua 15 epoch 64,95) dan `kaggle/reverse_jv_id_ep20/` (Jawa → Indonesia, pembanding 55,72 / 35,07). Valid saja, 1 seed.
+  **Hasil: 20 epoch tidak lebih baik dari 15 epoch** (bootstrap grup CI90, `scripts/banding_epoch.py`). Indonesia → Jawa 64,92 vs 64,95 (−0,03; −0,86 s.d. 0,81),
+  epoch terpilih 19, KA +1,51 (−0,11 s.d. 3,53), juri tetap total sama 0,977. Jawa → Indonesia 56,76 / 36,36 vs 55,72 / 35,07 (+1,04; −0,70 s.d. 2,70), epoch
+  terpilih 20. Tetap pakai 15 epoch; jangan tambah epoch lagi tanpa seed tambahan.
+- **Diskusi 2026-11-26 `metode-terbaru-kualitas-terjemahan-jawa` (SELESAI, belum dijalankan):** literatur 2024–2026. JAIC April 2026
+  (Prayoga dkk.): Gemini 2.5 Flash zero-shot chrF++ 67,08 vs M2M100 FT 56,39 pada Unggah-Ungguh (kontaminasi mungkin). Uji murah: Wikipedia Jawa
+  ~280 ribu kalimat, juri tetap Krama 10–18 %, KA 0,7–2,5 % (`scripts/cek_tingkat_wiki_jv.py`); audit Codex reverse hanya 8/27 KA fakta utuh → **BT ditunda**;
+  retrieval top-3 menutup 50 % token referensi KA, 19 % tidak ada di train (`scripts/cek_retrieval.py`). Rencana: (1) pagar few-shot retrieval Qwen3-4B-Instruct
+  (± Gemma-3-4B bila user menerima lisensi), 1 GPU-jam; (2) QLoRA pemenang pagar, 4 GPU-jam + replikasi seed 43. Keputusan pakai **audit fakta** (modalitas
+  termasuk fakta), bukan recall token. Detail: `D:/claude/diskusi bro 1 dan bro 2/2026-11-26-metode-terbaru-kualitas-terjemahan-jawa.md`.
+  **Pagar LLM dijalankan (`kaggle/pagar_llm_v1/`, 2026-11-26, 4 menit T4, VRAM 3,6 GB): GAGAL, jalur QLoRA Qwen ditutup.** chrF++ valid
+  zero-shot Ngoko 24,64 · Krama 19,59 · KA 20,45; few-shot 3 contoh 37,56 · 33,40 · 37,66 (demo valid 56,70 · 64,34 · 67,81). Output banyak masih
+  bahasa Indonesia / kata Jawa ngawur; bukan masalah format (0 output terpotong ganda). Few-shot +13 s.d. +17 poin tetapi jauh di bawah ambang (turun maks 1 poin).
+  Audit fakta tidak diperlukan karena gagal pagar chrF++. Sisa opsi jalur LLM: Gemma-3-4B (butuh user menerima lisensi) atau LLM API (keputusan user).
+  **Pagar Gemma-3-4B-it (`kaggle/pagar_llm_gemma/`, Kaggle Models, lisensi disetujui user, FP32 compute, 9 menit): juga GAGAL.** chrF++ valid
+  zero 28,21 · 21,83 · 23,79; few-shot 39,44 · 36,39 · 36,04 (Ngoko · Krama · KA). Jalur LLM open-source 4B (prompting dan QLoRA) ditutup;
+  sisa jalur LLM hanya API (keputusan user).
