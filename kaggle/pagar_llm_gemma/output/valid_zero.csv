@@ -1,0 +1,349 @@
+index,group,level,base,honor,indonesian,javanese,hyp,raw,n_tok
+56,21,ngoko,ngoko,biasa,"Ketika berjalan-jalan nenek jatuh, dibantu berdiri oleh kakek.","Embah wadon mlaku-mlaku tiba, diadegake dening embah lanang.","Neng nglakwak-lakwak, Gusti Neneh kepethuk, dipingkak kakek ndolan.","Neng nglakwak-lakwak, Gusti Neneh kepethuk, dipingkak kakek ndolan.
+",29
+58,21,krama,krama,biasa,"Ketika berjalan-jalan nenek jatuh, dibantu berdiri oleh kakek.","Embah estri mlampah-mlampah dhawah, dipunadegaken dening embah jaler.","Neneku nglukut, dipunggah-punggah dékak.","Neneku nglukut, dipunggah-punggah dékak.
+",18
+59,21,krama_alus,krama,alus,"Ketika berjalan-jalan nenek jatuh, dibantu berdiri oleh kakek.","Eyang putri tindak-tindak dhawah, dipunjumenengaken dening eyang kakung.","Nalika wonten kula ngambah-ambah, kula dipun bantu ngambah-ambah dékak.","Nalika wonten kula ngambah-ambah, kula dipun bantu ngambah-ambah dékak.
+",24
+60,22,ngoko,ngoko,biasa,Yang dinobatkan menjadi raja bernama Raden Wijaya.,Sing diadegake dadi ratu aran Raden Wijaya.,"Ratu itu dina tabuh dadi raja, ya.","Ratu itu dina tabuh dadi raja, ya.
+",14
+62,22,krama,krama,biasa,Yang dinobatkan menjadi raja bernama Raden Wijaya.,Ingkang dipunadegaken dados ratu nama Raden Wijaya.,Raden Wijaya punika raja ingkang dipunobtokake.,"Raden Wijaya punika raja ingkang dipunobtokake.
+",17
+63,22,krama_alus,krama,alus,Yang dinobatkan menjadi raja bernama Raden Wijaya.,Ingkang dipunjumenengaken dados ratu asma Raden Wijaya.,Raden Wijaya kadhaftar dadi raja.,"Raden Wijaya kadhaftar dadi raja.
+",13
+126,48,ngoko,ngoko,biasa,Anoman menggempur gunung dengan aji Mundri.,Anoman nggempur gunung nganggo aji Mundri.,Awoné ngempur gunung karo Aji Mundri.,"Awoné ngempur gunung karo Aji Mundri.
+",15
+127,48,krama,krama,biasa,Anoman menggempur gunung dengan aji Mundri.,Anoman nggempur redi ngangge aji Mundri.,Awoné ngempur gunung karo Aji Mundri.,"Awoné ngempur gunung karo Aji Mundri.
+",15
+130,50,ngoko,ngoko,biasa,Mahasiswa yang akan KKN dihadapkan Pak Camat.,Mahasiswa sing arep KKN diadhepake Pak Camat.,Sétun siswa sing bakal KKN bakal dipeluk Pak Camat.,"Sétun siswa sing bakal KKN bakal dipeluk Pak Camat.
+",17
+131,50,krama,krama,biasa,Mahasiswa yang akan KKN dihadapkan Pak Camat.,Mahasiswa ingkang badhe KKN dipunadhepaken Pak Camat.,Kula ora ngertos mahasiswa sing bakal KKN bakal dipatukehi Pak Camat.,"Kula ora ngertos mahasiswa sing bakal KKN bakal dipatukehi Pak Camat.
+",21
+138,53,ngoko,ngoko,biasa,"Sambalnya pedas sekali, mengambilnya jangan terlalu banyak!","Sambele pedhes banget, aja akeh-akeh anggone njupuk!","Sambelna rasune ngrogi, ndagaine ora usah akeh-akeh!","Sambelna rasune ngrogi, ndagaine ora usah akeh-akeh!
+",23
+139,53,krama,krama,biasa,"Sambalnya pedas sekali, mengambilnya jangan terlalu banyak!","Sambelipun pedhes sanget, ampun kathah-kathah anggenipun mendhet!","Sambele arek ku arek sing sakauw, ngiyatna ora usah ngrumat!","""Sambele arek ku arek sing sakauw, ngiyatna ora usah ngrumat!""
+",24
+164,63,ngoko,ngoko,biasa,Yang paling jelek rumah di desa ini justru milik saya ini.,Saala-alane omah ing desa kene ya duwekku iki.,Rumah sing paling jelekku iki malah kepemilikianku.,"Rumah sing paling jelekku iki malah kepemilikianku.
+",17
+165,63,krama,krama,biasa,Yang paling jelek rumah di desa ini justru milik saya ini.,Sawon-awonipun griya ing dhusun ngriki inggih gadhahan kula menika,"Kanthi aku, rumoh ing desa iki malah kepemilikianku sing paling jelek.","Kanthi aku, rumoh ing desa iki malah kepemilikianku sing paling jelek.
+",23
+182,70,ngoko,ngoko,biasa,Raksasanya kebauan kentut Semar bersin-bersin.,Butane kambon entute Semar gebres-gebres,Raksanya ngentut kentut Semar bersin-bersin.,"Raksanya ngentut kentut Semar bersin-bersin.
+",18
+183,70,krama,krama,biasa,Raksasanya kebauan kentut Semar bersin-bersin.,Denawanipun kambetan entutipun Semar gebres-gebres.,Raksasebutane kebauan kentut Semar bersin-bersin.,"Raksasebutane kebauan kentut Semar bersin-bersin.
+",20
+214,82,ngoko,ngoko,biasa,"Saya akan menyumbang batu merah, adapun kamu pantasnya semen!","Aku arep nyumbang bata, ana dene kowe pantese semen!","Aku bakal ngenthel watu merah, podo podo kowe kudu semen!","Aku bakal ngenthel watu merah, podo podo kowe kudu semen!
+",19
+215,82,krama,krama,biasa,"Saya akan menyumbang batu merah, adapun kamu pantasnya semen!","Kula badhe nyumbang banon, wondening sampeyan pantesipun semen!","Kula bakal ngaturun batu warna merah, supaya panjenengan kudu semen!","Kula bakal ngaturun batu warna merah, supaya panjenengan kudu semen!
+",20
+224,87,ngoko,ngoko,biasa,"Kebutuhan sekolah ada-ada saja, kemarin buku, tadi pagi penggaris, sekarang tas.","Kabutuhane sekolah ana-ana wae, dhek wingi buku, mau esuk garisan, saiki tas.","Kebutuhane sekolah ku ono ono, semene ono buku, wonten pagi ngarep penggaris, sakang tas.","Kebutuhane sekolah ku ono ono, semene ono buku, wonten pagi ngarep penggaris, sakang tas.
+",31
+225,87,krama,krama,biasa,"Kebutuhan sekolah ada-ada saja, kemarin buku, tadi pagi penggaris, sekarang tas.","Kabetahanipun sekolah wonten-wonten kemawon, kala wingi buku, wau enjing penggaris, samenika tas.","Kebutuhane sekolah kuwi ono ono, wonten wonten, amargo buku, wonten wonten penggaris, sakaping tas.","Kebutuhane sekolah kuwi ono ono, wonten wonten, amargo buku, wonten wonten penggaris, sakaping tas.
+",33
+232,90,ngoko,ngoko,biasa,"Seandainya dinaiki mesti enak, sebab mobil saya itu baru.","Ditunggangana mesthi kepenak, amarga mobilku kuwi anyar.","Kula bakal enak yen dipanggih, sebab mobil kula iki baruan.","Kula bakal enak yen dipanggih, sebab mobil kula iki baruan.
+",18
+234,90,krama,krama,biasa,"Seandainya dinaiki mesti enak, sebab mobil saya itu baru.","Dipuntumpakanan mesthi sakeca, amargi mobil kula menika enggal.","Kula bakal enakna, yen dinaiki, sebab mobil kula iku anyar.","Kula bakal enakna, yen dinaiki, sebab mobil kula iku anyar.
+",20
+235,90,krama_alus,krama,alus,"Seandainya dinaiki mesti enak, sebab mobil saya itu baru.","Dipuntitihana mesti sakeca, amargi mobil adalem menika enggal.","Kula ora kêga pêgêwangan, yen dipanggih ing mobil, sebab mobil kula iku baruan.","Kula ora kêga pêgêwangan, yen dipanggih ing mobil, sebab mobil kula iku baruan.
+",28
+262,98,ngoko,ngoko,biasa,"Silakan, cepat mandi sebentar lagi malam!",Ayo ndang adus selak wengi!,"Cepat banjeng mandi dikit ae, arek, isuk ngedekne!","""Cepat banjeng mandi dikit ae, arek, isuk ngedekne!""
+",23
+263,98,krama,krama,biasa,"Silakan, cepat mandi sebentar lagi malam!","Mangga, ndang (enggal) adus, selak dalu!","Kula tindak perlu ngerti, sampeyan tindak perlu mandi sebentar lagi malem.","""Kula tindak perlu ngerti, sampeyan tindak perlu mandi sebentar lagi malem.""
+",23
+265,1371,krama_alus,krama,alus,"Tegakkan imanmu, Tuhan Yang Mahakasih pasti akan memberi pertolongan!","Ingkang jejeg kapitadosan panjenengan, Gusti Inkgang Mahaasih mesthi badhe paring pitulungan!","Uripake iman panjenengan, Gusti Unggal Kasih arep ngremêngi paningdalem!","Uripake iman panjenengan, Gusti Unggal Kasih arep ngremêngi paningdalem!
+",27
+270,101,ngoko,ngoko,biasa,Tinah menuai padi di sawah.,Tinah ani-ani ana ing sawah.,Aku podok jagung ngroti ing sawah.,"Aku podok jagung ngroti ing sawah.
+",14
+271,101,krama,krama,biasa,Tinah menuai padi di sawah.,Tinah mugut wonten ing sabin.,Kula boten ndhum padi ing sawah.,"Kula boten ndhum padi ing sawah.
+",13
+312,117,ngoko,ngoko,biasa,Pekerjaan ini ditargetkan agar cepat selesai.,Pegawean iki diarah supaya ndang rampung.,Roso iki diarjemoni supaya cepet telas.,"Roso iki diarjemoni supaya cepet telas.
+",13
+313,117,krama,krama,biasa,Pekerjaan ini ditargetkan agar cepat selesai.,Pedamelan menika dipunangkah supados enggal rampung.,Pekerjaan iki diarjemah supaya cepet telas.,"Pekerjaan iki diarjemah supaya cepet telas.
+",14
+316,119,ngoko,ngoko,biasa,Ayah akan pergi ke sawah.,Bapak arep lunga menyang sawah.,Dhèk bakal lunga menyang sawah.,"Dhèk bakal lunga menyang sawah.
+",12
+317,119,krama,krama,biasa,Ayah akan pergi ke sawah.,Bapak badhe kesah dhateng sabin.,Kula bakal tindak menyang ladang.,"Kula bakal tindak menyang ladang.
+",12
+318,121,ngoko,ngoko,biasa,"Saya mempunyai mangga, apa kamu mau?","Aku duwe pelem, apa kowe arep?","Aku iki iku ucup, sampeyo koe lungo?","""Aku iki iku ucup, sampeyo koe lungo?""
+",15
+320,121,krama,krama,biasa,"Saya mempunyai mangga, apa kamu mau?","Kula gadhah pelem, menapa sampeyan ajeng?","Kula posisuki mangga, panuwese ono panuwasa?","Kula posisuki mangga, panuwese ono panuwasa?
+",18
+321,121,krama_alus,krama,alus,"Saya mempunyai mangga, apa kamu mau?","Kula gadhah pelem, menapa panjenengan kersa?","Kula posisi mangga, panuwese yen sampeyan wonten manah?","Kula posisi mangga, panuwese yen sampeyan wonten manah?
+",20
+336,126,ngoko,ngoko,biasa,"Dia itu mau makan, maka badannya gemuk.","Dheweke iku doyan mangan, mula awake lemu.","Dene iku arep mangan, tuladha ngambah gemuk.","Dene iku arep mangan, tuladha ngambah gemuk.
+",17
+338,126,krama,krama,biasa,"Dia itu mau makan, maka badannya gemuk.","Piyambakipun menika ajeng nedha, mila badanipun lema.","Kula ora kêloro yen panjenengan kêlampuk, sebab panjenengan kêreo kêwetan.","Kula ora kêloro yen panjenengan kêlampuk, sebab panjenengan kêreo kêwetan.
+",25
+339,126,krama_alus,krama,alus,"Dia itu mau makan, maka badannya gemuk.","Panjenenganipun menika kersa dhahar, mila saliranipun sugeng.","Kula ora kêtu kêtu yen panjenengan réngé badhé, sebab panjenengan badhe kêtu kêtu kêtu mau mèngumun.","Kula ora kêtu kêtu yen panjenengan réngé badhé, sebab panjenengan badhe kêtu kêtu kêtu mau mèngumun.
+",37
+348,129,ngoko,ngoko,biasa,Sesiang ia menjemuri padi hingga tubuhnya hitam.,Saawan dheweke mepeni pari nganti awake ireng.,Sesiang aku ngemut padi nganti awakku atos.,"Sesiang aku ngemut padi nganti awakku atos.
+",16
+349,129,krama,krama,biasa,Sesiang ia menjemuri padi hingga tubuhnya hitam.,Sasiyang piyambakipun mepeni pantun ngantos badanipun cemeng.,"Saling jamu marang akon padi, nglakokake nganti tubunge ndelas.","Saling jamu marang akon padi, nglakokake nganti tubunge ndelas.
+",23
+350,130,ngoko,ngoko,biasa,"Saya hanya dapat memberi jam ini, silakan pakai!","Aku mung bisa aweh jam iki, anggonen!","Soko ora bisa ngidini ngidak jam iki, tolong tolong!","Soko ora bisa ngidini ngidak jam iki, tolong tolong!
+",19
+352,130,krama,krama,biasa,"Saya hanya dapat memberi jam ini, silakan pakai!","Kula namung saged nyukani jam menika, sampeyan angge!","Kula ora bisa ngatur jam iki, to kula sugih-sugih!","Kula ora bisa ngatur jam iki, to kula sugih-sugih!
+",20
+353,130,krama_alus,krama,alus,"Saya hanya dapat memberi jam ini, silakan pakai!","Adalem namung saged nyaosi jam menika, panjenengan agem!","Kula ora bisu ngiyak jam iki, to kula tindak dipung!","Kula ora bisu ngiyak jam iki, to kula tindak dipung!
+",20
+362,133,ngoko,ngoko,biasa,Rumah Pak Purba yang tepi jalan sudah boleh saya beli.,Omahe Pak Purba sing pinggir dalan wis aweh dak tuku.,"Uga-uga rumah Pak Purba sing atos, ngisor jalan, bisa ono aku tuku.","Uga-uga rumah Pak Purba sing atos, ngisor jalan, bisa ono aku tuku.
+",22
+364,133,krama,krama,biasa,Rumah Pak Purba yang tepi jalan sudah boleh saya beli.,Griyanipun Pak Purba ingkang pinggir margi sampun angsal kula tumbas.,Rumah Bapak Purba sing paling ngisor jalan kuwi bisa aku tuku.,"""Rumah Bapak Purba sing paling ngisor jalan kuwi bisa aku tuku.""
+",19
+365,133,krama_alus,krama,alus,Rumah Pak Purba yang tepi jalan sudah boleh saya beli.,Dalemipun Pak Purba ingkang pinggir margi sampun kepareng adalem tumbas.,Rumah Bapak Purba ingkang wonten saking pojok jalan kula badrepramata.,"""Rumah Bapak Purba ingkang wonten saking pojok jalan kula badrepramata.""
+",22
+448,162,ngoko,ngoko,biasa,"Saya sampai pasar terlalu siang, pedagangnya sudah pulang.","Aku tekan pasar kawanen, bakule wis mulih.","Aku karesok ngalarang, bojone wis kaomstor.","Aku karesok ngalarang, bojone wis kaomstor.
+",18
+449,162,krama,krama,biasa,"Saya sampai pasar terlalu siang, pedagangnya sudah pulang.","Kula dumugi peken kesiyangan, bakulipun sampun mantuk.",Kula sakapa-apek pasar kuwi arek-arekipun arek-arek pedagang kaéndu.,"Kula sakapa-apek pasar kuwi arek-arekipun arek-arek pedagang kaéndu.
+",28
+464,167,ngoko,ngoko,biasa,"Dalam adegan ini, ceritanya engkau dibelenggu akan dibunuh.","Ana ing adegan iki, critane kowe dibanda arep dipateni.","Ing iki, pitung, sampeksa ngono, sampeksa kowe sing diiket-iket arek-areke bakal mati.","""Ing iki, pitung, sampeksa ngono, sampeksa kowe sing diiket-iket arek-areke bakal mati.""
+",31
+466,167,krama,krama,biasa,"Dalam adegan ini, ceritanya engkau dibelenggu akan dibunuh.","Wonten ing adegan menika, cariyosipun sampeyan dipunbanda badhe dipunpejahi.","Kula dipanggugah wonten panti, ceritane kowe bakal dipunjuh.","Kula dipanggugah wonten panti, ceritane kowe bakal dipunjuh.
+",23
+467,167,krama_alus,krama,alus,"Dalam adegan ini, ceritanya engkau dibelenggu akan dibunuh.","Wonten ing adegan mennika, cariyosipun panjenengan dipunbesta badhe dipunsedani.","Kula sumandhakaken wonten ing pethak punika, panjenengan dipangguguh kanthi lumaripun dipeluk ingkang dipunparingi tuma winusan.","Kula sumandhakaken wonten ing pethak punika, panjenengan dipangguguh kanthi lumaripun dipeluk ingkang dipunparingi tuma winusan.
+",42
+486,173,ngoko,ngoko,biasa,Bicaralah sendiri kepada ayah saya!,Kandhaa dhewe marang bapakku!,"Uwat-uwat manungsa menyuwi pakiku, ojo ngoko!","Uwat-uwat manungsa menyuwi pakiku, ojo ngoko!
+",20
+488,173,krama,krama,biasa,Bicaralah sendiri kepada ayah saya!,Sampeyan criyos piyambak dhateng bapak kula!,Uwat-uwat manungsa menyang patihku!,"Uwat-uwat manungsa menyang patihku!
+",16
+489,173,krama_alus,krama,alus,Bicaralah sendiri kepada ayah saya!,Panjenengan ngandika piyambak dhateng bapak adalem!,Urip-repungké ngiyat jagèn Bapakku!,"Urip-repungké ngiyat jagèn Bapakku!
+",15
+490,174,ngoko,ngoko,biasa,Ayahmu tadi berjalan-jalan dengan ayah saya.,Bapakmu mau mlaku-mlaku karo bapakku.,Sudi wetonmu wae nglayaki sugi wetonku.,"Sudi wetonmu wae nglayaki sugi wetonku.
+",17
+492,174,krama,krama,biasa,Ayahmu tadi berjalan-jalan dengan ayah saya.,Bapak sampeyan wau mlampah-mlampah kaliyan bapak kula.,Kudha Bapakmu saiki padha padha padha ngambah-ngambah karo Bapakku.,"Kudha Bapakmu saiki padha padha padha ngambah-ngambah karo Bapakku.
+",24
+493,174,krama_alus,krama,alus,Ayahmu tadi berjalan-jalan dengan ayah saya.,Rama panjenengan (ingkang rama) wau tindak-tindak kaliyan bapak adalem.,Kula ora kêpala ing ndegna kula ngertos yen panjenenganu wonten ngungkulan karo panjenenganu semana-werna.,"Kula ora kêpala ing ndegna kula ngertos yen panjenenganu wonten ngungkulan karo panjenenganu semana-werna.
+",34
+518,185,ngoko,ngoko,biasa,"Jika engkau akan tinggal di sini, boleh-boleh saja!","Yen kowe arep manggon ing kene, bisa-bisa wae!","Kowe usune wonten nduku, bae kok!","""Kowe usune wonten nduku, bae kok!""
+",16
+519,185,krama,krama,biasa,"Jika engkau akan tinggal di sini, boleh-boleh saja!","Yen sampeyan badhe manggen ing ngriki, saged-saged kemawonl","Kula bakal ndolan ing ngarep, wonten ora ana masalah!","Kula bakal ndolan ing ngarep, wonten ora ana masalah!
+",18
+538,192,ngoko,ngoko,biasa,Ibumu itu akan pergi ke mana?,Mbokmu (Bokmu) kae arep lunga menyang ngendi?,Nyonya iki bakal metu tumuju kowe?,"Nyonya iki bakal metu tumuju kowe?
+",13
+540,192,krama,krama,biasa,Ibumu itu akan pergi ke mana?,Mbok (Bok) sampeyan menika badhe kesah dhateng pundi?,Nyonya iki bakal ngijak menyang manø?,"Nyonya iki bakal ngijak menyang manø?
+",15
+541,192,krama_alus,krama,alus,Ibumu itu akan pergi ke mana?,Ibu panjenengan (ingkang ibu) menika badhe tindak dhateng pundi?,"Nyuwun sewu, Ibu kula tuwuwu ora ana manene?","Nyuwun sewu, Ibu kula tuwuwu ora ana manene?
+",19
+586,207,ngoko,ngoko,biasa,"Temanmu sudah selesai buang air besar, sekarang sedang bercebok.","Kancamu wis rampung bebuwang, saiki lagi cewok.","Temanmu isih sineleneh ngilangke popo, sakang ngemprot.","""Temanmu isih sineleneh ngilangke popo, sakang ngemprot.""
+",24
+588,207,krama,krama,biasa,"Temanmu sudah selesai buang air besar, sekarang sedang bercebok.","Kanca sampeyan sampun rampung bebucal, samenika saweg cewok.","Ndalemmu wis sinu ngilang, sakang ngemprot.","""Ndalemmu wis sinu ngilang, sakang ngemprot.""
+",19
+589,207,krama_alus,krama,alus,"Temanmu sudah selesai buang air besar, sekarang sedang bercebok.","Kanca panjenengan sampun rampung bobotan, samenika saweg cawik.","Kanthi panjenengan wis sinung sedho ngungkulan, sakaping pungkasan ngiyat-ngiyat.","""Kanthi panjenengan wis sinung sedho ngungkulan, sakaping pungkasan ngiyat-ngiyat.""
+",29
+590,208,ngoko,ngoko,biasa,"Jika melihat TV jangan dari tempat yang dekat, jangan sampai matanya sakit!","Yen ndeleng TV aja saka cedhakan, mundhak mripate lara!","Ngapo ndhedhe ngelihtelepone, ojo ngiyatna saka ngungkulan, ojo sampe atos nglayu ati!","Ngapo ndhedhe ngelihtelepone, ojo ngiyatna saka ngungkulan, ojo sampe atos nglayu ati!
+",32
+591,208,krama,krama,biasa,"Jika melihat TV jangan dari tempat yang dekat, jangan sampai matanya sakit!","Yen ningali TV sampun saking celakan, mindhak mripatipun sakit!","Kula ngertos yen ndamel ndeleng TV, sakwise ora saking tempat sing ngesthi, aja sampe matane dol.","Kula ngertos yen ndamel ndeleng TV, sakwise ora saking tempat sing ngesthi, aja sampe matane dol.
+",30
+608,215,ngoko,ngoko,biasa,"Ini saya masih mempunyai si kecil, anak bungsu!","Iki aku isih duwe cilikan, anak ragil!","Aku isih duuuk anak kècil, anak kècil!","Aku isih duuuk anak kècil, anak kècil!
+",16
+609,215,krama,krama,biasa,"Ini saya masih mempunyai si kecil, anak bungsu!","Menika kula taksih gadhah alitan, anak ragil!","Kula mesthi isih padha nduweni si kidhare, anak ingkang suwun!","Kula mesthi isih padha nduweni si kidhare, anak ingkang suwun!
+",24
+678,245,ngoko,ngoko,biasa,Sepeda rusak yang dibawa ke bengkel sedang diperbaiki.,Pit rusak sing digawa menyang bingkil lagi didandani.,"Sepedétú ora dùrúké, sing díbúntut ing oloǵó.","Sepedétú ora dùrúké, sing díbúntut ing oloǵó.
+",29
+679,245,krama,krama,biasa,Sepeda rusak yang dibawa ke bengkel sedang diperbaiki.,Pit risak ingkang dipunbekta dhateng bingkil saweg dipundadosi.,Sepeda sing rusak sing didonga menyang tukang ngèl-èl iku dipérbaiki.,"Sepeda sing rusak sing didonga menyang tukang ngèl-èl iku dipérbaiki.
+",23
+738,270,ngoko,ngoko,biasa,Anak sehari-harian haya main pasar-pasaran saja.,Bocah sadina-dina mung pasaran wae.,"Sopo wae ngiyat-nyiyat, ise ndaki mangan ngerti.","Sopo wae ngiyat-nyiyat, ise ndaki mangan ngerti.
+",20
+739,270,krama,krama,biasa,Anak sehari-harian haya main pasar-pasaran saja.,Lare sadinten-dinten namung pasaran kemawon.,"Sakuku sira ngerti, anak-anak iki asih ndaki-ndaki nglayakna déweke.","Sakuku sira ngerti, anak-anak iki asih ndaki-ndaki nglayakna déweke.
+",27
+762,280,ngoko,ngoko,biasa,"Wah, jari calon istrimu itu bagus, seperti pucuk duri. (kecil-kecil dan runcing)","Wah, drijine calon bojomu kae apik, mucuk eri.","Wad, jemara calonmu srepek tenan, kaya pucuk duru.","Wad, jemara calonmu srepek tenan, kaya pucuk duru.
+",20
+764,280,krama,krama,biasa,"Wah, jari calon istrimu itu bagus, seperti pucuk duri. (kecil-kecil dan runcing)","Wah, drijinipun calon semah sampeyan menika sae, mucuk eri.","Wad, jemara calon tumrapu sing nduwur, kaya pucuk duru.","Wad, jemara calon tumrapu sing nduwur, kaya pucuk duru.
+",22
+765,280,krama_alus,krama,alus,"Wah, jari calon istrimu itu bagus, seperti pucuk duri. (kecil-kecil dan runcing)","Wah, racikanipun calon ingkang garwa menika sae, mucuk eri.","Wah, jemara calon tumrapu sing nduwur, kaya pucuk duru, nglakwet.","""Wah, jemara calon tumrapu sing nduwur, kaya pucuk duru, nglakwet.""
+",26
+772,284,ngoko,ngoko,biasa,Itu anakmu akan dimandikan tidak mau.,Kae anakmu arep didusi ora gelem.,U anakmu bakal diobak ora pengin.,"U anakmu bakal diobak ora pengin.
+",12
+774,284,krama,krama,biasa,Itu anakmu akan dimandikan tidak mau.,Menika anak sampeyan badhe dipundusi boten purun.,Kula ora gelem ngendi karetha anakmu ngendi ngedhem.,"Kula ora gelem ngendi karetha anakmu ngendi ngedhem.
+",19
+775,284,krama_alus,krama,alus,Itu anakmu akan dimandikan tidak mau.,Menika ingkang putra badhe dipun sirami boten kersa.,Kudha anak panjenèng ora kêtu.,"Kudha anak panjenèng ora kêtu.
+",13
+870,320,ngoko,ngoko,biasa,Tulisan ini biarpun jelek mudah dibaca.,Tulisan iki eleka kae gampang diwaca.,"Tulisan iki meskipun ora apik, tetep gampang dideleng.","Tulisan iki meskipun ora apik, tetep gampang dideleng.
+",17
+871,320,krama,krama,biasa,Tulisan ini biarpun jelek mudah dibaca.,Seratan menika awona menika gampil dipunwaos.,Tulisan iki meskipun ora apik tetep bisa dideleng.,"Tulisan iki meskipun ora apik tetep bisa dideleng.
+",15
+878,324,ngoko,ngoko,biasa,"Topinya dipakai, supaya tidak menyebabkan jelek upacara!","Topine dianggo, supaya ora ngelek-eleki upacara!","Topi kowe dipake, banjur ngrusak upacarane!","Topi kowe dipake, banjur ngrusak upacarane!
+",18
+879,324,krama,krama,biasa,"Topinya dipakai, supaya tidak menyebabkan jelek upacara!","Topinipun dipunangge, supados boten ngawon-awoni upacara!","Topi kadosno dipanggug, supaya ora tulang jelek upacarane!","Topi kadosno dipanggug, supaya ora tulang jelek upacarane!
+",21
+880,325,ngoko,ngoko,biasa,Apa kamu ingat (Ingatkah kamu) nomor telpon Agus?,Apa kowe kelingan nomer tilpune Agus?,"Kowe ngerti nomor telepon Agus, ngene?","Kowe ngerti nomor telepon Agus, ngene?
+",13
+881,325,krama,krama,biasa,Apa kamu ingat (Ingatkah kamu) nomor telpon Agus?,Menapa sampeyan kengetan nomer tilpunipun Agus?,"Kula nduwe rasan, panjenengan tresnane ngremake nomor telepon Agus?","Kula nduwe rasan, panjenengan tresnane ngremake nomor telepon Agus?
+",22
+896,333,ngoko,ngoko,biasa,"Kakak perempuan saya dua hari sakit, tetapi sekarang sudah sembuh.","Mbakyuku rong dina lara, nanging saiki wis kepenak.","Ngeluke sepupuku rong tinemu, nanging sakangku wis sembune.","Ngeluke sepupuku rong tinemu, nanging sakangku wis sembune.
+",22
+897,333,krama,krama,biasa,"Kakak perempuan saya dua hari sakit, tetapi sekarang sudah sembuh.","Mbakyu kula kalih dinten sakit, nanging samenika sampun sekeca.","Nukalaungku iki lawang dalang, nanging sakang ora ngriki piye.","Nukalaungku iki lawang dalang, nanging sakang ora ngriki piye.
+",24
+916,342,ngoko,ngoko,biasa,Mbak Reni itu di dapur sedang mengerjakan apa?,Mbak Reni kae ana ing pawon lagi ewuh apa?,"Reni ngene wae, ngiyat dapur ndelek ngriksa ngapa?","""Reni ngene wae, ngiyat dapur ndelek ngriksa ngapa?""
+",22
+917,342,krama,krama,biasa,Mbak Reni itu di dapur sedang mengerjakan apa?,Mbak Reni menika wonten ing pawon saweg ewed menapa?,Kula tindak ngertos Mbak Reni ndang ngrumat ing pethang ngrumat apa?,"Kula tindak ngertos Mbak Reni ndang ngrumat ing pethang ngrumat apa?
+",26
+942,351,ngoko,ngoko,biasa,Banyaklah yang melihat penobatan Raja di Majapahit.,Akeh kang padha ndeleng edeg-edegan Ratu ing Majapait,Banyak wong kang ndeleng panyubhaning raja ing Majapahit.,"Banyak wong kang ndeleng panyubhaning raja ing Majapahit.
+",19
+944,351,krama,krama,biasa,Banyaklah yang melihat penobatan Raja di Majapahit.,Kathah ingkang sami ningali edeg-edegan Ratu ing Majapait,"Kadosno ono wonten Majapahit, saksine panékak amung badhé ngremêng penobatan Raja.","Kadosno ono wonten Majapahit, saksine panékak amung badhé ngremêng penobatan Raja.
+",29
+945,351,krama_alus,krama,alus,Banyaklah yang melihat penobatan Raja di Majapahit.,Kathah ingkang sami mriksani jumenengan Ratu ing Majapait,Kanthi rupa amargi padha wonten pangaksida ingkang ngadhepangon pepadènèn ing Majapahit.,"Kanthi rupa amargi padha wonten pangaksida ingkang ngadhepangon pepadènèn ing Majapahit.
+",33
+950,354,ngoko,ngoko,biasa,"Jika kebetulan musim, pasar sini ini menjadi tempat penjualan durian.","Yen mbenen ungsum, pasar kene iki dadi padolan duren.","Uriping ngono, pasar nduku iki iki kadosna dadi tempat dolan jupuk durian.","""Uriping ngono, pasar nduku iki iki kadosna dadi tempat dolan jupuk durian.""
+",28
+951,354,krama,krama,biasa,"Jika kebetulan musim, pasar sini ini menjadi tempat penjualan durian.","Yen ngleresi ungsum, peken ngriki menika dados pasadean duren.",Kudune pasar ndha iki menika tempat dolan jualan durian.,"""Kudune pasar ndha iki menika tempat dolan jualan durian.""
+",20
+956,357,ngoko,ngoko,biasa,Tetangga sebelah utara itu orang dari Surabaya.,Elor kono kuwi priyayi saka Surabaya.,"Suku ngih, teteping ngapa ing utara, wong saka Surabaya.","Suku ngih, teteping ngapa ing utara, wong saka Surabaya.
+",20
+957,357,krama,krama,biasa,Tetangga sebelah utara itu orang dari Surabaya.,Eler ngriku menika priyantun saking Surabaya.,Sabenèng ing ngêthi ngêthi lèr kuwi wong saking Surabaya.,"Sabenèng ing ngêthi ngêthi lèr kuwi wong saking Surabaya.
+",21
+958,358,ngoko,ngoko,biasa,"Sudah Jeng Tanti jangan menangis, saya usap air matanya ya?!","Uwis Jeng Tanti aja nangis, dak-elap eluhe ya?!","Sudah, Neng Santi, ojo nangis, aku ngupuk wetus awu-awune ya?!","""Sudah, Neng Santi, ojo nangis, aku ngupuk wetus awu-awune ya?!""
+",27
+960,358,krama,krama,biasa,"Sudah Jeng Tanti jangan menangis, saya usap air matanya ya?!","Sampun Jeng Tanti sampun nangis, kula lap eluhipun inggih?!","Neng Tanti, suwe menapa, aku nglumpuk wetus awer-awermu, ya?","“Neng Tanti, suwe menapa, aku nglumpuk wetus awer-awermu, ya?”
+",29
+961,358,krama_alus,krama,alus,"Sudah Jeng Tanti jangan menangis, saya usap air matanya ya?!","Sampan Jeng Tanti sampun muwun, adalem lap waspanipun inggih?!","Nanging, Mbethik Tanti, ora perlu nangis, kula nglompong nglarutake uwang matane ya?!","""Nanging, Mbethik Tanti, ora perlu nangis, kula nglompong nglarutake uwang matane ya?!""
+",32
+962,359,ngoko,ngoko,biasa,Pendaman ari-ari itu kalau malam kauberi lampu!,Pendheman embing-embing kuwi yen bengi wenehana diyan!,"Urip-urup kuwi, kalau mlumpuk, sampeksa lampu!","Urip-urup kuwi, kalau mlumpuk, sampeksa lampu!
+",18
+964,359,krama,krama,biasa,Pendaman ari-ari itu kalau malam kauberi lampu!,Pendheman embing-embing menika yen dalu sampeyan sukani dilah!,"Kula ngerti, lampu-lampune ngijur-ing kaula.","Kula ngerti, lampu-lampune ngijur-ing kaula.
+",19
+965,359,krama_alus,krama,alus,Pendaman ari-ari itu kalau malam kauberi lampu!,Pendheman tuntunan menika manawi dalu panjenengan paringi dilah!,"Kanthi kesuwékan, kula pêkartěni lampu maring ariningmu ing raos malam.","Kanthi kesuwékan, kula pêkartěni lampu maring ariningmu ing raos malam.
+",26
+990,367,ngoko,ngoko,biasa,Jenewer itu minuman yang memabukkan.,Jenewer iku omben-omben kang ngendemi.,Jenewer iku minuman sing nyampur.,"Jenewer iku minuman sing nyampur.
+",11
+992,367,krama,krama,biasa,Jenewer itu minuman yang memabukkan.,Jenewer menika omben-omben ingkang ngendemi.,Jenewer kuwi minuman sing ndhisik.,"Jenewer kuwi minuman sing ndhisik.
+",12
+993,367,krama_alus,krama,alus,Jenewer itu minuman yang memabukkan.,Jenewer menika unjukan ingkang muroni.,Kula ngertos yen jenewer kuwi minuman sing nyenengake.,"Kula ngertos yen jenewer kuwi minuman sing nyenengake.
+",18
+1006,374,ngoko,ngoko,biasa,Keluarga di sini ini satu hari menghabiskan satu kilogram gula.,Brayat kene iki sadina entek gula sakiio.,"Keluara ono ndono ono iki, niki, niki siji dina nggarap nggunakake siji kilogram gula.","Keluara ono ndono ono iki, niki, niki siji dina nggarap nggunakake siji kilogram gula.
+",31
+1007,374,krama,krama,biasa,Keluarga di sini ini satu hari menghabiskan satu kilogram gula.,Brayat ngriki menika sadinten telas gendhis sakilo.,"Keluara ing nduku ndene ono, siji dina nggarapake siji kilogram gula.","Keluara ing nduku ndene ono, siji dina nggarapake siji kilogram gula.
+",24
+1030,384,ngoko,ngoko,biasa,"Tanpa diajar, saya mengerti sendiri cara mengetik menggunakan komputer.","Tanpa diajari, aku ngerti dhewe carane ngetik nganggo komputer.","Ora perlu ndamel, aku ngerti podo ngerti ngetik komputer kuwi.","Ora perlu ndamel, aku ngerti podo ngerti ngetik komputer kuwi.
+",21
+1031,384,krama,krama,biasa,"Tanpa diajar, saya mengerti sendiri cara mengetik menggunakan komputer.","Tanpa dipunajari, kula ngertos piyambak caranipun ngetik mawi komputer.","Kula ora gelem dipédulaken, kula ngertos conto nglakwak nganggo komputer piyisane.","Kula ora gelem dipédulaken, kula ngertos conto nglakwak nganggo komputer piyisane.
+",26
+1068,396,ngoko,ngoko,biasa,"Bawalah jaket ini, dapat untuk tutup dada!","Jaket iki gawanen, kena kanggo tutup dhadha!","Waya orang, ajari jaket iki, atos kanggo tutupe dada!","Waya orang, ajari jaket iki, atos kanggo tutupe dada!
+",18
+1070,396,krama,krama,biasa,"Bawalah jaket ini, dapat untuk tutup dada!","Jaket menika sampeyan bekta, kenging kangge tutup dhadha!","Uwat-uwat jaket iki, atos kanggo tutupe dada!","Uwat-uwat jaket iki, atos kanggo tutupe dada!
+",17
+1071,396,krama_alus,krama,alus,"Bawalah jaket ini, dapat untuk tutup dada!","Jaket menika panjenengan ampil, kenging kagem tutup jaja!","Kula pêkartos jaket kowe, atos kanggo tutupe dhadé panjenengan!","Kula pêkartos jaket kowe, atos kanggo tutupe dhadé panjenengan!
+",22
+1072,397,ngoko,ngoko,biasa,"Notasi gamelan Slendro adalah panunggul, gulu, dhadha, lima, enem, panunggul.","Titi-laras gamelan Slendro yaiku panunggul, gulu, dhadha, lima, enem, panunggul.","Notasi gamelan Slendro iku panunggul, gulu, dhadha, lima, enem, panunggul.","""Notasi gamelan Slendro iku panunggul, gulu, dhadha, lima, enem, panunggul.""
+",30
+1074,397,krama,krama,biasa,"Notasi gamelan Slendro adalah panunggul, gulu, dhadha, lima, enem, panunggul.","Titi-laras gangsa Slendro inggih menika panunggul, gulu, dhadha, lima, enem, panunggul.","Nalika nglakune notasi gamelan Slendro ya panunggul, gulu, dhadha, lima, enem, panunggul.","Nalika nglakune notasi gamelan Slendro ya panunggul, gulu, dhadha, lima, enem, panunggul.
+",34
+1075,397,krama_alus,krama,alus,"Notasi gamelan Slendro adalah panunggul, gulu, dhadha, lima, enem, panunggul.","Titi-laras gangsa Slendro inggih menika panunggul, jangga, jaja, lima, enem, panunggul.","Notasi gamelan Slendro punika panunggul, gulu, dhadha, lima, enem, panunggul.","Notasi gamelan Slendro punika panunggul, gulu, dhadha, lima, enem, panunggul.
+",29
+1098,408,ngoko,ngoko,biasa,"Kamu menawarkan tanah tidak dahulu-dahulu, sekarang saya sudah terlanjur menadpat.","Enggonmu tawa lemah ora dhisik-dhisik, saiki aku wis kebanjur oleh.","Sopo sing ngiyatna tanah nganti ngono, saiki aku wis nglarjur ngékowé.","Sopo sing ngiyatna tanah nganti ngono, saiki aku wis nglarjur ngékowé.
+",26
+1099,408,krama,krama,biasa,"Kamu menawarkan tanah tidak dahulu-dahulu, sekarang saya sudah terlanjur menadpat.","Enggen sampeyan tawi siti boten rumiyin-rumiyin, samenika kula sampun kalajeng angsal.",Kula ngiyatuk tanah saiki wis terlanjur nampa.,"Kula ngiyatuk tanah saiki wis terlanjur nampa.
+",17
+1104,411,ngoko,ngoko,biasa,"Kakak perempuan akan rugi, kulak bawang merah satu kuintal terkena penurunan harga jual.","Mbakyu calone tuna, kulak brambang sakwintal kedhuman rega.","Ngeluwi, ukang-ukangan, aku rugi, kowe tuku bawang merah kuintal, eh, turun harganya.","Ngeluwi, ukang-ukangan, aku rugi, kowe tuku bawang merah kuintal, eh, turun harganya.
+",32
+1105,411,krama,krama,biasa,"Kakak perempuan akan rugi, kulak bawang merah satu kuintal terkena penurunan harga jual.","Mbakyu calonipun tuna, kilak brambang sakwintal kedhakan regi.","Nukalae sepupuku bakal rugi, kulak bawang merah siji kuintal sebab turune harga tetep.","Nukalae sepupuku bakal rugi, kulak bawang merah siji kuintal sebab turune harga tetep.
+",29
+1144,427,ngoko,ngoko,biasa,Buku agenda ini berisi pengingat-ingat terhadap segala pekerjaan yang harus saya kerjakan.,Buku agenda iki isi pangeling-eling tumrap kabeh pegawean kang kudu dak tindakake.,Buku agenda iki isih ana ngungkatining sak meneng kiyat aku tresnana.,"Buku agenda iki isih ana ngungkatining sak meneng kiyat aku tresnana.
+",23
+1145,427,krama,krama,biasa,Buku agenda ini berisi pengingat-ingat terhadap segala pekerjaan yang harus saya kerjakan.,Buku agenda menika isi pangenget-enget tumrap sadaya padamelan ingkah kedah kula tindakaken.,Buku agenda iki isih ngremaken sakèngse rèk-rèk kerja sing réngé saya sira ngiyat.,"Buku agenda iki isih ngremaken sakèngse rèk-rèk kerja sing réngé saya sira ngiyat.
+",30
+1158,434,ngoko,ngoko,biasa,Di asrama kamu tidak dapat hidup seenaknya.,Ana ing asrama kowe ora bisa urip ngenak-enak.,"Urusanmu, ora bisa ngono ngono thok, maneh.","Urusanmu, ora bisa ngono ngono thok, maneh.
+",18
+1159,434,krama,krama,biasa,Di asrama kamu tidak dapat hidup seenaknya.,Wonten ing asrama sampeyan boten saged gesang ngeca-ngeca.,Ing nglakoni ing asrama padha ora bisa urip nglewat-lewat.,"Ing nglakoni ing asrama padha ora bisa urip nglewat-lewat.
+",22
+1166,437,ngoko,ngoko,biasa,"Jika demikian, kesimpulannya anak itu besar tanggung jawabnya.","Yen mangkono, etungane bocah kuwi gedhe tanggungjawabe.",Anakku iki tanggung jawabé ora ndine ora kecil.,"""Anakku iki tanggung jawabé ora ndine ora kecil.""
+",16
+1167,437,krama,krama,biasa,"Jika demikian, kesimpulannya anak itu besar tanggung jawabnya.","Yen makaten, etanganipun lare menika ageng tanggeljawabipun.","Kanthi kowe, anak ndono tanggung jawabna gedhene.","""Kanthi kowe, anak ndono tanggung jawabna gedhene.""
+",18
+1224,464,ngoko,ngoko,biasa,Adikmu juga senang kalau bermain dengan nenek saya.,Adhimu uga seneng yen dolan karo embahku.,Nengmu uga seneng kui kalau dolan karo nyèpé.,"Nengmu uga seneng kui kalau dolan karo nyèpé.
+",17
+1226,464,krama,krama,biasa,Adikmu juga senang kalau bermain dengan nenek saya.,Adhi sampeyan ugi seneng yen dolan kaliyan embah kula,"Nene, anakmu uga seneng ngiyat karo Nene.","Nene, anakmu uga seneng ngiyat karo Nene.
+",16
+1227,464,krama_alus,krama,alus,Adikmu juga senang kalau bermain dengan nenek saya.,Ingkang rayi ugi seneng yen ameng-ameng kaliyan embah adalem.,Kudhangku pun pancen tresna kaliyan maining ngaturi nyai.,"Kudhangku pun pancen tresna kaliyan maining ngaturi nyai.
+",20
+1274,480,ngoko,ngoko,biasa,"Wah, ibumu berlagak muda, perhiasannya dipakai semua.","Wah, embokmu ngenom-enomi, mas-masane dianggo kabeh.","Wad, budhiku ngiyat-ngiyat kaya anak-aneh, ukirané dipake sek dunune.","Wad, budhiku ngiyat-ngiyat kaya anak-aneh, ukirané dipake sek dunune.
+",28
+1275,480,krama,krama,biasa,"Wah, ibumu berlagak muda, perhiasannya dipakai semua.","Wah, embok sampeyan enem-enemi, jene-jeneanipun dipunangge sadaya.","Wad, gusti ibu nglipur nglayang kaya bayi, ukiran-ukirane dipake sekuno-kunco.","Wad, gusti ibu nglipur nglayang kaya bayi, ukiran-ukirane dipake sekuno-kunco.
+",31
+1346,504,ngoko,ngoko,biasa,Menolong itu berujud suatu perilaku yang baik.,Tetulung iku awujud sawijining panggawe becik.,Nolong iku atos tindak akèh sing sae.,"Nolong iku atos tindak akèh sing sae.
+",16
+1347,504,krama,krama,biasa,Menolong itu berujud suatu perilaku yang baik.,Tetulung menika awujud satunggaling pandamel sae.,Ndaleme ono tindak akèh sing sae.,"Ndaleme ono tindak akèh sing sae.
+",15
+1364,513,ngoko,ngoko,biasa,Sekarang siapa yang bergilir naik?,Saiki sapa sing genti nunggang?,Sapa sing ora ngilik ngaturi ngilik?,"Sapa sing ora ngilik ngaturi ngilik?
+",13
+1365,513,krama,krama,biasa,Sekarang siapa yang bergilir naik?,Samenika sinten ingkang gentos numpak?,Sapa ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing,Sapa ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing ora sing,96
+1432,538,ngoko,ngoko,biasa,"Saya sudah terlanjur cinta, hitam sedikit tidak jadi apa.","Aku wis kebanjur tresna, ireng sethithik ora dadi apa.","Aku wis ora bis tu kareta, ndelokmu ndelengan dikit aja isele.","Aku wis ora bis tu kareta, ndelokmu ndelengan dikit aja isele.
+",23
+1433,538,krama,krama,biasa,"Saya sudah terlanjur cinta, hitam sedikit tidak jadi apa.","Kula sampun kalajeng tresna, cemeng sekedhik boten dados menapa.","Kula wis ndamel cinta, hiten dikit ora ana gole.","Kula wis ndamel cinta, hiten dikit ora ana gole.
+",17
+1452,546,ngoko,ngoko,biasa,"Pak Bayu memetik kelapa, jangan di bawahnya!","Pak Bayu apek krambil, aja ana ing sangisore.","Pak Bayu ndhak ngroti kelapa, ojo ndheng ngisoré.","""Pak Bayu ndhak ngroti kelapa, ojo ndheng ngisoré.""
+",21
+1453,546,krama,krama,biasa,"Pak Bayu memetik kelapa, jangan di bawahnya!","Pak Bayu mendhet klapa, sampun wonten ing sangandhapipun!","Pak Bayu ndha ndhaketeling saké peputih, ojo ndhahaknéng!","Pak Bayu ndha ndhaketeling saké peputih, ojo ndhahaknéng!
+",24
+1496,561,ngoko,ngoko,biasa,Aku sudah diberi keterangan hal yang dibicarakan dalam sarasehan tadi malam.,Aku wis dijarwani bab sing dirembug ing sarasehan mau bengi.,Aku wis dijeru wetusan sing didongèng ing sarasanan semalam.,"Aku wis dijeru wetusan sing didongèng ing sarasanan semalam.
+",20
+1497,561,krama,krama,biasa,Aku sudah diberi keterangan hal yang dibicarakan dalam sarasehan tadi malam.,Kula sampun dipunjarweni bab ingkang dipunrembag ing sarasehan wau dalu.,Kula wis diuwuhaken panrapan ing nglakwetan sarasanan wetu malem.,"Kula wis diuwuhaken panrapan ing nglakwetan sarasanan wetu malem.
+",25
+1526,574,ngoko,ngoko,biasa,Di sini galilah sedalam mungkin!,Ing kene iki kedhuken sajero-jerone!,"Sithik, aku bakal nggawa kowe.","Sithik, aku bakal nggawa kowe.
+",13
+1527,574,krama,krama,biasa,Di sini galilah sedalam mungkin!,Ing ngriki menika sampeyan kedhuk salebet-lebetipun!,Kula ora gelem nglampuk ing basa Jawa iki.,"Kula ora gelem nglampuk ing basa Jawa iki.
+",15
+1564,586,ngoko,ngoko,biasa,"Wah, kamu menerima kejutan, undian Simpedes menadapatkan sepeda motor.","Wah, kowe tampa kagetan, undian Simpedes oleh pit-montor.","Wad, sampele kamu ono kejutan, undangan Simpedes ndelek motor sepedo.","Wad, sampele kamu ono kejutan, undangan Simpedes ndelek motor sepedo.
+",25
+1566,586,krama,krama,biasa,"Wah, kamu menerima kejutan, undian Simpedes menadapatkan sepeda motor.","Wah sampeyan tampi kagetan, undian Simpedes angsal pit-montor.","Wah, sampeyan ndamel kejutan, undhangan Simpedes ndayani sepedo motor.","""Wah, sampeyan ndamel kejutan, undhangan Simpedes ndayani sepedo motor.""
+",25
+1567,586,krama_alus,krama,alus,"Wah, kamu menerima kejutan, undian Simpedes menadapatkan sepeda motor.","Wah, panjenengan tampi kejotan, undian Simpedes angsal pit-montor.","Kanthi rina, kula nduweni kejutan, undhèn Simpedes ngrimot nderek sepedha motor.","Kanthi rina, kula nduweni kejutan, undhèn Simpedes ngrimot nderek sepedha motor.
+",31
+1578,591,ngoko,ngoko,biasa,"Daripada di mana-mana sengsara, pulanglah saja!","Tinimbang ana ing kana-kana sangsara, muliha wae!","Nanging ngapa-apa ora seneng, bali wae!","Nanging ngapa-apa ora seneng, bali wae!
+",16
+1579,591,krama,krama,biasa,"Daripada di mana-mana sengsara, pulanglah saja!","Tinimbang wonten ing ngrika-ngrika sangsara, sampeyan mantuk kemawon!","Nanging ngiyat banjur manungsa, gum Roman marang rumiyat.","Nanging ngiyat banjur manungsa, gum Roman marang rumiyat.
+",19
+1620,609,ngoko,ngoko,biasa,Bapak pernah berkata bahwa rumah ini diwariskan kepadamu.,"Bapak wis tau kawetu, yen omah iki diwarisake marang kowe.","Dhèk, Bapak nd karo ngendi-endi ngatur ngiyatun rumah iki marang panjenengan.","Dhèk, Bapak nd karo ngendi-endi ngatur ngiyatun rumah iki marang panjenengan.
+",26
+1621,609,krama,krama,biasa,Bapak pernah berkata bahwa rumah ini diwariskan kepadamu.,"Bapak sampun nate kawedal, menawi griya menika dipunwarisaken dhateng sampeyan.",Kudha Bapak katentrehe yen ndhuwet iki dipun warisaken menyang panjenengan.,"Kudha Bapak katentrehe yen ndhuwet iki dipun warisaken menyang panjenengan.
+",25
+1722,646,ngoko,ngoko,biasa,"Pak Ikhsan, menyuruhkanlah kepada tukang dari kota itu, untuk mengecat rumah yang baru!","Pak Ikhsan, ngongkon-na marang tukang saka kutha kae, supaya ngecet omah sing anyar!","Pak Ikhsan ngandhakke tukang saka kota kuwi, manut nggathi rumo sing anyor!","""Pak Ikhsan ngandhakke tukang saka kota kuwi, manut nggathi rumo sing anyor!""
+",28
+1724,646,krama,krama,biasa,"Pak Ikhsan, menyuruhkanlah kepada tukang dari kota itu, untuk mengecat rumah yang baru!","Pak Ikhsan, sampeyan ngengkenaken dhateng tukang saking kitha menika, supados ngecet griya ingkang enggal!",Pak Ikhsan ngandhakna menyuruh tukang ing kota kase tuwu ngrcat rumo yen wiwit anyaru.,"Pak Ikhsan ngandhakna menyuruh tukang ing kota kase tuwu ngrcat rumo yen wiwit anyaru.
+",31
+1725,646,krama_alus,krama,alus,"Pak Ikhsan, menyuruhkanlah kepada tukang dari kota itu, untuk mengecat rumah yang baru!","Pak Ikhsan, panjenengan ngutusaken dhateng tukang saking kitha menika, supados ngecet dalem ingkang enggal!","Kula pamandhakak kepada jurmèng saka ngudhang kota, ya iku nyatekak rumoh sing réngé!","Kula pamandhakak kepada jurmèng saka ngudhang kota, ya iku nyatekak rumoh sing réngé!
+",32
+1760,657,ngoko,ngoko,biasa,"Tidak usah mengkhawatirkan anakmu, berkemahnya sudah dengan gurunya.","Ora susah nguwatirake anakmu, enggone kemah wis karo gurune!","Upa-upamu ora usah wedi, gumane ora sekolah karo guru.","Upa-upamu ora usah wedi, gumane ora sekolah karo guru.
+",19
+1761,657,krama,krama,biasa,"Tidak usah mengkhawatirkan anakmu, berkemahnya sudah dengan gurunya.","Boten susah nguwatosaken anak sampeyan, enggenipun kemah sampun kaliyan gurunipun!","Urip-irp anakmu, gumelarane wis karo guru.","Urip-irp anakmu, gumelarane wis karo guru.
+",16
+1774,663,ngoko,ngoko,biasa,Jalannya mobil lambat karena hujan lebat.,Lakune montor rindhik amarga udan deres,Urusan mobilna atos nglayu amarga hujan nangsamya.,"Urusan mobilna atos nglayu amarga hujan nangsamya.
+",18
+1775,663,krama,krama,biasa,Jalannya mobil lambat karena hujan lebat.,Lampahipun montor rindhik amargi jawah deres.,"Urusan mobilna atos nglumpang seger, sebab hujan ngremo ngremo.","Urusan mobilna atos nglumpang seger, sebab hujan ngremo ngremo.
+",21
+1784,667,ngoko,ngoko,biasa,"Saya juga diberi pulpen, pensil, dan sebagainya.","Aku uga diwenehi pulpen, potelot lan liya-liyane.","Aku uga dadi pulpen, pensil, lan ngono ngono.","Aku uga dadi pulpen, pensil, lan ngono ngono.
+",18
+1785,667,krama,krama,biasa,"Saya juga diberi pulpen, pensil, dan sebagainya.","Kula ugi dipunsukani pulpen, potelot lan sanes-sanesipun.","Kula uga dipueni pulpen, pensil, lan kasilane.","Kula uga dipueni pulpen, pensil, lan kasilane.
+",19
+1790,669,ngoko,ngoko,biasa,Tari Lawung itu perlengkapannya yang dibawa penari tangkai tombak.,Joged Lawung iku pirantine landheyan.,Tari Lawung iku peralatanané sing dipanggon déngê penari tombak.,"Tari Lawung iku peralatanané sing dipanggon déngê penari tombak.
+",22
+1792,669,krama,krama,biasa,Tari Lawung itu perlengkapannya yang dibawa penari tangkai tombak.,Joged Lawung menika pirantosipun landheyan.,Tari Lawung iku peralatanané sing didonga penari tangki tombak.,"Tari Lawung iku peralatanané sing didonga penari tangki tombak.
+",20
+1793,669,krama_alus,krama,alus,Tari Lawung itu perlengkapannya yang dibawa penari tangkai tombak.,Beksa Lawung menika pirantosipun jejeran.,Tari Lawung kadosné peralatan sing didonga déngé tombak ku penari tangké.,"Tari Lawung kadosné peralatan sing didonga déngé tombak ku penari tangké.
+",24
+1812,677,ngoko,ngoko,biasa,"Ini sudah lewat, pasarnya di belakang itu!","Iki wis keliwat, pasare ing buri kae!","Urip iki wis kae, pasarane nduk/mas ora katik ngisor ngisor!","Urip iki wis kae, pasarane nduk/mas ora katik ngisor ngisor!
+",24
+1813,677,krama,krama,biasa,"Ini sudah lewat, pasarnya di belakang itu!","Menika sampun kelangkung, pekenipun ing wingking menika!","Kantho iki wis kaungsu, pasarane ndelung ing pisan iki!","Kantho iki wis kaungsu, pasarane ndelung ing pisan iki!
+",21
+1818,680,ngoko,ngoko,biasa,Gambar saya terlewati tidak dinilai oleh Bu Guru.,Gambaranku kliwatan ora dibiji dening Bu Guru.,Gambar aku tuh ora didongake déwek déwek déwek déwek déwek ing ndhuwur Bu Guru.,"Gambar aku tuh ora didongake déwek déwek déwek déwek déwek ing ndhuwur Bu Guru.
+",26
+1819,680,krama,krama,biasa,Gambar saya terlewati tidak dinilai oleh Bu Guru.,Gambaran kula kelangkungan boten dipunbiji dening Bu Guru.,Gambarku ora didongenteni déwek déwek déwek dening Mbak Guru.,"Gambarku ora didongenteni déwek déwek déwek dening Mbak Guru.
+",21
+1820,681,ngoko,ngoko,biasa,Hutan sana itu sangat angker sekali.,Alas kana kae keliwat-liwat angkere.,"Hutan nanging ngono ora ono ora isih, nganggo banget.","Hutan nanging ngono ora ono ora isih, nganggo banget.
+",19
+1821,681,krama,krama,biasa,Hutan sana itu sangat angker sekali.,Wana ngrika menika kelangkung-langkung angkeripun.,Hutan nanging saiki iku sakeng angkra banget.,"Hutan nanging saiki iku sakeng angkra banget.
+",16
+1822,682,ngoko,ngoko,biasa,Pak Hasan dan istrinya pergi ke Singapura.,Pak Hasan karo bojone lunga menyang Singapur.,Pak Hasan karo nyoktinya arep metu menyang Singapura.,"Pak Hasan karo nyoktinya arep metu menyang Singapura.
+",16
+1824,682,krama,krama,biasa,Pak Hasan dan istrinya pergi ke Singapura.,Pak Hasan kaliyan semahipun kesah dhateng Singapur.,Pak Hasan lan gusti-gusti seda lunga menyang Singapura.,"Pak Hasan lan gusti-gusti seda lunga menyang Singapura.
+",16
+1825,682,krama_alus,krama,alus,Pak Hasan dan istrinya pergi ke Singapura.,Pak Hasan kaliyan garwanipun tindak dhateng Singapur.,"Kula kanthi Bapak Hasan lan istri kula, menika menika menyang Singapura.","Kula kanthi Bapak Hasan lan istri kula, menika menika menyang Singapura.
+",20
+1828,684,ngoko,ngoko,biasa,Gelas ini lebih besar daripada kepunyaan saya.,Gelas iki luwih gedhe tinimbang duwekku.,Gelas iki luwih gedhene tinimbang kepunyaan aku.,"Gelas iki luwih gedhene tinimbang kepunyaan aku.
+",17
+1829,684,krama,krama,biasa,Gelas ini lebih besar daripada kepunyaan saya.,Gelas menika langkung ageng tinimbang gadhahan kula.,Krusme iki luwih gedhene tinimbang kepiyeku.,"""Krusme iki luwih gedhene tinimbang kepiyeku.""
+",18
+1848,693,ngoko,ngoko,biasa,Matamu kok merah apa kurang tidur?,Matamu (mripatmu) kok abang apa kurang turu?,"Neng, pitungmu ngono kowe ngertos ora ngiyatuk?","Neng, pitungmu ngono kowe ngertos ora ngiyatuk?
+",19
+1850,693,krama,krama,biasa,Matamu kok merah apa kurang tidur?,Mripat sampeyan kok abrit menapa kirang tilem?,"Kowe kurang ngemplang apa, ojo ngertos sakuku ora munter?","Kowe kurang ngemplang apa, ojo ngertos sakuku ora munter?
+",19
+1851,693,krama_alus,krama,alus,Matamu kok merah apa kurang tidur?,Tingal panjenengan kok abrit menapa kirang sare?,"Kanthi rupa matamu ngono, meneng, sebab kurangipun weton ing ngriku ya?","Kanthi rupa matamu ngono, meneng, sebab kurangipun weton ing ngriku ya?",25

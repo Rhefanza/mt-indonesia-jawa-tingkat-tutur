@@ -1,0 +1,58 @@
+[{"stream_name":"stderr","time":8.080658556,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.080732147,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.080739541,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.080745554,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.715991991,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.716064425999999,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.716070795,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.71607524,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":43.75548191,"data":"[     1s] data 1395 175 Tesla T4\n"}
+,{"stream_name":"stderr","time":44.134844965,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":44.134880817,"data":"\n"}
+,{"stream_name":"stderr","time":44.13488719,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":102.075631931,"data":"[    59s] load 56 s\n"}
+,{"stream_name":"stdout","time":123.842414162,"data":"[    81s] pilot {'index': [59, 130, 131, 265, 318, 320, 350, 352, 365, 467, 678, 679, 772, 774, 896, 897, 1075, 1725], 'detik': 22, 'proyeksi_total_s': 267, 'vram_puncak_gb': 3.53}\n"}
+,{"stream_name":"stdout","time":187.466759075,"data":"[   144s] zero penuh 64 s\n"}
+,{"stream_name":"stdout","time":283.421200722,"data":"[   240s] few3 penuh 96 s\n"}
+,{"stream_name":"stdout","time":291.420716575,"data":"{\n"}
+,{"stream_name":"stdout","time":291.420753108,"data":" \"zero\": {\n"}
+,{"stream_name":"stdout","time":291.42075956,"data":"  \"ngoko\": {\n"}
+,{"stream_name":"stdout","time":291.42076617,"data":"   \"n\": 74,\n"}
+,{"stream_name":"stdout","time":291.420774047,"data":"   \"chrF++\": 24.64\n"}
+,{"stream_name":"stdout","time":291.420777537,"data":"  },\n"}
+,{"stream_name":"stdout","time":291.420797138,"data":"  \"krama\": {\n"}
+,{"stream_name":"stdout","time":291.420802276,"data":"   \"n\": 74,\n"}
+,{"stream_name":"stdout","time":291.420808012,"data":"   \"chrF++\": 19.59\n"}
+,{"stream_name":"stdout","time":291.42081313,"data":"  },\n"}
+,{"stream_name":"stdout","time":291.420817502,"data":"  \"krama_alus\": {\n"}
+,{"stream_name":"stdout","time":291.420821874,"data":"   \"n\": 27,\n"}
+,{"stream_name":"stdout","time":291.420826224,"data":"   \"chrF++\": 20.45\n"}
+,{"stream_name":"stdout","time":291.4208308,"data":"  },\n"}
+,{"stream_name":"stdout","time":291.420834974,"data":"  \"kena_batas_token\": 2\n"}
+,{"stream_name":"stdout","time":291.420841101,"data":" },\n"}
+,{"stream_name":"stdout","time":291.42084846,"data":" \"few3\": {\n"}
+,{"stream_name":"stdout","time":291.420851484,"data":"  \"ngoko\": {\n"}
+,{"stream_name":"stdout","time":291.420854462,"data":"   \"n\": 74,\n"}
+,{"stream_name":"stdout","time":291.420857365,"data":"   \"chrF++\": 37.56\n"}
+,{"stream_name":"stdout","time":291.420860267,"data":"  },\n"}
+,{"stream_name":"stdout","time":291.420863078,"data":"  \"krama\": {\n"}
+,{"stream_name":"stdout","time":291.420892051,"data":"   \"n\": 74,\n"}
+,{"stream_name":"stdout","time":291.42089646,"data":"   \"chrF++\": 33.4\n"}
+,{"stream_name":"stdout","time":291.420900561,"data":"  },\n"}
+,{"stream_name":"stdout","time":291.420904348,"data":"  \"krama_alus\": {\n"}
+,{"stream_name":"stdout","time":291.420908772,"data":"   \"n\": 27,\n"}
+,{"stream_name":"stdout","time":291.420912727,"data":"   \"chrF++\": 37.66\n"}
+,{"stream_name":"stdout","time":291.420916401,"data":"  },\n"}
+,{"stream_name":"stdout","time":291.42091977,"data":"  \"kena_batas_token\": 0\n"}
+,{"stream_name":"stdout","time":291.420923234,"data":" }\n"}
+,{"stream_name":"stdout","time":291.420926629,"data":"}\n"}
+,{"stream_name":"stdout","time":291.420929909,"data":"[   248s] SELESAI\n"}
+,{"stream_name":"stderr","time":297.836303312,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":297.836352574,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":297.996371356,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":297.996397258,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":298.815019646,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":298.913180429,"data":"[NbConvertApp] Writing 152972 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":301.765917169,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":302.347826995,"data":"[NbConvertApp] Writing 431601 bytes to __results__.html\n"}
+]

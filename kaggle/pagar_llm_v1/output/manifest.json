@@ -1,0 +1,73 @@
+{
+ "model": "Qwen/Qwen3-4B-Instruct-2507",
+ "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+ "versions": {
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2"
+ },
+ "gpu": "Tesla T4",
+ "maxnew": 96,
+ "greedy": true,
+ "nf4": true,
+ "load_s": 56,
+ "pilot": {
+  "index": [
+   59,
+   130,
+   131,
+   265,
+   318,
+   320,
+   350,
+   352,
+   365,
+   467,
+   678,
+   679,
+   772,
+   774,
+   896,
+   897,
+   1075,
+   1725
+  ],
+  "detik": 22,
+  "proyeksi_total_s": 267,
+  "vram_puncak_gb": 3.53
+ },
+ "lanjut_penuh": true,
+ "vram_puncak_gb": 3.57,
+ "chrF++": {
+  "zero": {
+   "ngoko": {
+    "n": 74,
+    "chrF++": 24.64
+   },
+   "krama": {
+    "n": 74,
+    "chrF++": 19.59
+   },
+   "krama_alus": {
+    "n": 27,
+    "chrF++": 20.45
+   },
+   "kena_batas_token": 2
+  },
+  "few3": {
+   "ngoko": {
+    "n": 74,
+    "chrF++": 37.56
+   },
+   "krama": {
+    "n": 74,
+    "chrF++": 33.4
+   },
+   "krama_alus": {
+    "n": 27,
+    "chrF++": 37.66
+   },
+   "kena_batas_token": 0
+  }
+ },
+ "elapsed_s": 248
+}

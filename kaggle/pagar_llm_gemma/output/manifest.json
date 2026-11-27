@@ -1,0 +1,74 @@
+{
+ "model": "/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1",
+ "revision": null,
+ "versions": {
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2"
+ },
+ "gpu": "Tesla T4",
+ "maxnew": 96,
+ "greedy": true,
+ "nf4": true,
+ "compute": "fp32",
+ "load_s": 63,
+ "pilot": {
+  "index": [
+   59,
+   130,
+   131,
+   265,
+   318,
+   320,
+   350,
+   352,
+   365,
+   467,
+   678,
+   679,
+   772,
+   774,
+   896,
+   897,
+   1075,
+   1725
+  ],
+  "detik": 62,
+  "proyeksi_total_s": 664,
+  "vram_puncak_gb": 5.84
+ },
+ "lanjut_penuh": true,
+ "vram_puncak_gb": 5.9,
+ "chrF++": {
+  "zero": {
+   "ngoko": {
+    "n": 74,
+    "chrF++": 28.21
+   },
+   "krama": {
+    "n": 74,
+    "chrF++": 21.83
+   },
+   "krama_alus": {
+    "n": 27,
+    "chrF++": 23.79
+   },
+   "kena_batas_token": 1
+  },
+  "few3": {
+   "ngoko": {
+    "n": 74,
+    "chrF++": 39.44
+   },
+   "krama": {
+    "n": 74,
+    "chrF++": 36.39
+   },
+   "krama_alus": {
+    "n": 27,
+    "chrF++": 36.04
+   },
+   "kena_batas_token": 2
+  }
+ },
+ "elapsed_s": 537
+}

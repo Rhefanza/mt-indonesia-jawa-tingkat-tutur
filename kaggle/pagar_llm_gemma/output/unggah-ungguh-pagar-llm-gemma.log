@@ -1,0 +1,57 @@
+[{"stream_name":"stderr","time":7.0536786,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.053730656,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.053737237,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.053740967,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.619375838,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.619424298,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.619429356,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.619432858,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":37.99658086,"data":"isi input: ['/kaggle/input/', '/kaggle/input/datasets', '/kaggle/input/datasets/mdevian', '/kaggle/input/datasets/mdevian/unggah-ungguh-id-jv-split', '/kaggle/input/datasets/mdevian/unggah-ungguh-id-jv-split/test.csv', '/kaggle/input/datasets/mdevian/unggah-ungguh-id-jv-split/train.csv', '/kaggle/input/datasets/mdevian/unggah-ungguh-id-jv-split/valid.csv', '/kaggle/input/models', '/kaggle/input/models/google', '/kaggle/input/models/google/gemma-3', '/kaggle/input/models/google/gemma-3/transformers', '/kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it']\n"}
+,{"stream_name":"stdout","time":37.996612628,"data":"model dir /kaggle/input/models/google/gemma-3/transformers/gemma-3-4b-it/1 ['model.safetensors.index.json', 'config.json', 'model-00001-of-00002.safetensors', 'model-00002-of-00002.safetensors', 'preprocessor_config.json', 'tokenizer.json', 'tokenizer_config.json', 'chat_template.json', 'processor_config.json', 'special_tokens_map.json', 'tokenizer.model', 'added_tokens.json', 'generation_config.json']\n"}
+,{"stream_name":"stdout","time":38.028157077,"data":"[     0s] data 1395 175 Tesla T4\n"}
+,{"stream_name":"stdout","time":103.078056223,"data":"[    65s] load 63 s\n"}
+,{"stream_name":"stdout","time":164.898934576,"data":"[   127s] pilot {'index': [59, 130, 131, 265, 318, 320, 350, 352, 365, 467, 678, 679, 772, 774, 896, 897, 1075, 1725], 'detik': 62, 'proyeksi_total_s': 664, 'vram_puncak_gb': 5.84}\n"}
+,{"stream_name":"stdout","time":318.165482187,"data":"[   281s] zero penuh 153 s\n"}
+,{"stream_name":"stdout","time":568.007146541,"data":"[   530s] few3 penuh 250 s\n"}
+,{"stream_name":"stdout","time":574.909975647,"data":"{\n"}
+,{"stream_name":"stdout","time":574.910006507,"data":" \"zero\": {\n"}
+,{"stream_name":"stdout","time":574.910012637,"data":"  \"ngoko\": {\n"}
+,{"stream_name":"stdout","time":574.91001705,"data":"   \"n\": 74,\n"}
+,{"stream_name":"stdout","time":574.910021519,"data":"   \"chrF++\": 28.21\n"}
+,{"stream_name":"stdout","time":574.9100263,"data":"  },\n"}
+,{"stream_name":"stdout","time":574.910030454,"data":"  \"krama\": {\n"}
+,{"stream_name":"stdout","time":574.910034583,"data":"   \"n\": 74,\n"}
+,{"stream_name":"stdout","time":574.910039528,"data":"   \"chrF++\": 21.83\n"}
+,{"stream_name":"stdout","time":574.910043774,"data":"  },\n"}
+,{"stream_name":"stdout","time":574.910047873,"data":"  \"krama_alus\": {\n"}
+,{"stream_name":"stdout","time":574.910051982,"data":"   \"n\": 27,\n"}
+,{"stream_name":"stdout","time":574.910056158,"data":"   \"chrF++\": 23.79\n"}
+,{"stream_name":"stdout","time":574.910060874,"data":"  },\n"}
+,{"stream_name":"stdout","time":574.910065693,"data":"  \"kena_batas_token\": 1\n"}
+,{"stream_name":"stdout","time":574.910084435,"data":" },\n"}
+,{"stream_name":"stdout","time":574.910088381,"data":" \"few3\": {\n"}
+,{"stream_name":"stdout","time":574.910091937,"data":"  \"ngoko\": {\n"}
+,{"stream_name":"stdout","time":574.910095662,"data":"   \"n\": 74,\n"}
+,{"stream_name":"stdout","time":574.910099036,"data":"   \"chrF++\": 39.44\n"}
+,{"stream_name":"stdout","time":574.910102161,"data":"  },\n"}
+,{"stream_name":"stdout","time":574.91010541,"data":"  \"krama\": {\n"}
+,{"stream_name":"stdout","time":574.910108791,"data":"   \"n\": 74,\n"}
+,{"stream_name":"stdout","time":574.910112217,"data":"   \"chrF++\": 36.39\n"}
+,{"stream_name":"stdout","time":574.910115659,"data":"  },\n"}
+,{"stream_name":"stdout","time":574.910118865,"data":"  \"krama_alus\": {\n"}
+,{"stream_name":"stdout","time":574.910122679,"data":"   \"n\": 27,\n"}
+,{"stream_name":"stdout","time":574.91012694,"data":"   \"chrF++\": 36.04\n"}
+,{"stream_name":"stdout","time":574.910130338,"data":"  },\n"}
+,{"stream_name":"stdout","time":574.910133699,"data":"  \"kena_batas_token\": 2\n"}
+,{"stream_name":"stdout","time":574.910137046,"data":" }\n"}
+,{"stream_name":"stdout","time":574.910139979,"data":"}\n"}
+,{"stream_name":"stdout","time":574.910143375,"data":"[   537s] SELESAI\n"}
+,{"stream_name":"stderr","time":580.515604203,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":580.515629369,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":580.645717695,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":580.645754982,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":581.404486941,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":581.477402387,"data":"[NbConvertApp] Writing 26839 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":583.945863118,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":584.450733585,"data":"[NbConvertApp] Writing 334979 bytes to __results__.html\n"}
+]
