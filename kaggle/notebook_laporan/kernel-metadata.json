@@ -1,0 +1,19 @@
+{
+  "id": "mdevian/unggah-ungguh-notebook-laporan",
+  "title": "Unggah-Ungguh Notebook Laporan",
+  "code_file": "notebook_laporan.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "mdevian/unggah-ungguh-bahan-notebook-laporan"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}

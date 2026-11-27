@@ -14,3 +14,9 @@ models/
 kaggle/pool_makna_v1/output/reverse/
 *.safetensors
 kaggle/training_makna_tingkat_v1/output/model_*/
+
+# bahan dataset Kaggle notebook laporan (data berlisensi + weights juri); buat ulang dengan siapkan_dataset.py
+kaggle/notebook_laporan/dataset/
+
+# render halaman sementara dari pengecekan paper
+paper/script/tmp_render/
