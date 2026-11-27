@@ -1,0 +1,90 @@
+{
+ "id_jv/all": {
+  "ep15": 64.95,
+  "ep20": 64.92,
+  "selisih": -0.03,
+  "interval_90": [
+   -0.86,
+   0.81
+  ]
+ },
+ "id_jv/ngoko": {
+  "ep15": 61.83,
+  "ep20": 61.14,
+  "selisih": -0.69,
+  "interval_90": [
+   -2.26,
+   0.67
+  ]
+ },
+ "id_jv/krama": {
+  "ep15": 65.76,
+  "ep20": 65.67,
+  "selisih": -0.1,
+  "interval_90": [
+   -1.47,
+   1.21
+  ]
+ },
+ "id_jv/krama_alus": {
+  "ep15": 69.12,
+  "ep20": 70.63,
+  "selisih": 1.51,
+  "interval_90": [
+   -0.11,
+   3.53
+  ]
+ },
+ "juri_tetap/ep15": [
+  0.9771,
+  {
+   "ngoko": 1.0,
+   "krama": 0.9595,
+   "krama_alus": 0.963
+  }
+ ],
+ "juri_tetap/ep20": [
+  0.9771,
+  {
+   "ngoko": 1.0,
+   "krama": 0.9459,
+   "krama_alus": 1.0
+  }
+ ],
+ "jv_id/all": {
+  "ep15": 55.72,
+  "ep20": 56.76,
+  "selisih": 1.04,
+  "interval_90": [
+   -0.7,
+   2.7
+  ]
+ },
+ "jv_id/ngoko": {
+  "ep15": 55.58,
+  "ep20": 57.49,
+  "selisih": 1.9,
+  "interval_90": [
+   0.03,
+   3.83
+  ]
+ },
+ "jv_id/krama": {
+  "ep15": 54.58,
+  "ep20": 55.3,
+  "selisih": 0.71,
+  "interval_90": [
+   -1.4,
+   2.82
+  ]
+ },
+ "jv_id/krama_alus": {
+  "ep15": 59.24,
+  "ep20": 58.76,
+  "selisih": -0.48,
+  "interval_90": [
+   -3.95,
+   2.88
+  ]
+ }
+}

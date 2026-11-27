@@ -1,0 +1,21 @@
+{
+ "id": "mdevian/unggah-ungguh-data-eksternal-ep20",
+ "title": "Unggah-Ungguh Data Eksternal Ep20",
+ "code_file": "data_eksternal_ep20.ipynb",
+ "language": "python",
+ "kernel_type": "notebook",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_tpu": false,
+ "enable_internet": true,
+ "keywords": [],
+ "dataset_sources": [
+  "mdevian/unggah-ungguh-id-jv-split"
+ ],
+ "kernel_sources": [
+  "mdevian/unggah-ungguh-final-3lv-v2"
+ ],
+ "competition_sources": [],
+ "model_sources": [],
+ "machine_shape": "NvidiaTeslaT4"
+}
