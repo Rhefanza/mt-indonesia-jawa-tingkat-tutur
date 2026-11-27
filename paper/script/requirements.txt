@@ -1,0 +1,8 @@
+python-docx>=1.1
+docx2pdf>=0.1.8
+matplotlib>=3.8
+numpy
+pandas
+sacrebleu==2.6.0
+PyMuPDF>=1.23
+# collect.py juga butuh: torch, transformers (juri tetap, lihat scripts/juri_tetap.py)
