@@ -1,0 +1,254 @@
+{
+ "protokol": "reverse jv-id ep20 semua",
+ "train_seed": 42,
+ "hparams": {
+  "epochs": 20,
+  "bs": 16,
+  "lr": 5e-05,
+  "warmup": 0.1,
+  "maxlen": 64,
+  "beams": 5
+ },
+ "versions": {
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2",
+  "sacrebleu": "2.6.0"
+ },
+ "gpu": "Tesla T4",
+ "inputs": {
+  "train": "b708f2e521bff48ba0b23d60c923ec6427def3bdc42ea7f33db86f132389c09d",
+  "valid": "521164cbd1e447f310a4f5d86d79d2bf1b23d3471ae4edaa384b1d5f074546fb",
+  "test": "379151d40f2a82cc272f9c7b824568521ea726e1adc751d0d16cd45a9ee4e6be"
+ },
+ "runs": {
+  "semua": {
+   "n_pairs": 3587,
+   "steps": 4500,
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 2.4283,
+     "valid_chrF++": 39.71
+    },
+    {
+     "epoch": 2,
+     "train_loss": 1.6381,
+     "valid_chrF++": 47.74
+    },
+    {
+     "epoch": 3,
+     "train_loss": 1.036,
+     "valid_chrF++": 50.48
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.5903,
+     "valid_chrF++": 52.86
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.3352,
+     "valid_chrF++": 52.76
+    },
+    {
+     "epoch": 6,
+     "train_loss": 0.198,
+     "valid_chrF++": 52.81
+    },
+    {
+     "epoch": 7,
+     "train_loss": 0.118,
+     "valid_chrF++": 54.74
+    },
+    {
+     "epoch": 8,
+     "train_loss": 0.0763,
+     "valid_chrF++": 54.55
+    },
+    {
+     "epoch": 9,
+     "train_loss": 0.0609,
+     "valid_chrF++": 54.45
+    },
+    {
+     "epoch": 10,
+     "train_loss": 0.0434,
+     "valid_chrF++": 54.95
+    },
+    {
+     "epoch": 11,
+     "train_loss": 0.0296,
+     "valid_chrF++": 55.19
+    },
+    {
+     "epoch": 12,
+     "train_loss": 0.022,
+     "valid_chrF++": 55.37
+    },
+    {
+     "epoch": 13,
+     "train_loss": 0.0153,
+     "valid_chrF++": 53.97
+    },
+    {
+     "epoch": 14,
+     "train_loss": 0.0143,
+     "valid_chrF++": 54.16
+    },
+    {
+     "epoch": 15,
+     "train_loss": 0.0127,
+     "valid_chrF++": 54.27
+    },
+    {
+     "epoch": 16,
+     "train_loss": 0.0084,
+     "valid_chrF++": 54.73
+    },
+    {
+     "epoch": 17,
+     "train_loss": 0.0068,
+     "valid_chrF++": 55.89
+    },
+    {
+     "epoch": 18,
+     "train_loss": 0.0087,
+     "valid_chrF++": 55.62
+    },
+    {
+     "epoch": 19,
+     "train_loss": 0.0051,
+     "valid_chrF++": 55.95
+    },
+    {
+     "epoch": 20,
+     "train_loss": 0.0062,
+     "valid_chrF++": 56.53
+    }
+   ],
+   "best_epoch": 20,
+   "valid_beam5": {
+    "all": {
+     "n": 175,
+     "chrF++": 56.76,
+     "BLEU": 36.36
+    },
+    "ngoko": {
+     "n": 74,
+     "chrF++": 57.49,
+     "BLEU": 36.61
+    },
+    "krama": {
+     "n": 74,
+     "chrF++": 55.3,
+     "BLEU": 34.98
+    },
+    "krama_alus": {
+     "n": 27,
+     "chrF++": 58.76,
+     "BLEU": 39.26
+    }
+   },
+   "sama_persis": 12
+  }
+ },
+ "data_eksternal": {
+  "akurasi_pelabel_di_valid": {
+   "krama": {
+    "recall": 0.973,
+    "presisi_saat_yakin": 0.986,
+    "n_yakin": 73
+   },
+   "krama_alus": {
+    "recall": 0.889,
+    "presisi_saat_yakin": 1.0,
+    "n_yakin": 17
+   },
+   "ngoko": {
+    "recall": 1.0,
+    "presisi_saat_yakin": 0.986,
+    "n_yakin": 74
+   },
+   "ngoko_alus": {
+    "recall": 0.926,
+    "presisi_saat_yakin": 1.0,
+    "n_yakin": 24
+   }
+  },
+  "awal": {
+   "ngokokrama/krama": 1000,
+   "ngokokrama/ngoko": 1000,
+   "nusatranslation/umum": 9449,
+   "nusax/umum": 500
+  },
+  "kemiripan_maks_indonesian": 0.456,
+  "kemiripan_maks_javanese": 0.509,
+  "bocor_persis_valid": {
+   "indonesian": 0,
+   "javanese": 0
+  },
+  "bocor_persis_test": {
+   "indonesian": 0,
+   "javanese": 0
+  },
+  "dibuang": {
+   "panjang": {
+    "ngokokrama": 88,
+    "nusatranslation": 3561,
+    "nusax": 170
+   },
+   "url_mention_emoji": {
+    "ngokokrama": 10,
+    "nusatranslation": 2473
+   },
+   "sama_dengan_sumber": {
+    "nusatranslation": 5
+   },
+   "mirip_valid_test": {},
+   "tingkat_tidak_cocok": {
+    "ngokokrama": 87,
+    "nusatranslation": 44
+   },
+   "label_tidak_yakin": {
+    "ngokokrama": 250,
+    "nusatranslation": 13,
+    "nusax": 3
+   },
+   "duplikat": {
+    "nusatranslation": 14
+   },
+   "cap_nusatranslation": {
+    "nusatranslation": 3039
+   }
+  },
+  "hasil": {
+   "ngokokrama": {
+    "krama": 631,
+    "krama_alus": 73,
+    "ngoko": 861
+   },
+   "nusatranslation": {
+    "krama": 0,
+    "krama_alus": 0,
+    "ngoko": 300
+   },
+   "nusax": {
+    "krama": 0,
+    "krama_alus": 0,
+    "ngoko": 327
+   },
+   "unggah_ungguh": {
+    "krama": 592,
+    "krama_alus": 210,
+    "ngoko": 593
+   }
+  },
+  "total": {
+   "krama": 1223,
+   "krama_alus": 283,
+   "ngoko": 2081
+  }
+ },
+ "elapsed_s": 1793
+}

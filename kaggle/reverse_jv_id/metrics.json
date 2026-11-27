@@ -1,0 +1,72 @@
+{
+ "indonesian_valid_ada_di_train": 0,
+ "salin": {
+  "all": {
+   "n": 175,
+   "chrF++": 23.65,
+   "BLEU": 6.01
+  },
+  "ngoko": {
+   "n": 74,
+   "chrF++": 24.17,
+   "BLEU": 6.18
+  },
+  "krama": {
+   "n": 74,
+   "chrF++": 23.06,
+   "BLEU": 5.6
+  },
+  "krama_alus": {
+   "n": 27,
+   "chrF++": 23.89,
+   "BLEU": 6.35
+  },
+  "sama_persis": 0
+ },
+ "fine_tuned": {
+  "all": {
+   "n": 175,
+   "chrF++": 50.41,
+   "BLEU": 30.57
+  },
+  "ngoko": {
+   "n": 74,
+   "chrF++": 51.66,
+   "BLEU": 30.39
+  },
+  "krama": {
+   "n": 74,
+   "chrF++": 48.02,
+   "BLEU": 28.12
+  },
+  "krama_alus": {
+   "n": 27,
+   "chrF++": 53.61,
+   "BLEU": 34.83
+  },
+  "sama_persis": 8
+ },
+ "zero_shot": {
+  "all": {
+   "n": 175,
+   "chrF++": 24.42,
+   "BLEU": 6.13
+  },
+  "ngoko": {
+   "n": 74,
+   "chrF++": 28.87,
+   "BLEU": 9.43
+  },
+  "krama": {
+   "n": 74,
+   "chrF++": 21.38,
+   "BLEU": 4.49
+  },
+  "krama_alus": {
+   "n": 27,
+   "chrF++": 21.26,
+   "BLEU": 2.63
+  },
+  "sama_persis": 1
+ }
+}

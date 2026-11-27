@@ -1,0 +1,335 @@
+{
+ "protokol": "reverse jv-id v1",
+ "train_seed": 42,
+ "hparams": {
+  "epochs": 15,
+  "bs": 16,
+  "lr": 5e-05,
+  "warmup": 0.1,
+  "maxlen": 64,
+  "beams": 5
+ },
+ "versions": {
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2",
+  "sacrebleu": "2.6.0"
+ },
+ "gpu": "Tesla T4",
+ "inputs": {
+  "train": "b708f2e521bff48ba0b23d60c923ec6427def3bdc42ea7f33db86f132389c09d",
+  "valid": "521164cbd1e447f310a4f5d86d79d2bf1b23d3471ae4edaa384b1d5f074546fb",
+  "test": "379151d40f2a82cc272f9c7b824568521ea726e1adc751d0d16cd45a9ee4e6be"
+ },
+ "runs": {
+  "base": {
+   "n_pairs": 1395,
+   "steps": 1320,
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 2.775,
+     "valid_chrF++": 38.56
+    },
+    {
+     "epoch": 2,
+     "train_loss": 1.5107,
+     "valid_chrF++": 45.17
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.7374,
+     "valid_chrF++": 48.06
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.3119,
+     "valid_chrF++": 49.21
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.1382,
+     "valid_chrF++": 49.92
+    },
+    {
+     "epoch": 6,
+     "train_loss": 0.0792,
+     "valid_chrF++": 51.86
+    },
+    {
+     "epoch": 7,
+     "train_loss": 0.0429,
+     "valid_chrF++": 50.16
+    },
+    {
+     "epoch": 8,
+     "train_loss": 0.0285,
+     "valid_chrF++": 49.67
+    },
+    {
+     "epoch": 9,
+     "train_loss": 0.0234,
+     "valid_chrF++": 51.8
+    },
+    {
+     "epoch": 10,
+     "train_loss": 0.0126,
+     "valid_chrF++": 52.22
+    },
+    {
+     "epoch": 11,
+     "train_loss": 0.009,
+     "valid_chrF++": 51.89
+    },
+    {
+     "epoch": 12,
+     "train_loss": 0.0061,
+     "valid_chrF++": 52.09
+    },
+    {
+     "epoch": 13,
+     "train_loss": 0.0045,
+     "valid_chrF++": 51.51
+    },
+    {
+     "epoch": 14,
+     "train_loss": 0.0061,
+     "valid_chrF++": 51.89
+    },
+    {
+     "epoch": 15,
+     "train_loss": 0.0053,
+     "valid_chrF++": 52.02
+    }
+   ],
+   "best_epoch": 10,
+   "valid_beam5": {
+    "all": {
+     "n": 175,
+     "chrF++": 51.85,
+     "BLEU": 32.91
+    },
+    "ngoko": {
+     "n": 74,
+     "chrF++": 51.4,
+     "BLEU": 32.88
+    },
+    "krama": {
+     "n": 74,
+     "chrF++": 51.58,
+     "BLEU": 32.74
+    },
+    "krama_alus": {
+     "n": 27,
+     "chrF++": 53.85,
+     "BLEU": 33.37
+    }
+   },
+   "sama_persis": 11
+  },
+  "semua": {
+   "n_pairs": 3587,
+   "steps": 3375,
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 2.3803,
+     "valid_chrF++": 40.36
+    },
+    {
+     "epoch": 2,
+     "train_loss": 1.5456,
+     "valid_chrF++": 49.24
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.9126,
+     "valid_chrF++": 50.94
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.509,
+     "valid_chrF++": 51.28
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.2857,
+     "valid_chrF++": 52.42
+    },
+    {
+     "epoch": 6,
+     "train_loss": 0.1707,
+     "valid_chrF++": 53.55
+    },
+    {
+     "epoch": 7,
+     "train_loss": 0.1006,
+     "valid_chrF++": 55.85
+    },
+    {
+     "epoch": 8,
+     "train_loss": 0.0632,
+     "valid_chrF++": 54.14
+    },
+    {
+     "epoch": 9,
+     "train_loss": 0.0478,
+     "valid_chrF++": 54.23
+    },
+    {
+     "epoch": 10,
+     "train_loss": 0.0307,
+     "valid_chrF++": 54.96
+    },
+    {
+     "epoch": 11,
+     "train_loss": 0.024,
+     "valid_chrF++": 54.23
+    },
+    {
+     "epoch": 12,
+     "train_loss": 0.0174,
+     "valid_chrF++": 54.61
+    },
+    {
+     "epoch": 13,
+     "train_loss": 0.0117,
+     "valid_chrF++": 54.58
+    },
+    {
+     "epoch": 14,
+     "train_loss": 0.0108,
+     "valid_chrF++": 55.06
+    },
+    {
+     "epoch": 15,
+     "train_loss": 0.0106,
+     "valid_chrF++": 54.59
+    }
+   ],
+   "best_epoch": 7,
+   "valid_beam5": {
+    "all": {
+     "n": 175,
+     "chrF++": 55.72,
+     "BLEU": 35.07
+    },
+    "ngoko": {
+     "n": 74,
+     "chrF++": 55.58,
+     "BLEU": 34.04
+    },
+    "krama": {
+     "n": 74,
+     "chrF++": 54.58,
+     "BLEU": 34.52
+    },
+    "krama_alus": {
+     "n": 27,
+     "chrF++": 59.24,
+     "BLEU": 39.1
+    }
+   },
+   "sama_persis": 5
+  }
+ },
+ "data_eksternal": {
+  "akurasi_pelabel_di_valid": {
+   "krama": {
+    "recall": 0.973,
+    "presisi_saat_yakin": 0.986,
+    "n_yakin": 73
+   },
+   "krama_alus": {
+    "recall": 0.889,
+    "presisi_saat_yakin": 1.0,
+    "n_yakin": 17
+   },
+   "ngoko": {
+    "recall": 1.0,
+    "presisi_saat_yakin": 0.986,
+    "n_yakin": 74
+   },
+   "ngoko_alus": {
+    "recall": 0.926,
+    "presisi_saat_yakin": 1.0,
+    "n_yakin": 24
+   }
+  },
+  "awal": {
+   "ngokokrama/krama": 1000,
+   "ngokokrama/ngoko": 1000,
+   "nusatranslation/umum": 9449,
+   "nusax/umum": 500
+  },
+  "kemiripan_maks_indonesian": 0.456,
+  "kemiripan_maks_javanese": 0.509,
+  "bocor_persis_valid": {
+   "indonesian": 0,
+   "javanese": 0
+  },
+  "bocor_persis_test": {
+   "indonesian": 0,
+   "javanese": 0
+  },
+  "dibuang": {
+   "panjang": {
+    "ngokokrama": 88,
+    "nusatranslation": 3561,
+    "nusax": 170
+   },
+   "url_mention_emoji": {
+    "ngokokrama": 10,
+    "nusatranslation": 2473
+   },
+   "sama_dengan_sumber": {
+    "nusatranslation": 5
+   },
+   "mirip_valid_test": {},
+   "tingkat_tidak_cocok": {
+    "ngokokrama": 87,
+    "nusatranslation": 44
+   },
+   "label_tidak_yakin": {
+    "ngokokrama": 250,
+    "nusatranslation": 13,
+    "nusax": 3
+   },
+   "duplikat": {
+    "nusatranslation": 14
+   },
+   "cap_nusatranslation": {
+    "nusatranslation": 3039
+   }
+  },
+  "hasil": {
+   "ngokokrama": {
+    "krama": 631,
+    "krama_alus": 73,
+    "ngoko": 861
+   },
+   "nusatranslation": {
+    "krama": 0,
+    "krama_alus": 0,
+    "ngoko": 300
+   },
+   "nusax": {
+    "krama": 0,
+    "krama_alus": 0,
+    "ngoko": 327
+   },
+   "unggah_ungguh": {
+    "krama": 592,
+    "krama_alus": 210,
+    "ngoko": 593
+   }
+  },
+  "total": {
+   "krama": 1223,
+   "krama_alus": 283,
+   "ngoko": 2081
+  }
+ },
+ "pemenang": "semua",
+ "elapsed_s": 1871
+}

@@ -1,0 +1,502 @@
+[{"stream_name":"stderr","time":8.801137172,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.801187993,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.801195589,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.801200498,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.467323527,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.467384838,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.467392109,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.467396441,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":46.002287684,"data":"[     1s] data 1395 175 176 Tesla T4\n"}
+,{"stream_name":"stdout","time":58.519895431,"data":"{\n"}
+,{"stream_name":"stdout","time":58.519928711,"data":" \"akurasi_pelabel_di_valid\": {\n"}
+,{"stream_name":"stdout","time":58.51993694,"data":"  \"krama\": {\n"}
+,{"stream_name":"stdout","time":58.51994732,"data":"   \"recall\": 0.973,\n"}
+,{"stream_name":"stdout","time":58.51995101,"data":"   \"presisi_saat_yakin\": 0.986,\n"}
+,{"stream_name":"stdout","time":58.519954568,"data":"   \"n_yakin\": 73\n"}
+,{"stream_name":"stdout","time":58.519958066,"data":"  },\n"}
+,{"stream_name":"stdout","time":58.519961421,"data":"  \"krama_alus\": {\n"}
+,{"stream_name":"stdout","time":58.519965034,"data":"   \"recall\": 0.889,\n"}
+,{"stream_name":"stdout","time":58.519968442,"data":"   \"presisi_saat_yakin\": 1.0,\n"}
+,{"stream_name":"stdout","time":58.519971995,"data":"   \"n_yakin\": 17\n"}
+,{"stream_name":"stdout","time":58.519975354,"data":"  },\n"}
+,{"stream_name":"stdout","time":58.519978702,"data":"  \"ngoko\": {\n"}
+,{"stream_name":"stdout","time":58.520029777,"data":"   \"recall\": 1.0,\n"}
+,{"stream_name":"stdout","time":58.5200369,"data":"   \"presisi_saat_yakin\": 0.986,\n"}
+,{"stream_name":"stdout","time":58.520042912,"data":"   \"n_yakin\": 74\n"}
+,{"stream_name":"stdout","time":58.520048734,"data":"  },\n"}
+,{"stream_name":"stdout","time":58.520054937,"data":"  \"ngoko_alus\": {\n"}
+,{"stream_name":"stdout","time":58.520060781,"data":"   \"recall\": 0.926,\n"}
+,{"stream_name":"stdout","time":58.520065852,"data":"   \"presisi_saat_yakin\": 1.0,\n"}
+,{"stream_name":"stdout","time":58.520071709,"data":"   \"n_yakin\": 24\n"}
+,{"stream_name":"stdout","time":58.520077933,"data":"  }\n"}
+,{"stream_name":"stdout","time":58.520087064,"data":" },\n"}
+,{"stream_name":"stdout","time":58.520091946,"data":" \"awal\": {\n"}
+,{"stream_name":"stdout","time":58.520098192,"data":"  \"ngokokrama/krama\": 1000,\n"}
+,{"stream_name":"stdout","time":58.520103306,"data":"  \"ngokokrama/ngoko\": 1000,\n"}
+,{"stream_name":"stdout","time":58.520108367,"data":"  \"nusatranslation/umum\": 9449,\n"}
+,{"stream_name":"stdout","time":58.520113932,"data":"  \"nusax/umum\": 500\n"}
+,{"stream_name":"stdout","time":58.520119154,"data":" },\n"}
+,{"stream_name":"stdout","time":58.520125043,"data":" \"kemiripan_maks_indonesian\": 0.456,\n"}
+,{"stream_name":"stdout","time":58.520130321,"data":" \"kemiripan_maks_javanese\": 0.509,\n"}
+,{"stream_name":"stdout","time":58.520135363,"data":" \"bocor_persis_valid\": {\n"}
+,{"stream_name":"stdout","time":58.520155126,"data":"  \"indonesian\": 0,\n"}
+,{"stream_name":"stdout","time":58.520160409,"data":"  \"javanese\": 0\n"}
+,{"stream_name":"stdout","time":58.520164835,"data":" },\n"}
+,{"stream_name":"stdout","time":58.520168875,"data":" \"bocor_persis_test\": {\n"}
+,{"stream_name":"stdout","time":58.520172701999996,"data":"  \"indonesian\": 0,\n"}
+,{"stream_name":"stdout","time":58.520176613,"data":"  \"javanese\": 0\n"}
+,{"stream_name":"stdout","time":58.520180558,"data":" },\n"}
+,{"stream_name":"stdout","time":58.520184146,"data":" \"dibuang\": {\n"}
+,{"stream_name":"stdout","time":58.520188292,"data":"  \"panjang\": {\n"}
+,{"stream_name":"stdout","time":58.520192694,"data":"   \"ngokokrama\": 88,\n"}
+,{"stream_name":"stdout","time":58.520197132,"data":"   \"nusatranslation\": 3561,\n"}
+,{"stream_name":"stdout","time":58.520201556,"data":"   \"nusax\": 170\n"}
+,{"stream_name":"stdout","time":58.520205696,"data":"  },\n"}
+,{"stream_name":"stdout","time":58.520209756,"data":"  \"url_mention_emoji\": {\n"}
+,{"stream_name":"stdout","time":58.520213358,"data":"   \"ngokokrama\": 10,\n"}
+,{"stream_name":"stdout","time":58.520233835,"data":"   \"nusatranslation\": 2473\n"}
+,{"stream_name":"stdout","time":58.520239065,"data":"  },\n"}
+,{"stream_name":"stdout","time":58.520245019,"data":"  \"sama_dengan_sumber\": {\n"}
+,{"stream_name":"stdout","time":58.520248721,"data":"   \"nusatranslation\": 5\n"}
+,{"stream_name":"stdout","time":58.520252027,"data":"  },\n"}
+,{"stream_name":"stdout","time":58.52025613,"data":"  \"mirip_valid_test\": {},\n"}
+,{"stream_name":"stdout","time":58.520259905,"data":"  \"tingkat_tidak_cocok\": {\n"}
+,{"stream_name":"stdout","time":58.520264234,"data":"   \"ngokokrama\": 87,\n"}
+,{"stream_name":"stdout","time":58.520268642,"data":"   \"nusatranslation\": 44\n"}
+,{"stream_name":"stdout","time":58.52027247,"data":"  },\n"}
+,{"stream_name":"stdout","time":58.520275752,"data":"  \"label_tidak_yakin\": {\n"}
+,{"stream_name":"stdout","time":58.52027933,"data":"   \"ngokokrama\": 250,\n"}
+,{"stream_name":"stdout","time":58.520282968,"data":"   \"nusatranslation\": 13,\n"}
+,{"stream_name":"stdout","time":58.520286786,"data":"   \"nusax\": 3\n"}
+,{"stream_name":"stdout","time":58.520290827,"data":"  },\n"}
+,{"stream_name":"stdout","time":58.520294501,"data":"  \"duplikat\": {\n"}
+,{"stream_name":"stdout","time":58.520298061,"data":"   \"nusatranslation\": 14\n"}
+,{"stream_name":"stdout","time":58.520301918,"data":"  },\n"}
+,{"stream_name":"stdout","time":58.520306393,"data":"  \"cap_nusatranslation\": {\n"}
+,{"stream_name":"stdout","time":58.520310223,"data":"   \"nusatranslation\": 3039\n"}
+,{"stream_name":"stdout","time":58.520314272,"data":"  }\n"}
+,{"stream_name":"stdout","time":58.520318651,"data":" },\n"}
+,{"stream_name":"stdout","time":58.520322447,"data":" \"hasil\": {\n"}
+,{"stream_name":"stdout","time":58.520326327,"data":"  \"ngokokrama\": {\n"}
+,{"stream_name":"stdout","time":58.520330455,"data":"   \"krama\": 631,\n"}
+,{"stream_name":"stdout","time":58.520334899,"data":"   \"krama_alus\": 73,\n"}
+,{"stream_name":"stdout","time":58.520338978,"data":"   \"ngoko\": 861\n"}
+,{"stream_name":"stdout","time":58.520342989,"data":"  },\n"}
+,{"stream_name":"stdout","time":58.520346898,"data":"  \"nusatranslation\": {\n"}
+,{"stream_name":"stdout","time":58.520350957,"data":"   \"krama\": 0,\n"}
+,{"stream_name":"stdout","time":58.520355405,"data":"   \"krama_alus\": 0,\n"}
+,{"stream_name":"stdout","time":58.520366003,"data":"   \"ngoko\": 300\n"}
+,{"stream_name":"stdout","time":58.520370446,"data":"  },\n"}
+,{"stream_name":"stdout","time":58.520374332,"data":"  \"nusax\": {\n"}
+,{"stream_name":"stdout","time":58.520378311,"data":"   \"krama\": 0,\n"}
+,{"stream_name":"stdout","time":58.520382512,"data":"   \"krama_alus\": 0,\n"}
+,{"stream_name":"stdout","time":58.520386612,"data":"   \"ngoko\": 327\n"}
+,{"stream_name":"stdout","time":58.520390641,"data":"  },\n"}
+,{"stream_name":"stdout","time":58.520394498,"data":"  \"unggah_ungguh\": {\n"}
+,{"stream_name":"stdout","time":58.520398519,"data":"   \"krama\": 592,\n"}
+,{"stream_name":"stdout","time":58.520402515,"data":"   \"krama_alus\": 210,\n"}
+,{"stream_name":"stdout","time":58.520406523,"data":"   \"ngoko\": 593\n"}
+,{"stream_name":"stdout","time":58.520410593,"data":"  }\n"}
+,{"stream_name":"stdout","time":58.520414367,"data":" },\n"}
+,{"stream_name":"stdout","time":58.520418184,"data":" \"total\": {\n"}
+,{"stream_name":"stdout","time":58.520422185,"data":"  \"krama\": 1223,\n"}
+,{"stream_name":"stdout","time":58.520426231,"data":"  \"krama_alus\": 283,\n"}
+,{"stream_name":"stdout","time":58.520430236,"data":"  \"ngoko\": 2081\n"}
+,{"stream_name":"stdout","time":58.520434239,"data":" }\n"}
+,{"stream_name":"stdout","time":58.520438079,"data":"}\n"}
+,{"stream_name":"stdout","time":58.520441899,"data":"level            krama  krama_alus  ngoko\n"}
+,{"stream_name":"stdout","time":58.520446381,"data":"source                                   \n"}
+,{"stream_name":"stdout","time":58.520450449,"data":"ngokokrama         631          73    861\n"}
+,{"stream_name":"stdout","time":58.520454458,"data":"nusatranslation      0           0    300\n"}
+,{"stream_name":"stdout","time":58.520458528,"data":"nusax                0           0    327\n"}
+,{"stream_name":"stdout","time":58.520462494,"data":"unggah_ungguh      592         210    593\n"}
+,{"stream_name":"stdout","time":58.520466621,"data":" \n"}
+,{"stream_name":"stdout","time":58.520472846,"data":"[    13s] eksternal {('ngokokrama', 'krama'): 631, ('ngokokrama', 'krama_alus'): 73, ('ngokokrama', 'ngoko'): 861, ('nusatranslation', 'ngoko'): 300, ('nusax', 'ngoko'): 327} | baris lokal 2192, didapat 2192\n"}
+,{"stream_name":"stderr","time":58.971715358,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":58.97175694,"data":"\n"}
+,{"stream_name":"stderr","time":58.97176251,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":118.889706131,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":118.889749464,"data":"\n"}
+,{"stream_name":"stderr","time":118.889769998,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":120.122359673,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":120.122440146,"data":"\n"}
+,{"stream_name":"stderr","time":120.122447588,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":121.329904939,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":121.329945449,"data":"\n"}
+,{"stream_name":"stderr","time":121.32995027,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":121.726096982,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":121.726134866,"data":"\n"}
+,{"stream_name":"stderr","time":121.726139525,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":122.870485625,"data":"[    78s] base {'epoch': 1, 'train_loss': 2.6635, 'valid_chrF++': 39.11}\n"}
+,{"stream_name":"stderr","time":157.208341362,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":157.208378249,"data":"\n"}
+,{"stream_name":"stderr","time":157.208383183,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":158.348609974,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":158.348671585,"data":"\n"}
+,{"stream_name":"stderr","time":158.348679609,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":158.71835145,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":158.718403925,"data":"\n"}
+,{"stream_name":"stderr","time":158.718409395,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":159.864842363,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":159.864876417,"data":"\n"}
+,{"stream_name":"stderr","time":159.864881541,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":160.475240982,"data":"[   115s] base {'epoch': 2, 'train_loss': 1.3214, 'valid_chrF++': 46.82}\n"}
+,{"stream_name":"stderr","time":194.980152698,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":194.980188584,"data":"\n"}
+,{"stream_name":"stderr","time":194.980194938,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":195.374577957,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":195.374619235,"data":"\n"}
+,{"stream_name":"stderr","time":195.37462584,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":195.786807733,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":195.786843374,"data":"\n"}
+,{"stream_name":"stderr","time":195.786849505,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":196.938777956,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":196.938812501,"data":"\n"}
+,{"stream_name":"stderr","time":196.938818394,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":197.529003183,"data":"[   152s] base {'epoch': 3, 'train_loss': 0.6227, 'valid_chrF++': 48.94}\n"}
+,{"stream_name":"stderr","time":230.914522459,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":230.91455635,"data":"\n"}
+,{"stream_name":"stderr","time":230.914563107,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":231.322156674,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":231.322198965,"data":"\n"}
+,{"stream_name":"stderr","time":231.322203891,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":232.482875131,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":232.48291144,"data":"\n"}
+,{"stream_name":"stderr","time":232.482917744,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":232.956735874,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":232.95677419,"data":"\n"}
+,{"stream_name":"stderr","time":232.956784194,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":233.521110508,"data":"[   188s] base {'epoch': 4, 'train_loss': 0.2578, 'valid_chrF++': 49.11}\n"}
+,{"stream_name":"stderr","time":267.024376887,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":267.02441169,"data":"\n"}
+,{"stream_name":"stderr","time":267.024418861,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":268.191548649,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":268.191611171,"data":"\n"}
+,{"stream_name":"stderr","time":268.191616472,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":269.358783229,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":269.358820698,"data":"\n"}
+,{"stream_name":"stderr","time":269.358826074,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":270.526358196,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":270.526394614,"data":"\n"}
+,{"stream_name":"stderr","time":270.526399897,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":271.039265685,"data":"[   226s] base {'epoch': 5, 'train_loss': 0.1168, 'valid_chrF++': 48.86}\n"}
+,{"stream_name":"stderr","time":301.947303964,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":301.947337525,"data":"\n"}
+,{"stream_name":"stderr","time":301.947344157,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":302.287637183,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":302.287692741,"data":"\n"}
+,{"stream_name":"stderr","time":302.287699859,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":302.694390073,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":302.694424749,"data":"\n"}
+,{"stream_name":"stderr","time":302.694446989,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":303.859351379,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":303.859395545,"data":"\n"}
+,{"stream_name":"stderr","time":303.859401043,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":304.416459519,"data":"[   259s] base {'epoch': 6, 'train_loss': 0.0665, 'valid_chrF++': 51.01}\n"}
+,{"stream_name":"stderr","time":338.042182537,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":338.042257023,"data":"\n"}
+,{"stream_name":"stderr","time":338.042263964,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":338.420085098,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":338.420122419,"data":"\n"}
+,{"stream_name":"stderr","time":338.420129701,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":338.838311426,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":338.838350386,"data":"\n"}
+,{"stream_name":"stderr","time":338.838356112,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":339.3228979,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":339.322932998,"data":"\n"}
+,{"stream_name":"stderr","time":339.322938741,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":339.948878868,"data":"[   295s] base {'epoch': 7, 'train_loss': 0.0322, 'valid_chrF++': 51.35}\n"}
+,{"stream_name":"stderr","time":373.364671579,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":373.364706355,"data":"\n"}
+,{"stream_name":"stderr","time":373.364712774,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":373.760004837,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":373.760056793,"data":"\n"}
+,{"stream_name":"stderr","time":373.76006326,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":374.124177954,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":374.124420147,"data":"\n"}
+,{"stream_name":"stderr","time":374.124433235,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":374.630465852,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":374.630507146,"data":"\n"}
+,{"stream_name":"stderr","time":374.630515357,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":375.116819605,"data":"[   330s] base {'epoch': 8, 'train_loss': 0.0218, 'valid_chrF++': 51.79}\n"}
+,{"stream_name":"stderr","time":408.517763561,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":408.517821603,"data":"\n"}
+,{"stream_name":"stderr","time":408.517829156,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":408.760791711,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":408.760826058,"data":"\n"}
+,{"stream_name":"stderr","time":408.76083047,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":409.175061518,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":409.17509797,"data":"\n"}
+,{"stream_name":"stderr","time":409.175103399,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":409.642174283,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":409.642210057,"data":"\n"}
+,{"stream_name":"stderr","time":409.642215805,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":410.211383679,"data":"[   365s] base {'epoch': 9, 'train_loss': 0.0142, 'valid_chrF++': 52.19}\n"}
+,{"stream_name":"stderr","time":443.670943176,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":443.670975943,"data":"\n"}
+,{"stream_name":"stderr","time":443.670980796,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":444.000411556,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":444.000471532,"data":"\n"}
+,{"stream_name":"stderr","time":444.000479435,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":444.414375664,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":444.414429583,"data":"\n"}
+,{"stream_name":"stderr","time":444.414434894,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":444.87968377,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":444.879741046,"data":"\n"}
+,{"stream_name":"stderr","time":444.879747791,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":445.419769369,"data":"[   400s] base {'epoch': 10, 'train_loss': 0.0106, 'valid_chrF++': 52.02}\n"}
+,{"stream_name":"stderr","time":447.129398017,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":447.12943402,"data":"\n"}
+,{"stream_name":"stderr","time":447.12944027,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":447.635383077,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":447.635417751,"data":"\n"}
+,{"stream_name":"stderr","time":447.635424171,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":448.10000999,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":448.100058318,"data":"\n"}
+,{"stream_name":"stderr","time":448.100064085,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":448.522252382,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":448.522289736,"data":"\n"}
+,{"stream_name":"stderr","time":448.522295122,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":448.963945647,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":448.963982193,"data":"\n"}
+,{"stream_name":"stderr","time":448.96398769,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":449.429264469,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":449.429301343,"data":"\n"}
+,{"stream_name":"stderr","time":449.429305331,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":449.896617449,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":449.896655387,"data":"\n"}
+,{"stream_name":"stderr","time":449.896659296,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":450.339160019,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":450.339193778,"data":"\n"}
+,{"stream_name":"stderr","time":450.339198879,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":451.196781753,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":451.196809745,"data":"\n"}
+,{"stream_name":"stderr","time":451.1968159,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":451.72596213,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":451.726027196,"data":"\n"}
+,{"stream_name":"stderr","time":451.726032203,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":452.257886359,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":452.257922755,"data":"\n"}
+,{"stream_name":"stderr","time":452.257927696,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":454.239632773,"data":"[   409s] base {'all': {'n': 175, 'chrF++': 52.44, 'BLEU': 32.66}, 'ngoko': {'n': 74, 'chrF++': 52.34, 'BLEU': 31.76}, 'krama': {'n': 74, 'chrF++': 51.35, 'BLEU': 32.15}, 'krama_alus': {'n': 27, 'chrF++': 55.69, 'BLEU': 36.23}}\n"}
+,{"stream_name":"stderr","time":544.1943483,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":544.194387245,"data":"\n"}
+,{"stream_name":"stderr","time":544.194395843,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":544.532431403,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":544.532473083,"data":"\n"}
+,{"stream_name":"stderr","time":544.532477886,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":544.908273052,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":544.908311771,"data":"\n"}
+,{"stream_name":"stderr","time":544.90831932,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":545.390217254,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":545.390302845,"data":"\n"}
+,{"stream_name":"stderr","time":545.390307547,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":545.983360854,"data":"[   501s] semua {'epoch': 1, 'train_loss': 2.3192, 'valid_chrF++': 42.59}\n"}
+,{"stream_name":"stderr","time":635.876354425,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":635.87639591,"data":"\n"}
+,{"stream_name":"stderr","time":635.876403183,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":637.033474807,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":637.033534162,"data":"\n"}
+,{"stream_name":"stderr","time":637.03354519,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":637.44454652,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":637.444593708,"data":"\n"}
+,{"stream_name":"stderr","time":637.444600597,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":638.599411635,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":638.599450094,"data":"\n"}
+,{"stream_name":"stderr","time":638.599455938,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":639.225390847,"data":"[   594s] semua {'epoch': 2, 'train_loss': 1.4062, 'valid_chrF++': 49.34}\n"}
+,{"stream_name":"stderr","time":730.248396605,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":730.248439011,"data":"\n"}
+,{"stream_name":"stderr","time":730.248457277,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":730.612198483,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":730.612255082,"data":"\n"}
+,{"stream_name":"stderr","time":730.612263471,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":731.830185376,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":731.83026176,"data":"\n"}
+,{"stream_name":"stderr","time":731.83027089,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":732.368555535,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":732.368596623,"data":"\n"}
+,{"stream_name":"stderr","time":732.36860201,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":732.9608283,"data":"[   688s] semua {'epoch': 3, 'train_loss': 0.7982, 'valid_chrF++': 51.13}\n"}
+,{"stream_name":"stderr","time":823.237208655,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":823.237266387,"data":"\n"}
+,{"stream_name":"stderr","time":823.237273396,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":823.5642754,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":823.564310861,"data":"\n"}
+,{"stream_name":"stderr","time":823.56433087,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":823.942774606,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":823.942808328,"data":"\n"}
+,{"stream_name":"stderr","time":823.942812799,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":825.106368129,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":825.106406333,"data":"\n"}
+,{"stream_name":"stderr","time":825.106411374,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":825.66614546,"data":"[   780s] semua {'epoch': 4, 'train_loss': 0.4412, 'valid_chrF++': 53.22}\n"}
+,{"stream_name":"stderr","time":916.100118648,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":916.100157366,"data":"\n"}
+,{"stream_name":"stderr","time":916.100162226,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":916.466841806,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":916.466888677,"data":"\n"}
+,{"stream_name":"stderr","time":916.466893224,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":916.859049572,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":916.859091704,"data":"\n"}
+,{"stream_name":"stderr","time":916.859097115,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":917.281673258,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":917.281753272,"data":"\n"}
+,{"stream_name":"stderr","time":917.281760107,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":917.797119486,"data":"[   873s] semua {'epoch': 5, 'train_loss': 0.2472, 'valid_chrF++': 54.23}\n"}
+,{"stream_name":"stderr","time":1007.793259781,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1007.7932998,"data":"\n"}
+,{"stream_name":"stderr","time":1007.793306676,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1008.133867488,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1008.13392271,"data":"\n"}
+,{"stream_name":"stderr","time":1008.133930924,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1008.566545419,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1008.56659145,"data":"\n"}
+,{"stream_name":"stderr","time":1008.566600522,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1009.049074485,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1009.049123955,"data":"\n"}
+,{"stream_name":"stderr","time":1009.049129441,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":1009.642153215,"data":"[   964s] semua {'epoch': 6, 'train_loss': 0.1459, 'valid_chrF++': 53.59}\n"}
+,{"stream_name":"stderr","time":1097.229472256,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1097.229516177,"data":"\n"}
+,{"stream_name":"stderr","time":1097.229521963,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1097.546361585,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1097.54639157,"data":"\n"}
+,{"stream_name":"stderr","time":1097.546397259,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1097.942853563,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1097.942888449,"data":"\n"}
+,{"stream_name":"stderr","time":1097.942894148,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1099.124332886,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1099.124365951,"data":"\n"}
+,{"stream_name":"stderr","time":1099.124371296,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":1099.653904846,"data":"[  1054s] semua {'epoch': 7, 'train_loss': 0.0865, 'valid_chrF++': 54.09}\n"}
+,{"stream_name":"stderr","time":1187.660078361,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1187.66011899,"data":"\n"}
+,{"stream_name":"stderr","time":1187.660130153,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1188.045535502,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1188.045571472,"data":"\n"}
+,{"stream_name":"stderr","time":1188.045577485,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1188.439217386,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1188.439269161,"data":"\n"}
+,{"stream_name":"stderr","time":1188.439274208,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1188.919366023,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1188.919399103,"data":"\n"}
+,{"stream_name":"stderr","time":1188.919403587,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":1189.454681263,"data":"[  1144s] semua {'epoch': 8, 'train_loss': 0.0538, 'valid_chrF++': 54.51}\n"}
+,{"stream_name":"stderr","time":1279.23255643,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1279.232623918,"data":"\n"}
+,{"stream_name":"stderr","time":1279.232631903,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1279.618013499,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1279.618081347,"data":"\n"}
+,{"stream_name":"stderr","time":1279.618090193,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1280.10309944,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1280.103140704,"data":"\n"}
+,{"stream_name":"stderr","time":1280.103145631,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1280.587745779,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1280.587801139,"data":"\n"}
+,{"stream_name":"stderr","time":1280.587805322,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":1281.163877301,"data":"[  1236s] semua {'epoch': 9, 'train_loss': 0.0403, 'valid_chrF++': 55.35}\n"}
+,{"stream_name":"stderr","time":1371.136276388,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1371.136309097,"data":"\n"}
+,{"stream_name":"stderr","time":1371.136315755,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1371.457969716,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1371.458010731,"data":"\n"}
+,{"stream_name":"stderr","time":1371.458016711,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1371.941271199,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1371.941304225,"data":"\n"}
+,{"stream_name":"stderr","time":1371.941309731,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1372.423978828,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1372.424020468,"data":"\n"}
+,{"stream_name":"stderr","time":1372.424025262,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":1372.957891924,"data":"[  1328s] semua {'epoch': 10, 'train_loss': 0.0281, 'valid_chrF++': 55.36}\n"}
+,{"stream_name":"stderr","time":1377.204718939,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1377.204794601,"data":"\n"}
+,{"stream_name":"stderr","time":1377.20480248,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1377.581267681,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1377.58130284,"data":"\n"}
+,{"stream_name":"stderr","time":1377.58131582,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1377.974720385,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1377.974752752,"data":"\n"}
+,{"stream_name":"stderr","time":1377.974757785,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1378.367602335,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1378.367637372,"data":"\n"}
+,{"stream_name":"stderr","time":1378.367643423,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1378.844429882,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1378.844470134,"data":"\n"}
+,{"stream_name":"stderr","time":1378.844474106,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1379.328904021,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1379.32894523,"data":"\n"}
+,{"stream_name":"stderr","time":1379.328949337,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1379.770955516,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1379.770989622,"data":"\n"}
+,{"stream_name":"stderr","time":1379.771003392,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1380.218002099,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1380.218047418,"data":"\n"}
+,{"stream_name":"stderr","time":1380.218052107,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1380.769319408,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1380.769352572,"data":"\n"}
+,{"stream_name":"stderr","time":1380.769357787,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1381.317092281,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1381.317146155,"data":"\n"}
+,{"stream_name":"stderr","time":1381.317152658,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1381.818517142,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stderr","time":1381.818576189,"data":"\n"}
+,{"stream_name":"stderr","time":1381.818582713,"data":"[transformers] Both `max_new_tokens` (=64) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":1383.83338594,"data":"[  1339s] semua {'all': {'n': 175, 'chrF++': 55.31, 'BLEU': 33.34}, 'ngoko': {'n': 74, 'chrF++': 54.38, 'BLEU': 31.53}, 'krama': {'n': 74, 'chrF++': 55.35, 'BLEU': 34.86}, 'krama_alus': {'n': 27, 'chrF++': 57.72, 'BLEU': 33.9}}\n"}
+,{"stream_name":"stdout","time":1383.84295831,"data":"{\n"}
+,{"stream_name":"stdout","time":1383.842981982,"data":" \"base\": {\n"}
+,{"stream_name":"stdout","time":1383.842987428,"data":"  \"all\": {\n"}
+,{"stream_name":"stdout","time":1383.842991962,"data":"   \"n\": 175,\n"}
+,{"stream_name":"stdout","time":1383.842996125,"data":"   \"chrF++\": 52.44,\n"}
+,{"stream_name":"stdout","time":1383.842999955,"data":"   \"BLEU\": 32.66\n"}
+,{"stream_name":"stdout","time":1383.843004074,"data":"  },\n"}
+,{"stream_name":"stdout","time":1383.843007845,"data":"  \"ngoko\": {\n"}
+,{"stream_name":"stdout","time":1383.843011782,"data":"   \"n\": 74,\n"}
+,{"stream_name":"stdout","time":1383.843015766,"data":"   \"chrF++\": 52.34,\n"}
+,{"stream_name":"stdout","time":1383.843019691,"data":"   \"BLEU\": 31.76\n"}
+,{"stream_name":"stdout","time":1383.843023528,"data":"  },\n"}
+,{"stream_name":"stdout","time":1383.843027133,"data":"  \"krama\": {\n"}
+,{"stream_name":"stdout","time":1383.843031151,"data":"   \"n\": 74,\n"}
+,{"stream_name":"stdout","time":1383.843035022,"data":"   \"chrF++\": 51.35,\n"}
+,{"stream_name":"stdout","time":1383.843039766,"data":"   \"BLEU\": 32.15\n"}
+,{"stream_name":"stdout","time":1383.843043708,"data":"  },\n"}
+,{"stream_name":"stdout","time":1383.843047793,"data":"  \"krama_alus\": {\n"}
+,{"stream_name":"stdout","time":1383.843052825,"data":"   \"n\": 27,\n"}
+,{"stream_name":"stdout","time":1383.843056865,"data":"   \"chrF++\": 55.69,\n"}
+,{"stream_name":"stdout","time":1383.843060772,"data":"   \"BLEU\": 36.23\n"}
+,{"stream_name":"stdout","time":1383.843064708,"data":"  }\n"}
+,{"stream_name":"stdout","time":1383.843068525,"data":" },\n"}
+,{"stream_name":"stdout","time":1383.84307227,"data":" \"semua\": {\n"}
+,{"stream_name":"stdout","time":1383.843075931,"data":"  \"all\": {\n"}
+,{"stream_name":"stdout","time":1383.843079659,"data":"   \"n\": 175,\n"}
+,{"stream_name":"stdout","time":1383.843084071,"data":"   \"chrF++\": 55.31,\n"}
+,{"stream_name":"stdout","time":1383.843096309,"data":"   \"BLEU\": 33.34\n"}
+,{"stream_name":"stdout","time":1383.843100772,"data":"  },\n"}
+,{"stream_name":"stdout","time":1383.843104667,"data":"  \"ngoko\": {\n"}
+,{"stream_name":"stdout","time":1383.843108711,"data":"   \"n\": 74,\n"}
+,{"stream_name":"stdout","time":1383.843112456,"data":"   \"chrF++\": 54.38,\n"}
+,{"stream_name":"stdout","time":1383.843116261,"data":"   \"BLEU\": 31.53\n"}
+,{"stream_name":"stdout","time":1383.843120083,"data":"  },\n"}
+,{"stream_name":"stdout","time":1383.843123842,"data":"  \"krama\": {\n"}
+,{"stream_name":"stdout","time":1383.84312762,"data":"   \"n\": 74,\n"}
+,{"stream_name":"stdout","time":1383.843131451,"data":"   \"chrF++\": 55.35,\n"}
+,{"stream_name":"stdout","time":1383.843135334,"data":"   \"BLEU\": 34.86\n"}
+,{"stream_name":"stdout","time":1383.843139075,"data":"  },\n"}
+,{"stream_name":"stdout","time":1383.843142842,"data":"  \"krama_alus\": {\n"}
+,{"stream_name":"stdout","time":1383.843146904,"data":"   \"n\": 27,\n"}
+,{"stream_name":"stdout","time":1383.843150319,"data":"   \"chrF++\": 57.72,\n"}
+,{"stream_name":"stdout","time":1383.843154033,"data":"   \"BLEU\": 33.9\n"}
+,{"stream_name":"stdout","time":1383.843158053,"data":"  }\n"}
+,{"stream_name":"stdout","time":1383.843161776,"data":" }\n"}
+,{"stream_name":"stdout","time":1383.843165515,"data":"}\n"}
+,{"stream_name":"stdout","time":1383.843168984,"data":"[  1339s] PEMENANG semua\n"}
+,{"stream_name":"stdout","time":1383.844064987,"data":"[  1339s] SELESAI\n"}
+,{"stream_name":"stderr","time":1390.098591529,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1390.098661348,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1390.269333763,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1390.26936218,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1391.218119638,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1391.352454184,"data":"[NbConvertApp] Writing 236421 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1394.28477991,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1394.948071202,"data":"[NbConvertApp] Writing 526001 bytes to __results__.html\n"}
+]
